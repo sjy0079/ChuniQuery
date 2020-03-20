@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name" translatable="false">ChuniQuery</string>
+    <string name="chuni_query_nav_header_lv" translatable="false">Lv.</string>
+    <string name="chuni_query_rating" translatable="false">RATING</string>
+
+    <!--main page-->
+    <string name="chuni_query_action_set_ip">Set IP</string>
+    <string name="chuni_query_confirm">CONFIRM</string>
+    <string name="chuni_query_menu_profile">Profile</string>
+    <string name="chuni_query_menu_recent_play">Recent Play</string>
+    <string name="chuni_query_menu_items">Items</string>
+
+    <string name="chuni_query_update_title">New version is released!</string>
+    <string name="chuni_query_update_content">Click confirm to download.</string>
+
+    <string name="chuni_query_bind_card_title">Input your card ID</string>
+    <string name="chuni_query_bind_card_desc" translatable="false">bin/DEVICE/felica.txt</string>
+    <string name="chuni_query_bind_card_succeed">Successfully bind!</string>
+    <string name="chuni_query_bind_card_failed">Can\'t find your profile! Check your card ID again.</string>
+
+    <string name="chuni_query_set_server_title">Input your own server ip</string>
+    <string name="chuni_query_set_server_desc">input nothing to back to minime online</string>
+    <string name="chuni_query_set_server_bind">Successfully change your ip! Restart app to valid.</string>
+    <string name="chuni_query_set_server_untying">Back to minime online! Restart app to valid.</string>
+
+    <!--profile page-->
+    <string name="chuni_query_profile_column_key_level">LEVEL</string>
+    <string name="chuni_query_profile_column_key_best_rating">BEST RATING</string>
+    <string name="chuni_query_profile_column_key_point" translatable="false">MEAT</string>
+    <string name="chuni_query_profile_column_key_play_count">TOTAL PLAY COUNT</string>
+    <string name="chuni_query_profile_column_key_first_play">FIRST PLAY</string>
+    <string name="chuni_query_profile_column_key_last_play">LAST PLAY</string>
+    <string name="chuni_query_profile_column_key_card_id">CARD ID</string>
+    <string name="chuni_query_profile_modify_title">Input a new name</string>
+    <string name="chuni_query_profile_modify_succeed">Success!</string>
+    <string name="chuni_query_profile_modify_failed">Modify failed…</string>
+
+    <!--rating page-->
+    <string name="chuni_query_rating_best_30" translatable="false">BEST 30</string>
+    <string name="chuni_query_rating_recent_10" translatable="false">RECENT 10</string>
+
+    <!--items page-->
+    <string name="chuni_query_items_gold_penguin">Character Limit Breaker</string>
+    <string name="chuni_query_items_chuni_net_ticket">Chuni-Net Standard Ticket</string>
+    <string name="chuni_query_items_4x_map">4x Map Step Ticket</string>
+    <string name="chuni_query_items_6x_track">6 Tracks Ticket</string>
+    <string name="chuni_query_items_we">World\'s End Ticket</string>
+    <string name="chuni_query_items_modify_title">Input %s count</string>
+    <string name="chuni_query_items_modify_succeed">Success!</string>
+    <string name="chuni_query_items_modify_failed">Modify failed…</string>
+
+    <!--play record card-->
+    <string name="chuni_query_record_card_score">SCORE</string>
+    <string name="chuni_query_record_card_diff">DIFF</string>
+    <string name="chuni_query_record_card_play_date">PLAY DATE</string>
+
+</resources>

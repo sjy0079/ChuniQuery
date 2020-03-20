@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--main page-->
+    <string name="chuni_query_action_set_ip">设置IP地址</string>
+    <string name="chuni_query_confirm">确定</string>
+    <string name="chuni_query_menu_profile">个人资料</string>
+    <string name="chuni_query_menu_recent_play">最近游玩记录</string>
+    <string name="chuni_query_menu_items">道具修改</string>
+
+    <string name="chuni_query_update_title">有新版本的软件</string>
+    <string name="chuni_query_update_content">点击确定下载</string>
+
+    <string name="chuni_query_bind_card_title">输入卡号</string>
+    <string name="chuni_query_bind_card_succeed">成功绑定</string>
+    <string name="chuni_query_bind_card_failed">没有游玩记录的卡号，请重试</string>
+
+    <string name="chuni_query_set_server_title">输入个人服务器IP地址</string>
+    <string name="chuni_query_set_server_desc">清空输入并确定以返回在线服</string>
+    <string name="chuni_query_set_server_bind">成功绑定IP地址，重启后生效</string>
+    <string name="chuni_query_set_server_untying">返回在线服，重启后生效</string>
+
+    <!--profile page-->
+    <string name="chuni_query_profile_column_key_level">等级</string>
+    <string name="chuni_query_profile_column_key_best_rating">最佳RATING</string>
+    <string name="chuni_query_profile_column_key_play_count">总游玩次数</string>
+    <string name="chuni_query_profile_column_key_first_play">首次游玩时间</string>
+    <string name="chuni_query_profile_column_key_last_play">最近游玩时间</string>
+    <string name="chuni_query_profile_column_key_card_id">卡号</string>
+    <string name="chuni_query_profile_modify_title">输入新的玩家名称</string>
+    <string name="chuni_query_profile_modify_succeed">修改成功</string>
+    <string name="chuni_query_profile_modify_failed">修改失败</string>
+
+    <!--items page-->
+    <string name="chuni_query_items_gold_penguin">角色限界突破道具</string>
+    <string name="chuni_query_items_chuni_net_ticket">Chuni-Net奖励票券</string>
+    <string name="chuni_query_items_4x_map">4倍地图进度票券</string>
+    <string name="chuni_query_items_6x_track">6曲游玩票券</string>
+    <string name="chuni_query_items_we">World\'s End游玩票券</string>
+    <string name="chuni_query_items_modify_title">输入【%s】数量</string>
+    <string name="chuni_query_items_modify_succeed">修改成功</string>
+    <string name="chuni_query_items_modify_failed">修改失败</string>
+
+    <!--play record card-->
+    <string name="chuni_query_record_card_score">分数</string>
+    <string name="chuni_query_record_card_diff">定数</string>
+    <string name="chuni_query_record_card_play_date">游玩时间</string>
+
+</resources>
