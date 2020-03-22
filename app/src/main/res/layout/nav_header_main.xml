@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="@dimen/nav_header_height"
-    android:background="@drawable/side_nav_bar"
+    android:background="@drawable/chuni_query_side_nav_bar"
     android:clipChildren="false"
     android:clipToPadding="false"
     android:gravity="center_vertical"
@@ -86,7 +86,7 @@
             android:textSize="12sp"
             android:textStyle="bold" />
 
-        <org.bbs.chuniquery.ui.widgets.ChuniQueryRatingView
+        <org.bbs.chuniquery.chunithm.ui.widgets.ChuniQueryRatingView
             android:id="@+id/ratingNumber"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

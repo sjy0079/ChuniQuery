@@ -24,13 +24,13 @@ import com.afollestad.materialdialogs.DialogAction
 import com.afollestad.materialdialogs.MaterialDialog
 import com.google.android.material.navigation.NavigationView
 import io.reactivex.disposables.Disposable
-import org.bbs.chuniquery.event.ChuniQueryRefreshEvent
-import org.bbs.chuniquery.model.ChuniQueryProfileBean
+import org.bbs.chuniquery.chunithm.event.ChuniQueryRefreshEvent
+import org.bbs.chuniquery.chunithm.model.ChuniQueryProfileBean
 import org.bbs.chuniquery.network.MinimeOnlineClient
 import org.bbs.chuniquery.network.MinimeOnlineException
-import org.bbs.chuniquery.ui.widgets.ChuniQueryRatingView
-import org.bbs.chuniquery.utils.ChuniQueryMusicDBLoader
-import org.bbs.chuniquery.utils.ChuniQueryRequests
+import org.bbs.chuniquery.chunithm.ui.widgets.ChuniQueryRatingView
+import org.bbs.chuniquery.chunithm.utils.ChuniQueryMusicDBLoader
+import org.bbs.chuniquery.chunithm.utils.ChuniQueryRequests
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.chuni_query_activity_main)
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
         val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
@@ -79,10 +79,10 @@ class MainActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment)
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_profile,
-                R.id.nav_rating,
-                R.id.nav_recent_play,
-                R.id.nav_items
+                R.id.chuni_nav_profile,
+                R.id.chuni_nav_rating,
+                R.id.chuni_nav_recent_play,
+                R.id.chuni_nav_items
             ),
             drawerLayout
         )

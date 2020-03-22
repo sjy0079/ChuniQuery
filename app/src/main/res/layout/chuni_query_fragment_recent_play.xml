@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/fragment"
-        android:name="org.bbs.chuniquery.ui.common.ChuniQueryGameRecordFragment"
+        android:name="org.bbs.chuniquery.chunithm.ui.common.ChuniQueryGameRecordFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

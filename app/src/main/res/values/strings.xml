@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name" translatable="false">ChuniQuery</string>
+    <string name="chuni_name" translatable="false">CHUNITHM</string>
+    <string name="ongeki_name" translatable="false">O.N.G.E.K.I</string>
+
     <string name="chuni_query_nav_header_lv" translatable="false">Lv.</string>
     <string name="chuni_query_rating" translatable="false">RATING</string>
 

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/chuni_nav_profile">
+
+    <fragment
+        android:id="@+id/chuni_nav_profile"
+        android:name="org.bbs.chuniquery.chunithm.ui.profile.ChuniQueryProfileFragment"
+        android:label="@string/chuni_query_menu_profile"
+        tools:layout="@layout/chuni_query_fragment_profile" />
+
+    <fragment
+        android:id="@+id/chuni_nav_rating"
+        android:name="org.bbs.chuniquery.chunithm.ui.rating.ChuniQueryRatingFragment"
+        android:label="@string/chuni_query_rating"
+        tools:layout="@layout/chuni_query_fragment_rating" />
+
+    <fragment
+        android:id="@+id/chuni_nav_recent_play"
+        android:name="org.bbs.chuniquery.chunithm.ui.recentplay.ChuniQueryRecentPlayFragment"
+        android:label="@string/chuni_query_menu_recent_play"
+        tools:layout="@layout/chuni_query_fragment_recent_play" />
+
+    <fragment
+        android:id="@+id/chuni_nav_items"
+        android:name="org.bbs.chuniquery.chunithm.ui.items.ChuniQueryItemsFragment"
+        android:label="@string/chuni_query_menu_items"
+        tools:layout="@layout/chuni_query_refresh_list_layout" />
+
+</navigation>

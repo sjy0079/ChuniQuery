@@ -21,7 +21,7 @@
             android:layout_height="18dp"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="2dp"
-            android:src="@drawable/ic_menu_rating"
+            android:src="@drawable/chuni_menu_rating"
             tools:ignore="ContentDescription" />
 
         <TextView
@@ -159,7 +159,7 @@
             android:textSize="12sp"
             android:textStyle="bold" />
 
-        <org.bbs.chuniquery.ui.widgets.ChuniQueryRatingView
+        <org.bbs.chuniquery.chunithm.ui.widgets.ChuniQueryRatingView
             android:id="@+id/rating"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

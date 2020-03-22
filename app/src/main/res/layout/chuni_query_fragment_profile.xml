@@ -46,7 +46,7 @@
                     app:autoSizeTextType="uniform"
                     tools:text="BBS" />
 
-                <org.bbs.chuniquery.ui.widgets.ChuniQueryRatingView
+                <org.bbs.chuniquery.chunithm.ui.widgets.ChuniQueryRatingView
                     android:id="@+id/rating"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"

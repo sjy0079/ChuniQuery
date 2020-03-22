@@ -30,7 +30,7 @@
             android:textSize="14sp"
             android:textStyle="bold" />
 
-        <org.bbs.chuniquery.ui.widgets.ChuniQueryRatingView
+        <org.bbs.chuniquery.chunithm.ui.widgets.ChuniQueryRatingView
             android:id="@+id/ratingView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

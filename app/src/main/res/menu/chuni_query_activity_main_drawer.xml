@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="@string/chuni_name">
+        <menu>
+            <item
+                android:id="@+id/chuni_nav_profile"
+                android:icon="@drawable/chuni_menu_profile"
+                android:title="@string/chuni_query_menu_profile" />
+            <item
+                android:id="@+id/chuni_nav_rating"
+                android:icon="@drawable/chuni_menu_rating"
+                android:title="@string/chuni_query_rating" />
+            <item
+                android:id="@+id/chuni_nav_recent_play"
+                android:icon="@drawable/chuni_menu_recent_play"
+                android:title="@string/chuni_query_menu_recent_play" />
+            <item
+                android:id="@+id/chuni_nav_items"
+                android:icon="@drawable/chuni_menu_items"
+                android:title="@string/chuni_query_menu_items" />
+        </menu>
+    </item>
+    <item android:title="@string/ongeki_name">
+
+    </item>
+</menu>
