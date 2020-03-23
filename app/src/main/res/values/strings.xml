@@ -96,9 +96,12 @@
     <string name="ongeki_cardmaker_no">NO</string>
 
     <string name="ongeki_cardmaker_confirm_get_card">GET IT!</string>
+    <string name="ongeki_cardmaker_confirm_get_5_card">GET 5!</string>
 
     <string name="ongeki_cardmaker_toast_no_card">you have not owned this card!</string>
     <string name="ongeki_cardmaker_toast_get_card_success">get card success!</string>
     <string name="ongeki_cardmaker_toast_get_card_failed">get card failed…</string>
+    <string name="ongeki_cardmaker_toast_modify_card_success">modify success!</string>
+    <string name="ongeki_cardmaker_toast_modify_card_failed">modify failed…</string>
 
 </resources>

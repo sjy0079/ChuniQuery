@@ -50,6 +50,14 @@ interface MinimeOnlineService {
     @GET("/ongekiAddCard")
     fun getOngekiCard(
         @Query("card_number") cardNumber: String,
-        @Query("ongeki_card_id") ongekiCardId: String
+        @Query("ongeki_card_id") ongekiCardId: String,
+        @Query("add_number") addNumber: Int
+    ): Observable<JsonElement>
+
+    @GET("/ongekiModifyCard")
+    fun modifyOngekiCard(
+        @Query("card_number") cardNumber: String,
+        @Query("ongeki_card_id") ongekiCardId: String,
+        @Query("action") action: String
     ): Observable<JsonElement>
 }

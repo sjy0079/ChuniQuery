@@ -76,9 +76,12 @@
     <string name="ongeki_cardmaker_no">否</string>
 
     <string name="ongeki_cardmaker_confirm_get_card">获取卡片</string>
+    <string name="ongeki_cardmaker_confirm_get_5_card">获取5张</string>
 
     <string name="ongeki_cardmaker_toast_no_card">你还没有拥有这张卡片</string>
     <string name="ongeki_cardmaker_toast_get_card_success">获取卡片成功</string>
     <string name="ongeki_cardmaker_toast_get_card_failed">获取卡片失败</string>
+    <string name="ongeki_cardmaker_toast_modify_card_success">操作卡片成功</string>
+    <string name="ongeki_cardmaker_toast_modify_card_failed">操作卡片失败</string>
 
 </resources>

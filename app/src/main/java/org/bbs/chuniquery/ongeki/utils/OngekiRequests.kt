@@ -44,10 +44,20 @@ object OngekiRequests {
     /**
      * get character card of ongeki
      */
-    fun getCard(cardNumber: String, ongekiCardId: String): Observable<Any> =
+    fun getCard(cardNumber: String, ongekiCardId: String, addNumber: Int): Observable<Any> =
         MinimeOnlineClient
             .instance
             .getService()
-            .getOngekiCard(cardNumber, ongekiCardId)
+            .getOngekiCard(cardNumber, ongekiCardId, addNumber)
+            .compose(MinimeOnlineTransformer.handleResult())
+
+    /**
+     * modify character card of ongeki
+     */
+    fun modifyCard(cardNumber: String, ongekiCardId: String, action: String): Observable<Any> =
+        MinimeOnlineClient
+            .instance
+            .getService()
+            .modifyOngekiCard(cardNumber, ongekiCardId, action)
             .compose(MinimeOnlineTransformer.handleResult())
 }

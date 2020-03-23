@@ -11,6 +11,7 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+import com.afollestad.materialdialogs.DialogAction
 import com.afollestad.materialdialogs.MaterialDialog
 import com.bumptech.glide.Glide
 import io.reactivex.disposables.Disposable
@@ -251,10 +252,12 @@ class OngekiCardMakerFragment : Fragment() {
                 .Builder(it)
                 .title(cardInfo.name ?: String())
                 .customView(R.layout.ongeki_card_detail_container, false)
-                .positiveText(R.string.ongeki_cardmaker_confirm_get_card)
-                .onPositive { dialog, _ ->
+                .negativeText(R.string.ongeki_cardmaker_confirm_get_card)
+                .positiveText(R.string.ongeki_cardmaker_confirm_get_5_card)
+                .onAny { dialog, which ->
+                    val addNumber = if (which == DialogAction.NEGATIVE) 1 else 5
                     OngekiRequests
-                        .getCard(getAimeCardId(), cardInfo.id.toString())
+                        .getCard(getAimeCardId(), cardInfo.id.toString(), addNumber)
                         .subscribe({
                             dialog.dismiss()
                             refresh()
@@ -344,8 +347,32 @@ class OngekiCardMakerFragment : Fragment() {
             val dialog = MaterialDialog
                 .Builder(it)
                 .title(cardInfo.name ?: String())
+                .positiveText(R.string.ongeki_cardmaker_title_cho_kaika)
+                .negativeText(R.string.ongeki_cardmaker_title_kaika)
+                .onAny { dialog, which ->
+                    val action = if (which == DialogAction.POSITIVE) "choKaika" else "kaika"
+                    OngekiRequests
+                        .modifyCard(getAimeCardId(), cardInfo.id.toString(), action)
+                        .subscribe({
+                            dialog.dismiss()
+                            refresh()
+                            Toast.makeText(
+                                context,
+                                R.string.ongeki_cardmaker_toast_modify_card_success,
+                                Toast.LENGTH_SHORT
+                            ).show()
+                        }, { exception ->
+                            exception.printStackTrace()
+                            Toast.makeText(
+                                context,
+                                R.string.ongeki_cardmaker_toast_modify_card_failed,
+                                Toast.LENGTH_SHORT
+                            ).show()
+                        })
+                }
                 .customView(R.layout.ongeki_card_detail_container, false)
                 .show()
+
             dialog.apply {
                 setOnDismissListener {
                     mask.background = null
@@ -355,8 +382,8 @@ class OngekiCardMakerFragment : Fragment() {
                     val star =
                         if (userCardInfo.digitalStock ?: 0 > 11 && cardInfo.rarity == "N") {
                             11
-                        } else if (userCardInfo.digitalStock ?: 0 > 6 && cardInfo.rarity != "N") {
-                            6
+                        } else if (userCardInfo.digitalStock ?: 0 > 5 && cardInfo.rarity != "N") {
+                            5
                         } else {
                             userCardInfo.digitalStock ?: 1
                         }
