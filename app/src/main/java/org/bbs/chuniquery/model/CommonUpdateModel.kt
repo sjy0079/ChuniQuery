@@ -1,4 +1,4 @@
-package org.bbs.chuniquery.chunithm.model
+package org.bbs.chuniquery.model
 
 import com.google.gson.annotations.SerializedName
 
@@ -6,7 +6,7 @@ import com.google.gson.annotations.SerializedName
  * @author shenjiayi@didiglobal.com
  * @since  2020-03-20
  */
-class ChuniQueryUpdateModel {
+class CommonUpdateModel {
     /**
      * return code
      */

@@ -8,6 +8,7 @@ import android.os.Bundle
 import android.text.InputType
 import android.view.Menu
 import android.view.View
+import android.widget.Spinner
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -23,14 +24,16 @@ import androidx.navigation.ui.setupWithNavController
 import com.afollestad.materialdialogs.DialogAction
 import com.afollestad.materialdialogs.MaterialDialog
 import com.google.android.material.navigation.NavigationView
+import com.google.android.material.tabs.TabLayout
 import io.reactivex.disposables.Disposable
-import org.bbs.chuniquery.chunithm.event.ChuniQueryRefreshEvent
 import org.bbs.chuniquery.chunithm.model.ChuniQueryProfileBean
+import org.bbs.chuniquery.chunithm.ui.widgets.ChuniQueryRatingView
+import org.bbs.chuniquery.chunithm.utils.ChuniQueryRequests
+import org.bbs.chuniquery.event.CommonRefreshEvent
 import org.bbs.chuniquery.network.MinimeOnlineClient
 import org.bbs.chuniquery.network.MinimeOnlineException
-import org.bbs.chuniquery.chunithm.ui.widgets.ChuniQueryRatingView
-import org.bbs.chuniquery.chunithm.utils.ChuniQueryMusicDBLoader
-import org.bbs.chuniquery.chunithm.utils.ChuniQueryRequests
+import org.bbs.chuniquery.ongeki.utils.OngekiRequests
+import org.bbs.chuniquery.utils.CommonAssetJsonLoader
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
@@ -39,9 +42,13 @@ import org.greenrobot.eventbus.ThreadMode
 class MainActivity : AppCompatActivity() {
     companion object {
         /**
-         * to store/get card id
+         * to store/get felica card id
          */
-        const val CARD_STORED_KEY = "felica_card_id"
+        const val FELICA_CARD_STORED_KEY = "felica_card_id"
+        /**
+         * to store/get amie card id
+         */
+        const val AIME_CARD_STORED_KEY = "aime_card_id"
         /**
          * to store/get custom ip
          */
@@ -57,11 +64,23 @@ class MainActivity : AppCompatActivity() {
      * update request canceller
      */
     private var updateDisposable: Disposable? = null
+    /**
+     * indicator for chuni rating fragment
+     */
+    private lateinit var indicator: TabLayout
+    /**
+     * spinner for ongeki card maker fragment
+     */
+    private lateinit var spinner: Spinner
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
         setContentView(R.layout.chuni_query_activity_main)
+        indicator = findViewById(R.id.indicator)
+        spinner = findViewById(R.id.spinner)
+
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
         val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
@@ -74,7 +93,7 @@ class MainActivity : AppCompatActivity() {
         }
         val navView: NavigationView = this.findViewById(R.id.nav_view)
         navView.getHeaderView(0).setOnClickListener {
-            bindCard()
+            bindFelicaCard()
         }
         val navController = findNavController(R.id.nav_host_fragment)
         appBarConfiguration = AppBarConfiguration(
@@ -82,24 +101,47 @@ class MainActivity : AppCompatActivity() {
                 R.id.chuni_nav_profile,
                 R.id.chuni_nav_rating,
                 R.id.chuni_nav_recent_play,
-                R.id.chuni_nav_items
+                R.id.chuni_nav_items,
+                R.id.ongeki_nav_card_maker
             ),
             drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+        val oldNavListener =
+            NavigationView::class.java.getDeclaredField("listener").apply {
+                isAccessible = true
+            }.get(navView) as NavigationView.OnNavigationItemSelectedListener
+        navView.setNavigationItemSelectedListener {
+            if (it.itemId != R.id.chuni_nav_rating) {
+                indicator.visibility = View.GONE
+            }
+            if (it.itemId != R.id.ongeki_nav_card_maker) {
+                spinner.visibility = View.GONE
+            }
+            if (it.itemId == R.id.ongeki_nav_card_maker) {
+                checkHasBindingAimeCard(Runnable {
+                    oldNavListener.onNavigationItemSelected(it)
+                })
+                return@setNavigationItemSelectedListener false
+            } else {
+                oldNavListener.onNavigationItemSelected(it)
+            }
+        }
 
         MinimeOnlineClient.instance.init(
             getSharedPreferences(MainActivity::class.java.name, Context.MODE_PRIVATE)
                 .getString(IP_STORED_KEY, "")
         )
-        ChuniQueryMusicDBLoader.instance.loadData(this)
-        checkHasBindingCard()
+        CommonAssetJsonLoader.instance.loadChuniMusicDBData(this)
+        CommonAssetJsonLoader.instance.loadOngekiCardListData(this)
+        CommonAssetJsonLoader.instance.loadOngekiSkillListData(this)
+        checkHasBindingFelicaCard()
     }
 
     override fun onNewIntent(intent: Intent?) {
         super.onNewIntent(intent)
-        checkHasBindingCard()
+        checkHasBindingFelicaCard()
     }
 
     override fun onStart() {
@@ -136,19 +178,36 @@ class MainActivity : AppCompatActivity() {
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
     }
 
+    override fun onBackPressed() {
+        indicator.visibility = View.GONE
+        spinner.visibility = View.GONE
+        super.onBackPressed()
+    }
+
     /**
      * check is card info stored
      */
-    private fun checkHasBindingCard() {
+    private fun checkHasBindingFelicaCard() {
         val cardId =
             getSharedPreferences(MainActivity::class.java.name, Context.MODE_PRIVATE).getString(
-                CARD_STORED_KEY, String()
+                FELICA_CARD_STORED_KEY, String()
             )
         if (cardId.isNullOrBlank() || !UriControlActivity.CARD_ID_FROM_URI.isNullOrBlank()) {
-            bindCard()
+            bindFelicaCard()
         } else {
-            fetchData(cardId, null, false)
+            fetchChuniProfileData(cardId, null, false)
         }
+    }
+
+    /**
+     * check is card info stored
+     */
+    private fun checkHasBindingAimeCard(callback: Runnable) {
+        val cardId =
+            getSharedPreferences(MainActivity::class.java.name, Context.MODE_PRIVATE).getString(
+                AIME_CARD_STORED_KEY, String()
+            )
+        bindAimeCard(cardId, callback)
     }
 
     /**
@@ -163,7 +222,7 @@ class MainActivity : AppCompatActivity() {
             .input(
                 getString(R.string.chuni_query_set_server_desc), customIp
             ) { _, _ -> }
-            .positiveText(R.string.chuni_query_confirm)
+            .positiveText(R.string.common_confirm)
             .autoDismiss(false)
             .onPositive { dialog, which ->
                 if (DialogAction.POSITIVE == which) {
@@ -194,19 +253,19 @@ class MainActivity : AppCompatActivity() {
     /**
      * bind card id
      */
-    private fun bindCard() {
+    private fun bindFelicaCard() {
         MaterialDialog.Builder(this)
-            .title(R.string.chuni_query_bind_card_title)
+            .title(R.string.common_bind_card_title)
             .inputRangeRes(16, 16, R.color.colorAccent)
             .inputType(InputType.TYPE_CLASS_TEXT)
             .input(
                 getString(R.string.chuni_query_bind_card_desc), UriControlActivity.CARD_ID_FROM_URI
             ) { _, _ -> }
-            .positiveText(R.string.chuni_query_confirm)
+            .positiveText(R.string.common_confirm)
             .autoDismiss(false)
             .onPositive { dialog, which ->
                 if (DialogAction.POSITIVE == which) {
-                    fetchData(dialog.inputEditText?.text.toString(), dialog, true)
+                    fetchChuniProfileData(dialog.inputEditText?.text.toString(), dialog, true)
                 }
             }
             .cancelable(true)
@@ -218,7 +277,7 @@ class MainActivity : AppCompatActivity() {
      * fetch data to check id
      */
     @SuppressLint("CheckResult", "ApplySharedPref")
-    private fun fetchData(
+    private fun fetchChuniProfileData(
         cardId: String,
         dialog: MaterialDialog?,
         isBindingAction: Boolean = false
@@ -230,10 +289,10 @@ class MainActivity : AppCompatActivity() {
                 if (isBindingAction) {
                     getSharedPreferences(MainActivity::class.java.name, Context.MODE_PRIVATE)
                         .edit()
-                        .putString(CARD_STORED_KEY, cardId)
+                        .putString(FELICA_CARD_STORED_KEY, cardId)
                         .commit()
-                    EventBus.getDefault().post(ChuniQueryRefreshEvent())
-                    Toast.makeText(this, R.string.chuni_query_bind_card_succeed, Toast.LENGTH_SHORT)
+                    EventBus.getDefault().post(CommonRefreshEvent())
+                    Toast.makeText(this, R.string.common_bind_card_succeed, Toast.LENGTH_SHORT)
                         .show()
                 }
                 if (!isUpdateChecked) {
@@ -247,7 +306,62 @@ class MainActivity : AppCompatActivity() {
                     if (it is MinimeOnlineException) {
                         it.errMsg
                     } else {
-                        getString(R.string.chuni_query_bind_card_failed)
+                        getString(R.string.common_bind_card_failed)
+                    }
+                Toast.makeText(this, msg, Toast.LENGTH_SHORT).show()
+            })
+    }
+
+    /**
+     * bind aime card id
+     */
+    private fun bindAimeCard(cardId: String?, callback: Runnable) {
+        MaterialDialog.Builder(this)
+            .title(R.string.common_bind_card_title)
+            .inputRangeRes(20, 20, R.color.colorAccent)
+            .inputType(InputType.TYPE_CLASS_NUMBER)
+            .input(
+                getString(R.string.ongeki_bind_card_desc), cardId
+            ) { _, _ -> }
+            .positiveText(R.string.common_confirm)
+            .autoDismiss(false)
+            .onPositive { dialog, which ->
+                if (DialogAction.POSITIVE == which) {
+                    fetchOngekiProfileData(dialog.inputEditText?.text.toString(), dialog, callback)
+                }
+            }
+            .cancelable(true)
+            .show()
+    }
+
+    /**
+     * fetch data to check id
+     */
+    @SuppressLint("CheckResult", "ApplySharedPref")
+    private fun fetchOngekiProfileData(
+        cardId: String,
+        dialog: MaterialDialog?,
+        callback: Runnable
+    ) {
+        OngekiRequests
+            .fetchProfile(cardId)
+            .subscribe({
+                getSharedPreferences(MainActivity::class.java.name, Context.MODE_PRIVATE)
+                    .edit()
+                    .putString(AIME_CARD_STORED_KEY, cardId)
+                    .commit()
+                EventBus.getDefault().post(CommonRefreshEvent())
+                Toast.makeText(this, R.string.common_confirm_card_succeed, Toast.LENGTH_SHORT)
+                    .show()
+                callback.run()
+                dialog?.dismiss()
+            }, {
+                it.stackTrace
+                val msg =
+                    if (it is MinimeOnlineException) {
+                        it.errMsg
+                    } else {
+                        getString(R.string.common_bind_card_failed)
                     }
                 Toast.makeText(this, msg, Toast.LENGTH_SHORT).show()
             })
@@ -283,7 +397,7 @@ class MainActivity : AppCompatActivity() {
                     MaterialDialog.Builder(this)
                         .title(R.string.chuni_query_update_title)
                         .content(R.string.chuni_query_update_content)
-                        .positiveText(R.string.chuni_query_confirm)
+                        .positiveText(R.string.common_confirm)
                         .onPositive { _, which ->
                             if (DialogAction.POSITIVE == which) {
                                 startActivity(Intent().apply {

@@ -12,9 +12,9 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import io.reactivex.Observable
 import io.reactivex.disposables.Disposable
 import org.bbs.chuniquery.R
-import org.bbs.chuniquery.chunithm.event.ChuniQueryRefreshEvent
+import org.bbs.chuniquery.event.CommonRefreshEvent
 import org.bbs.chuniquery.chunithm.model.ChuniQueryGameRecordModel
-import org.bbs.chuniquery.chunithm.utils.getCardId
+import org.bbs.chuniquery.utils.getFelicaCardId
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
@@ -51,7 +51,7 @@ open class ChuniQueryGameRecordFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? = inflater.inflate(
-        R.layout.chuni_query_refresh_list_layout,
+        R.layout.common_refresh_list_layout,
         container,
         false
     ).also {
@@ -72,7 +72,7 @@ open class ChuniQueryGameRecordFragment : Fragment() {
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
-    fun onMessageEvent(event: ChuniQueryRefreshEvent) {
+    fun onMessageEvent(event: CommonRefreshEvent) {
         if (!isInit) {
             disposable?.dispose()
             refresher.isRefreshing = true
@@ -100,7 +100,7 @@ open class ChuniQueryGameRecordFragment : Fragment() {
      * refresh action
      */
     private fun refresh() {
-        if (getCardId().isEmpty()) {
+        if (getFelicaCardId().isEmpty()) {
             refresher.isRefreshing = false
             return
         }

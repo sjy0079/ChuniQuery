@@ -3,12 +3,19 @@
     <string name="chuni_name" translatable="false">CHUNITHM</string>
     <string name="ongeki_name" translatable="false">O.N.G.E.K.I</string>
 
+    <string name="common_bind_card_title">Input your card ID</string>
+    <string name="common_confirm">CONFIRM</string>
+    <string name="common_bind_card_failed">Can\'t find your profile! Check your card ID again.</string>
+    <string name="common_bind_card_succeed">Successfully bind!</string>
+    <string name="common_confirm_card_succeed">Successfully confirmed!</string>
+
+    <!-- - - - - chunithm - - - - -->
+
     <string name="chuni_query_nav_header_lv" translatable="false">Lv.</string>
     <string name="chuni_query_rating" translatable="false">RATING</string>
 
     <!--main page-->
     <string name="chuni_query_action_set_ip">Set IP</string>
-    <string name="chuni_query_confirm">CONFIRM</string>
     <string name="chuni_query_menu_profile">Profile</string>
     <string name="chuni_query_menu_recent_play">Recent Play</string>
     <string name="chuni_query_menu_items">Items</string>
@@ -16,10 +23,7 @@
     <string name="chuni_query_update_title">New version is released!</string>
     <string name="chuni_query_update_content">Click confirm to download.</string>
 
-    <string name="chuni_query_bind_card_title">Input your card ID</string>
     <string name="chuni_query_bind_card_desc" translatable="false">bin/DEVICE/felica.txt</string>
-    <string name="chuni_query_bind_card_succeed">Successfully bind!</string>
-    <string name="chuni_query_bind_card_failed">Can\'t find your profile! Check your card ID again.</string>
 
     <string name="chuni_query_set_server_title">Input your own server ip</string>
     <string name="chuni_query_set_server_desc">input nothing to back to minime online</string>
@@ -40,7 +44,9 @@
 
     <!--rating page-->
     <string name="chuni_query_rating_best_30" translatable="false">BEST 30</string>
+    <string name="chuni_query_rating_best_30_with_rating" translatable="false">BEST 30 - %s</string>
     <string name="chuni_query_rating_recent_10" translatable="false">RECENT 10</string>
+    <string name="chuni_query_rating_recent_10_with_rating" translatable="false">RECENT 10 - %s</string>
 
     <!--items page-->
     <string name="chuni_query_items_gold_penguin">Character Limit Breaker</string>
@@ -56,5 +62,43 @@
     <string name="chuni_query_record_card_score">SCORE</string>
     <string name="chuni_query_record_card_diff">DIFF</string>
     <string name="chuni_query_record_card_play_date">PLAY DATE</string>
+
+    <!-- - - - - ongeki - - - - -->
+
+    <!--main page-->
+    <string name="ongeki_menu_card_maker">Card Maker</string>
+    <string name="ongeki_bind_card_desc" translatable="false">bin/DEVICE/aime.txt</string>
+
+    <!--card-->
+    <string name="ongeki_cardmaker_dropdown_all">ALL</string>
+    <string name="ongeki_cardmaker_dropdown_owned">OWNED</string>
+    <string name="ongeki_cardmaker_dropdown_N" translatable="false">N</string>
+    <string name="ongeki_cardmaker_dropdown_R" translatable="false">R</string>
+    <string name="ongeki_cardmaker_dropdown_SR" translatable="false">SR</string>
+    <string name="ongeki_cardmaker_dropdown_SSR" translatable="false">SSR</string>
+
+    <string name="ongeki_cardmaker_title_card_id">CARD ID</string>
+    <string name="ongeki_cardmaker_title_rarity">RARITY</string>
+    <string name="ongeki_cardmaker_title_attribute">ATTRIBUTE</string>
+    <string name="ongeki_cardmaker_title_school">SCHOOL</string>
+    <string name="ongeki_cardmaker_title_gakunen">GAKUNEN</string>
+    <string name="ongeki_cardmaker_title_skill">SKILL</string>
+    <string name="ongeki_cardmaker_title_cho_kaika_skill">CHO KAIKA SKILL</string>
+    <string name="ongeki_cardmaker_title_card_number">CARD NUMBER</string>
+
+    <string name="ongeki_cardmaker_title_level">LEVEL</string>
+    <string name="ongeki_cardmaker_title_max_level">MAX LEVEL</string>
+    <string name="ongeki_cardmaker_title_star">STAR</string>
+    <string name="ongeki_cardmaker_title_kaika">KAIKA</string>
+    <string name="ongeki_cardmaker_title_cho_kaika">CHO KAIKA</string>
+
+    <string name="ongeki_cardmaker_yes">YES</string>
+    <string name="ongeki_cardmaker_no">NO</string>
+
+    <string name="ongeki_cardmaker_confirm_get_card">GET IT!</string>
+
+    <string name="ongeki_cardmaker_toast_no_card">you have not owned this card!</string>
+    <string name="ongeki_cardmaker_toast_get_card_success">get card success!</string>
+    <string name="ongeki_cardmaker_toast_get_card_failed">get card failed…</string>
 
 </resources>

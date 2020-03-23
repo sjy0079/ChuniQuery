@@ -17,14 +17,14 @@ import com.afollestad.materialdialogs.DialogAction
 import com.afollestad.materialdialogs.MaterialDialog
 import io.reactivex.disposables.Disposable
 import org.bbs.chuniquery.R
-import org.bbs.chuniquery.chunithm.event.ChuniQueryRefreshEvent
+import org.bbs.chuniquery.event.CommonRefreshEvent
 import org.bbs.chuniquery.chunithm.model.ChuniQueryProfileBean
 import org.bbs.chuniquery.network.MinimeOnlineException
 import org.bbs.chuniquery.chunithm.ui.widgets.ChuniQueryColumnView
 import org.bbs.chuniquery.chunithm.ui.widgets.ChuniQueryRatingView
 import org.bbs.chuniquery.chunithm.utils.ChuniQueryRequests
-import org.bbs.chuniquery.chunithm.utils.dip2px
-import org.bbs.chuniquery.chunithm.utils.getCardId
+import org.bbs.chuniquery.utils.dip2px
+import org.bbs.chuniquery.utils.getFelicaCardId
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
@@ -80,7 +80,7 @@ class ChuniQueryProfileFragment : Fragment() {
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
-    fun onMessageEvent(event: ChuniQueryRefreshEvent) {
+    fun onMessageEvent(event: CommonRefreshEvent) {
         refresher.isRefreshing = true
         Handler().postDelayed({ refresh() }, 500)
     }
@@ -95,12 +95,12 @@ class ChuniQueryProfileFragment : Fragment() {
      * refresh profile info
      */
     private fun refresh() {
-        if (getCardId().isEmpty()) {
+        if (getFelicaCardId().isEmpty()) {
             refresher.isRefreshing = false
             return
         }
         disposable = ChuniQueryRequests
-            .fetchProfile(getCardId())
+            .fetchProfile(getFelicaCardId())
             .subscribe({
                 EventBus.getDefault().post(it)
                 if (activity == null || activity!!.isFinishing) {
@@ -156,17 +156,24 @@ class ChuniQueryProfileFragment : Fragment() {
         )
         addColumn(
             getString(R.string.chuni_query_profile_column_key_card_id),
-            data.userAccessCode
+            data.userAccessCode,
+            isValueSelectable = true
         )
     }
 
     /**
      * add column view
      */
-    private fun addColumn(key: String, value: String?, isRating: Boolean = false) {
+    private fun addColumn(
+        key: String,
+        value: String?,
+        isRating: Boolean = false,
+        isValueSelectable: Boolean = false
+    ) {
         columnContainer.addView(
             ChuniQueryColumnView(activity!!).apply {
                 setKV(key, value ?: String(), isRating)
+                setValueSelectable(isValueSelectable)
                 if (columnContainer.childCount % 2 == 1) {
                     setCardBackgroundColor(0x22212121)
                 }
@@ -187,7 +194,7 @@ class ChuniQueryProfileFragment : Fragment() {
                 .input(
                     null, nameView.text?.toString()
                 ) { _, _ -> }
-                .positiveText(R.string.chuni_query_confirm)
+                .positiveText(R.string.common_confirm)
                 .autoDismiss(false)
                 .onPositive { dialog, which ->
                     if (DialogAction.POSITIVE == which) {
@@ -208,7 +215,7 @@ class ChuniQueryProfileFragment : Fragment() {
     @SuppressLint("CheckResult")
     private fun sendModifyUserNameRequest(modifyName: String, dialog: MaterialDialog) {
         ChuniQueryRequests
-            .modifyUserName(getCardId(), modifyName)
+            .modifyUserName(getFelicaCardId(), modifyName)
             .subscribe({
                 Toast.makeText(
                     context,

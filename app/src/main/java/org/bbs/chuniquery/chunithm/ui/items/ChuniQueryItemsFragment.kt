@@ -17,11 +17,11 @@ import com.afollestad.materialdialogs.DialogAction
 import com.afollestad.materialdialogs.MaterialDialog
 import io.reactivex.disposables.Disposable
 import org.bbs.chuniquery.R
-import org.bbs.chuniquery.chunithm.event.ChuniQueryRefreshEvent
+import org.bbs.chuniquery.event.CommonRefreshEvent
 import org.bbs.chuniquery.chunithm.model.ChuniQueryItemsModel
 import org.bbs.chuniquery.network.MinimeOnlineException
 import org.bbs.chuniquery.chunithm.utils.ChuniQueryRequests
-import org.bbs.chuniquery.chunithm.utils.getCardId
+import org.bbs.chuniquery.utils.getFelicaCardId
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
@@ -108,7 +108,7 @@ class ChuniQueryItemsFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? = inflater.inflate(
-        R.layout.chuni_query_refresh_list_layout,
+        R.layout.common_refresh_list_layout,
         container,
         false
     ).also {
@@ -127,7 +127,7 @@ class ChuniQueryItemsFragment : Fragment() {
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
-    fun onMessageEvent(event: ChuniQueryRefreshEvent) {
+    fun onMessageEvent(event: CommonRefreshEvent) {
         disposable?.dispose()
         refresher.isRefreshing = true
         Handler().postDelayed({ refresh() }, 500)
@@ -175,7 +175,7 @@ class ChuniQueryItemsFragment : Fragment() {
                     }
                 }
             }
-            visibility = if (getCardId().isEmpty()) {
+            visibility = if (getFelicaCardId().isEmpty()) {
                 View.GONE
             } else {
                 View.VISIBLE
@@ -187,12 +187,12 @@ class ChuniQueryItemsFragment : Fragment() {
      * refresh action
      */
     private fun refresh() {
-        if (getCardId().isEmpty()) {
+        if (getFelicaCardId().isEmpty()) {
             refresher.isRefreshing = false
             return
         }
         disposable = ChuniQueryRequests
-            .fetchItems(getCardId())
+            .fetchItems(getFelicaCardId())
             .subscribe({
                 updateItemsInfo(it)
                 Handler().postDelayed({ refresher.isRefreshing = false }, 300)
@@ -228,14 +228,14 @@ class ChuniQueryItemsFragment : Fragment() {
                 .input(
                     null, count.toString()
                 ) { _, _ -> }
-                .positiveText(R.string.chuni_query_confirm)
+                .positiveText(R.string.common_confirm)
                 .autoDismiss(false)
                 .onPositive { dialog, which ->
                     val modifyCount = dialog.inputEditText?.text?.toString() ?: "1"
                     if (DialogAction.POSITIVE == which) {
                         ChuniQueryRequests
                             .modifyItems(
-                                getCardId(),
+                                getFelicaCardId(),
                                 id.toString(),
                                 modifyCount
                             )

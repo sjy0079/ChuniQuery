@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/container"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:cardCornerRadius="8dp">
+
+        <ImageView
+            android:id="@+id/background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.3"
+            tools:background="@drawable/ongeki_ssr_background"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/jacket"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.8"
+            android:background="@drawable/ongeki_card_get_jacket"
+            android:visibility="gone"
+            tools:ignore="ContentDescription"
+            tools:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/cardImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            tools:ignore="ContentDescription" />
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>

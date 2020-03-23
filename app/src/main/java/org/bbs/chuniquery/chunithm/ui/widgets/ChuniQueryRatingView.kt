@@ -8,7 +8,7 @@ import android.graphics.Rect
 import android.graphics.Shader
 import android.util.AttributeSet
 import android.widget.TextView
-import org.bbs.chuniquery.chunithm.utils.*
+import org.bbs.chuniquery.utils.*
 
 
 /**

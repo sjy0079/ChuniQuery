@@ -3,6 +3,7 @@ package org.bbs.chuniquery.chunithm.utils
 import com.google.gson.Gson
 import io.reactivex.Observable
 import org.bbs.chuniquery.chunithm.model.*
+import org.bbs.chuniquery.model.CommonUpdateModel
 import org.bbs.chuniquery.network.MinimeOnlineClient
 import org.bbs.chuniquery.network.MinimeOnlineException
 import org.bbs.chuniquery.network.MinimeOnlineTransformer
@@ -15,14 +16,14 @@ object ChuniQueryRequests {
     /**
      * fetch the version info for updating
      */
-    fun fetchUpdateInfo(): Observable<ChuniQueryUpdateModel> =
+    fun fetchUpdateInfo(): Observable<CommonUpdateModel> =
         MinimeOnlineClient
             .instance
             .getService()
             .getUpdateInfo()
             .compose(MinimeOnlineTransformer.handleResult())
             .flatMap {
-                val model = Gson().fromJson(it, ChuniQueryUpdateModel::class.java)
+                val model = Gson().fromJson(it, CommonUpdateModel::class.java)
                 Observable.just(model)
             }
 
@@ -33,7 +34,7 @@ object ChuniQueryRequests {
         MinimeOnlineClient
             .instance
             .getService()
-            .getPlayerInfo(cardId)
+            .getChuniPlayerInfo(cardId)
             .compose(MinimeOnlineTransformer.handleResult())
             .flatMap {
                 val model = Gson().fromJson(it, ChuniQueryProfileModel::class.java)
@@ -51,7 +52,7 @@ object ChuniQueryRequests {
         MinimeOnlineClient
             .instance
             .getService()
-            .getMusicInfo(cardId)
+            .getChuniMusicInfo(cardId)
             .compose(MinimeOnlineTransformer.handleResult())
             .flatMap {
                 val model = Gson().fromJson(it, ChuniQueryMusicModel::class.java)
@@ -69,7 +70,7 @@ object ChuniQueryRequests {
         MinimeOnlineClient
             .instance
             .getService()
-            .getPlayLog(cardId)
+            .getChuniPlayLog(cardId)
             .compose(MinimeOnlineTransformer.handleResult())
             .flatMap {
                 val model = Gson().fromJson(it, ChuniQueryMusicModel::class.java)
@@ -87,7 +88,7 @@ object ChuniQueryRequests {
         MinimeOnlineClient
             .instance
             .getService()
-            .getItems(cardId)
+            .getChuniItems(cardId)
             .compose(MinimeOnlineTransformer.handleResult())
             .flatMap {
                 val model = Gson().fromJson(it, ChuniQueryItemsModel::class.java)
@@ -105,7 +106,7 @@ object ChuniQueryRequests {
         MinimeOnlineClient
             .instance
             .getService()
-            .modifyItems(cardId, itemId, itemCount)
+            .modifyChuniItems(cardId, itemId, itemCount)
             .compose(MinimeOnlineTransformer.handleResult())
 
     /**
@@ -115,6 +116,6 @@ object ChuniQueryRequests {
         MinimeOnlineClient
             .instance
             .getService()
-            .modifyName(cardId, userName)
+            .modifyChuniName(cardId, userName)
             .compose(MinimeOnlineTransformer.handleResult())
 }

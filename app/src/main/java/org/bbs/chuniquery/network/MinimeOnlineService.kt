@@ -13,28 +13,43 @@ interface MinimeOnlineService {
     @GET("/checkUpdate")
     fun getUpdateInfo(): Observable<JsonElement>
 
+    // chunithm
+
     @GET("/query?table=cm_user_data")
-    fun getPlayerInfo(@Query("card") cardId: String): Observable<JsonElement>
+    fun getChuniPlayerInfo(@Query("card") cardId: String): Observable<JsonElement>
 
     @GET("/query?table=cm_user_music")
-    fun getMusicInfo(@Query("card") cardId: String): Observable<JsonElement>
+    fun getChuniMusicInfo(@Query("card") cardId: String): Observable<JsonElement>
 
     @GET("/query?table=cm_user_playlog")
-    fun getPlayLog(@Query("card") cardId: String): Observable<JsonElement>
+    fun getChuniPlayLog(@Query("card") cardId: String): Observable<JsonElement>
 
     @GET("/items?action=fetch")
-    fun getItems(@Query("card") cardId: String): Observable<JsonElement>
+    fun getChuniItems(@Query("card") cardId: String): Observable<JsonElement>
 
     @GET("/items?action=modify")
-    fun modifyItems(
+    fun modifyChuniItems(
         @Query("card") cardId: String,
         @Query("item_id") itemId: String,
         @Query("item_count") itemCount: String
     ): Observable<JsonElement>
 
     @GET("/userInfo")
-    fun modifyName(
+    fun modifyChuniName(
         @Query("card") cardId: String,
         @Query("user_name") userName: String
+    ): Observable<JsonElement>
+
+    // ongeki
+    @GET("/query?table=mu3_user_data")
+    fun getOngekiPlayerInfo(@Query("card_number") cardNumber: String): Observable<JsonElement>
+
+    @GET("/query?table=mu3_user_card")
+    fun getOngekiUserCardInfo(@Query("card_number") cardNumber: String): Observable<JsonElement>
+
+    @GET("/ongekiAddCard")
+    fun getOngekiCard(
+        @Query("card_number") cardNumber: String,
+        @Query("ongeki_card_id") ongekiCardId: String
     ): Observable<JsonElement>
 }

@@ -4,6 +4,7 @@ import android.content.Context
 import android.util.AttributeSet
 import android.view.View
 import android.widget.TextView
+import androidx.core.view.size
 import com.google.android.material.card.MaterialCardView
 import org.bbs.chuniquery.R
 
@@ -49,6 +50,13 @@ class ChuniQueryColumnView @JvmOverloads constructor(
     }
 
     /**
+     * set text selectable
+     */
+    fun setValueSelectable(selectable: Boolean) {
+        valueView.setTextIsSelectable(selectable)
+    }
+
+    /**
      * set column data
      */
     fun setKV(key: CharSequence, value: CharSequence, isRating: Boolean = false) {
@@ -63,4 +71,12 @@ class ChuniQueryColumnView @JvmOverloads constructor(
             valueView.text = value
         }
     }
+}
+
+class AutoMarqueeTextView @JvmOverloads constructor(
+    context: Context,
+    attr: AttributeSet? = null,
+    defStyle: Int = 0
+) : TextView(context, attr, defStyle) {
+    override fun isFocused() = true
 }

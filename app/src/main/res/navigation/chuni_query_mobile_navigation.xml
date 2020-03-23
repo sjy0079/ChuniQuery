@@ -27,6 +27,12 @@
         android:id="@+id/chuni_nav_items"
         android:name="org.bbs.chuniquery.chunithm.ui.items.ChuniQueryItemsFragment"
         android:label="@string/chuni_query_menu_items"
-        tools:layout="@layout/chuni_query_refresh_list_layout" />
+        tools:layout="@layout/common_refresh_list_layout" />
+
+    <fragment
+        android:id="@+id/ongeki_nav_card_maker"
+        android:name="org.bbs.chuniquery.ongeki.ui.cardmaker.OngekiCardMakerFragment"
+        android:label="@string/ongeki_menu_card_maker"
+        tools:layout="@layout/common_refresh_list_layout" />
 
 </navigation>

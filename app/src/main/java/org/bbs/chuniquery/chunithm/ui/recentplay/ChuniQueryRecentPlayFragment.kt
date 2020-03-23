@@ -4,17 +4,17 @@ import android.view.View
 import io.reactivex.Observable
 import org.bbs.chuniquery.chunithm.model.ChuniQueryGameRecordModel
 import org.bbs.chuniquery.chunithm.ui.common.ChuniQueryGameRecordFragment
-import org.bbs.chuniquery.chunithm.utils.ChuniQueryMusicDBLoader
+import org.bbs.chuniquery.utils.CommonAssetJsonLoader
 import org.bbs.chuniquery.chunithm.utils.ChuniQueryRequests
-import org.bbs.chuniquery.chunithm.utils.calcRating
-import org.bbs.chuniquery.chunithm.utils.getCardId
+import org.bbs.chuniquery.utils.calcChuniRating
+import org.bbs.chuniquery.utils.getFelicaCardId
 
 class ChuniQueryRecentPlayFragment : ChuniQueryGameRecordFragment() {
 
     override fun init(root: View) {
         super.init(root)
         dataFetcher = ChuniQueryRequests
-            .fetchPlayLog(getCardId())
+            .fetchPlayLog(getFelicaCardId())
             .flatMap {
                 it.sortByDescending { bean ->
                     bean.playDate
@@ -22,11 +22,11 @@ class ChuniQueryRecentPlayFragment : ChuniQueryGameRecordFragment() {
                 val convertList = ArrayList<ChuniQueryGameRecordModel>()
                 for (bean in it) {
                     val musicDetail =
-                        ChuniQueryMusicDBLoader.instance.data[bean.musicId] ?: continue
+                        CommonAssetJsonLoader.instance.chuniMusicDB[bean.musicId] ?: continue
                     if (musicDetail.isWorldsEnd()) {
                         bean.ratingCalc = 0F
                     } else {
-                        bean.ratingCalc = calcRating(
+                        bean.ratingCalc = calcChuniRating(
                             bean.score?.toInt() ?: 0,
                             (musicDetail.difficultyList?.get(bean.classId?.toInt() ?: 0)
                                 ?: 0).toFloat() / 100

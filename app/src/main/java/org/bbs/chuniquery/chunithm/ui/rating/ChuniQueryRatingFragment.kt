@@ -1,5 +1,6 @@
 package org.bbs.chuniquery.chunithm.ui.rating
 
+import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -11,15 +12,15 @@ import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 import io.reactivex.Observable
 import org.bbs.chuniquery.R
-import org.bbs.chuniquery.chunithm.event.ChuniQueryRefreshEvent
+import org.bbs.chuniquery.event.CommonRefreshEvent
 import org.bbs.chuniquery.chunithm.model.ChuniQueryGameRecordModel
 import org.bbs.chuniquery.chunithm.model.ChuniQueryMusicModel
 import org.bbs.chuniquery.chunithm.ui.common.ChuniQueryGameRecordFragment
 import org.bbs.chuniquery.chunithm.ui.widgets.ChuniQueryRatingView
-import org.bbs.chuniquery.chunithm.utils.ChuniQueryMusicDBLoader
+import org.bbs.chuniquery.utils.CommonAssetJsonLoader
 import org.bbs.chuniquery.chunithm.utils.ChuniQueryRequests
-import org.bbs.chuniquery.chunithm.utils.calcRating
-import org.bbs.chuniquery.chunithm.utils.getCardId
+import org.bbs.chuniquery.utils.calcChuniRating
+import org.bbs.chuniquery.utils.getFelicaCardId
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
@@ -41,6 +42,10 @@ class ChuniQueryRatingFragment : Fragment() {
      * recent 10 tab
      */
     private lateinit var recent10Tab: TabLayout.Tab
+    /**
+     * attach tab layout and view pager
+     */
+    private lateinit var tabLayoutMediator: TabLayoutMediator
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -50,13 +55,18 @@ class ChuniQueryRatingFragment : Fragment() {
         init(it)
     }
 
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+        activity?.findViewById<TabLayout>(R.id.indicator)?.visibility = View.VISIBLE
+    }
+
     override fun onStart() {
         super.onStart()
         EventBus.getDefault().register(this)
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
-    fun onMessageEvent(event: ChuniQueryRefreshEvent) {
+    fun onMessageEvent(event: CommonRefreshEvent) {
         setDataFetcher()
     }
 
@@ -84,16 +94,17 @@ class ChuniQueryRatingFragment : Fragment() {
             }
             offscreenPageLimit = 1
         }
-        val indicator = root.findViewById<TabLayout>(R.id.indicator)
-        TabLayoutMediator(indicator, viewPager, true) { tab, position ->
+        val indicator = activity!!.findViewById<TabLayout>(R.id.indicator)
+        tabLayoutMediator = TabLayoutMediator(indicator, viewPager, true) { tab, position ->
             if (position == 0) {
                 best30Tab = tab
                 best30Tab.text = getString(R.string.chuni_query_rating_best_30)
             } else {
                 recent10Tab = tab
-                best30Tab.text = getString(R.string.chuni_query_rating_recent_10)
+                recent10Tab.text = getString(R.string.chuni_query_rating_recent_10)
             }
-        }.attach()
+        }
+        tabLayoutMediator.attach()
     }
 
     /**
@@ -101,7 +112,7 @@ class ChuniQueryRatingFragment : Fragment() {
      */
     private fun setDataFetcher() {
         best30Fragment.dataFetcher = ChuniQueryRequests
-            .fetchMusic(this@ChuniQueryRatingFragment.getCardId())
+            .fetchMusic(this@ChuniQueryRatingFragment.getFelicaCardId())
             .flatMap {
                 sortMusicList(it)
                 val convertList = ArrayList<ChuniQueryGameRecordModel>()
@@ -116,12 +127,15 @@ class ChuniQueryRatingFragment : Fragment() {
                     }
                 }
                 rating /= convertList.size
-                val tabText = "BEST 30 - ${ChuniQueryRatingView.formatRating(rating)}"
+                val tabText = getString(
+                    R.string.chuni_query_rating_best_30_with_rating,
+                    ChuniQueryRatingView.formatRating(rating)
+                )
                 best30Tab.text = tabText
                 Observable.just(convertList)
             }
         recent10Fragment.dataFetcher = ChuniQueryRequests
-            .fetchPlayLog(this@ChuniQueryRatingFragment.getCardId())
+            .fetchPlayLog(this@ChuniQueryRatingFragment.getFelicaCardId())
             .flatMap {
                 it.sortByDescending { bean ->
                     bean.playDate
@@ -140,7 +154,10 @@ class ChuniQueryRatingFragment : Fragment() {
                     }
                 }
                 rating /= convertList.size
-                val tabText = "RECENT 10 - ${ChuniQueryRatingView.formatRating(rating)}"
+                val tabText = getString(
+                    R.string.chuni_query_rating_recent_10_with_rating,
+                    ChuniQueryRatingView.formatRating(rating)
+                )
                 recent10Tab.text = tabText
                 Observable.just(convertList)
             }
@@ -180,11 +197,11 @@ class ChuniQueryRatingFragment : Fragment() {
     private fun sortMusicList(list: ChuniQueryMusicModel) {
         list.forEach { bean ->
             val musicDetail =
-                ChuniQueryMusicDBLoader.instance.data[bean.musicId] ?: return@forEach
+                CommonAssetJsonLoader.instance.chuniMusicDB[bean.musicId] ?: return@forEach
             if (musicDetail.isWorldsEnd()) {
                 bean.ratingCalc = 0F
             } else {
-                bean.ratingCalc = calcRating(
+                bean.ratingCalc = calcChuniRating(
                     bean.score?.toInt() ?: 0,
                     (musicDetail.difficultyList?.get(bean.classId?.toInt() ?: 0)
                         ?: 0).toFloat() / 100

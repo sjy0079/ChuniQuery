@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView
 import org.bbs.chuniquery.R
 import org.bbs.chuniquery.chunithm.ui.widgets.ChuniQueryColumnView
 import org.bbs.chuniquery.chunithm.ui.widgets.ChuniQueryRatingView
-import org.bbs.chuniquery.chunithm.utils.*
+import org.bbs.chuniquery.utils.*
 
 /**
  * @author shenjiayi@didiglobal.com

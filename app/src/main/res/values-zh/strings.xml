@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="common_bind_card_title">输入卡号</string>
+    <string name="common_confirm">确定</string>
+    <string name="common_bind_card_failed">没有游玩记录的卡号，请重试</string>
+    <string name="common_bind_card_succeed">成功绑定</string>
+    <string name="common_confirm_card_succeed">成功验证卡号</string>
+
+    <!-- - - - - chunithm - - - - -->
+
     <!--main page-->
     <string name="chuni_query_action_set_ip">设置IP地址</string>
-    <string name="chuni_query_confirm">确定</string>
     <string name="chuni_query_menu_profile">个人资料</string>
     <string name="chuni_query_menu_recent_play">最近游玩记录</string>
     <string name="chuni_query_menu_items">道具修改</string>
 
     <string name="chuni_query_update_title">有新版本的软件</string>
     <string name="chuni_query_update_content">点击确定下载</string>
-
-    <string name="chuni_query_bind_card_title">输入卡号</string>
-    <string name="chuni_query_bind_card_succeed">成功绑定</string>
-    <string name="chuni_query_bind_card_failed">没有游玩记录的卡号，请重试</string>
 
     <string name="chuni_query_set_server_title">输入个人服务器IP地址</string>
     <string name="chuni_query_set_server_desc">清空输入并确定以返回在线服</string>
@@ -44,5 +47,38 @@
     <string name="chuni_query_record_card_score">分数</string>
     <string name="chuni_query_record_card_diff">定数</string>
     <string name="chuni_query_record_card_play_date">游玩时间</string>
+
+    <!-- - - - - ongeki - - - - -->
+
+    <!--main page-->
+    <string name="ongeki_menu_card_maker">抽卡机</string>
+
+    <!--card-->
+    <string name="ongeki_cardmaker_dropdown_all">所有卡片</string>
+    <string name="ongeki_cardmaker_dropdown_owned">已拥有</string>
+
+    <string name="ongeki_cardmaker_title_card_id">卡片ID</string>
+    <string name="ongeki_cardmaker_title_rarity">稀有度</string>
+    <string name="ongeki_cardmaker_title_attribute">属性</string>
+    <string name="ongeki_cardmaker_title_school">学校</string>
+    <string name="ongeki_cardmaker_title_gakunen">学年</string>
+    <string name="ongeki_cardmaker_title_skill">技能</string>
+    <string name="ongeki_cardmaker_title_cho_kaika_skill">超解花技能</string>
+    <string name="ongeki_cardmaker_title_card_number">卡片编号</string>
+
+    <string name="ongeki_cardmaker_title_level">等级</string>
+    <string name="ongeki_cardmaker_title_max_level">最大等级</string>
+    <string name="ongeki_cardmaker_title_star">星级</string>
+    <string name="ongeki_cardmaker_title_kaika">解花</string>
+    <string name="ongeki_cardmaker_title_cho_kaika">超解花</string>
+
+    <string name="ongeki_cardmaker_yes">是</string>
+    <string name="ongeki_cardmaker_no">否</string>
+
+    <string name="ongeki_cardmaker_confirm_get_card">获取卡片</string>
+
+    <string name="ongeki_cardmaker_toast_no_card">你还没有拥有这张卡片</string>
+    <string name="ongeki_cardmaker_toast_get_card_success">获取卡片成功</string>
+    <string name="ongeki_cardmaker_toast_get_card_failed">获取卡片失败</string>
 
 </resources>

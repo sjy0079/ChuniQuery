@@ -1,7 +1,7 @@
 package org.bbs.chuniquery.chunithm.model
 
 import com.google.gson.annotations.SerializedName
-import org.bbs.chuniquery.chunithm.utils.ChuniQueryMusicDBLoader
+import org.bbs.chuniquery.utils.CommonAssetJsonLoader
 
 
 /**
@@ -97,7 +97,7 @@ class ChuniQueryMusicBean {
      */
     fun convertData(skipWorldSEnd: Boolean = false): ChuniQueryGameRecordModel? {
         val musicDetail =
-            ChuniQueryMusicDBLoader.instance.data[this.musicId] ?: return null
+            CommonAssetJsonLoader.instance.chuniMusicDB[this.musicId] ?: return null
         if (musicDetail.isWorldsEnd() && skipWorldSEnd) {
             return null
         }
