@@ -349,8 +349,13 @@ class OngekiCardMakerFragment : Fragment() {
                 .title(cardInfo.name ?: String())
                 .positiveText(R.string.ongeki_cardmaker_title_cho_kaika)
                 .negativeText(R.string.ongeki_cardmaker_title_kaika)
+                .neutralText(R.string.ongeki_cardmaker_title_han_cho_kaika)
                 .onAny { dialog, which ->
-                    val action = if (which == DialogAction.POSITIVE) "choKaika" else "kaika"
+                    val action = when(which) {
+                        DialogAction.POSITIVE -> "choKaika"
+                        DialogAction.NEGATIVE -> "kaika"
+                        else -> "hanChoKaika"
+                    }
                     OngekiRequests
                         .modifyCard(getAimeCardId(), cardInfo.id.toString(), action)
                         .subscribe({

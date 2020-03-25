@@ -71,6 +71,7 @@
     <string name="ongeki_cardmaker_title_star">星级</string>
     <string name="ongeki_cardmaker_title_kaika">解花</string>
     <string name="ongeki_cardmaker_title_cho_kaika">超解花</string>
+    <string name="ongeki_cardmaker_title_han_cho_kaika">反超解花</string>
 
     <string name="ongeki_cardmaker_yes">是</string>
     <string name="ongeki_cardmaker_no">否</string>

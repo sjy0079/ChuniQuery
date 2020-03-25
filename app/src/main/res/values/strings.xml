@@ -91,6 +91,7 @@
     <string name="ongeki_cardmaker_title_star">STAR</string>
     <string name="ongeki_cardmaker_title_kaika">KAIKA</string>
     <string name="ongeki_cardmaker_title_cho_kaika">CHO KAIKA</string>
+    <string name="ongeki_cardmaker_title_han_cho_kaika">HAN CHO KAIKA</string>
 
     <string name="ongeki_cardmaker_yes">YES</string>
     <string name="ongeki_cardmaker_no">NO</string>
