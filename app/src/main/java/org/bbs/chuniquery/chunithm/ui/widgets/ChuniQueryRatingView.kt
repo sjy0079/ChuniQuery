@@ -87,7 +87,7 @@ class ChuniQueryRatingView @JvmOverloads constructor(
             0F,
             0F,
             measuredHeight.toFloat(),
-            intArrayOf(0xFFFF2200.toInt(), 0xFFFFFF55.toInt(), 0xFF99FF66.toInt()),
+            intArrayOf(0xFFEB8883.toInt(), 0xFFF4E665.toInt(), 0xFF31C9AD.toInt()),
             null,
             Shader.TileMode.REPEAT
         )
