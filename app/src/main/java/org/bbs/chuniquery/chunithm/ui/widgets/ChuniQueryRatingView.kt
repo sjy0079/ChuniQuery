@@ -57,6 +57,7 @@ class ChuniQueryRatingView @JvmOverloads constructor(
     fun setRating(rating: Float) {
         val ratingStr = formatRating(rating)
         text = ratingStr
+        isRainbowRating = false
         when {
             rating < 4F -> setTextColor(CHUNI_RATING_COLOR_GREEN)
             rating < 7F -> setTextColor(CHUNI_RATING_COLOR_ORANGE)
@@ -68,9 +69,9 @@ class ChuniQueryRatingView @JvmOverloads constructor(
             rating < 15F -> setTextColor(CHUNI_RATING_COLOR_PLATINUM)
             else -> {
                 isRainbowRating = true
-                invalidate()
             }
         }
+        invalidate()
     }
 
     @SuppressLint("DrawAllocation")
