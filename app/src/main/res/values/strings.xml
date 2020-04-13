@@ -12,6 +12,7 @@
     <!-- - - - - chunithm - - - - -->
 
     <string name="chuni_query_nav_header_lv" translatable="false">Lv.</string>
+    <string name="chuni_query_nav_header_bind_card_hint">Click to bind card</string>
     <string name="chuni_query_rating" translatable="false">RATING</string>
 
     <!--main page-->

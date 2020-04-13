@@ -8,6 +8,8 @@
 
     <!-- - - - - chunithm - - - - -->
 
+    <string name="chuni_query_nav_header_bind_card_hint">点击绑定卡号</string>
+
     <!--main page-->
     <string name="chuni_query_action_set_ip">设置IP地址</string>
     <string name="chuni_query_menu_profile">个人资料</string>
