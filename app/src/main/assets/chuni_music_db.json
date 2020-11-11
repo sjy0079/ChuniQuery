@@ -25,7 +25,7 @@
     "difficulty": [
       500,
       800,
-      1200,
+      1190,
       1340
     ]
   },
@@ -194,7 +194,7 @@
     "artist": "Masayoshi Minoshima",
     "difficulty": [
       100,
-      400,
+      500,
       810,
       1100
     ]
@@ -269,16 +269,6 @@
       1230
     ]
   },
-  "55": {
-    "music_name": "夏祭り",
-    "artist": "JITTERIN'JINN [covered by ろん]",
-    "difficulty": [
-      200,
-      400,
-      840,
-      1120
-    ]
-  },
   "59": {
     "music_name": "Invitation",
     "artist": "れるりり feat.ろん",
@@ -286,7 +276,7 @@
       300,
       600,
       870,
-      1090
+      1130
     ]
   },
   "61": {
@@ -295,7 +285,7 @@
     "difficulty": [
       400,
       700,
-      1100,
+      1130,
       1360
     ]
   },
@@ -444,8 +434,8 @@
     "artist": "WASi303",
     "difficulty": [
       300,
-      810,
-      1200,
+      900,
+      1240,
       1350
     ]
   },
@@ -525,7 +515,7 @@
     "difficulty": [
       300,
       600,
-      1050,
+      1070,
       1230
     ]
   },
@@ -545,7 +535,7 @@
     "difficulty": [
       400,
       770,
-      1170,
+      1210,
       1360
     ]
   },
@@ -556,7 +546,7 @@
       300,
       500,
       950,
-      1160
+      1170
     ]
   },
   "92": {
@@ -646,7 +636,7 @@
       200,
       500,
       810,
-      1090
+      1130
     ]
   },
   "101": {
@@ -655,8 +645,8 @@
     "difficulty": [
       300,
       770,
-      1070,
-      1300
+      1090,
+      1310
     ]
   },
   "102": {
@@ -676,7 +666,7 @@
       400,
       740,
       1170,
-      1370
+      1380
     ]
   },
   "104": {
@@ -725,7 +715,7 @@
     "difficulty": [
       300,
       500,
-      1070,
+      1090,
       1220
     ]
   },
@@ -754,7 +744,7 @@
     "artist": "Alstroemeria Records",
     "difficulty": [
       200,
-      400,
+      500,
       840,
       1170
     ]
@@ -839,16 +829,6 @@
       1070
     ]
   },
-  "124": {
-    "music_name": "夏影",
-    "artist": "VisualArt's/Key「AIR」",
-    "difficulty": [
-      100,
-      400,
-      830,
-      1220
-    ]
-  },
   "128": {
     "music_name": "The Formula",
     "artist": "Junk",
@@ -865,7 +845,7 @@
     "difficulty": [
       300,
       600,
-      1000,
+      1020,
       1270
     ]
   },
@@ -895,8 +875,8 @@
     "difficulty": [
       500,
       850,
-      1220,
-      1380
+      1230,
+      1390
     ]
   },
   "135": {
@@ -906,7 +886,7 @@
       400,
       600,
       1010,
-      1360
+      1370
     ]
   },
   "136": {
@@ -926,7 +906,7 @@
       400,
       700,
       1160,
-      1370
+      1380
     ]
   },
   "138": {
@@ -955,7 +935,7 @@
     "difficulty": [
       400,
       900,
-      1170,
+      1190,
       1350
     ]
   },
@@ -1005,7 +985,7 @@
     "difficulty": [
       300,
       600,
-      980,
+      1000,
       1170
     ]
   },
@@ -1065,7 +1045,7 @@
     "difficulty": [
       400,
       750,
-      1200,
+      1220,
       1300
     ]
   },
@@ -1215,7 +1195,7 @@
     "difficulty": [
       200,
       500,
-      1090,
+      1110,
       1260
     ]
   },
@@ -1275,7 +1255,7 @@
     "difficulty": [
       600,
       970,
-      1270,
+      1280,
       1400
     ]
   },
@@ -1326,7 +1306,7 @@
       300,
       700,
       1010,
-      1260
+      1270
     ]
   },
   "191": {
@@ -1386,7 +1366,7 @@
       500,
       850,
       1150,
-      1370
+      1380
     ]
   },
   "197": {
@@ -1685,7 +1665,7 @@
     "difficulty": [
       300,
       600,
-      1010,
+      1030,
       1250
     ]
   },
@@ -1725,18 +1705,8 @@
     "difficulty": [
       300,
       600,
-      960,
+      970,
       1250
-    ]
-  },
-  "238": {
-    "music_name": "フレンズ",
-    "artist": "レベッカ [covered by 光吉猛修]",
-    "difficulty": [
-      200,
-      500,
-      850,
-      1190
     ]
   },
   "240": {
@@ -1795,7 +1765,7 @@
     "difficulty": [
       300,
       600,
-      960,
+      970,
       1170
     ]
   },
@@ -1816,7 +1786,7 @@
       200,
       500,
       1070,
-      1270
+      1280
     ]
   },
   "250": {
@@ -1865,7 +1835,7 @@
     "difficulty": [
       300,
       600,
-      990,
+      1000,
       1170
     ]
   },
@@ -1895,7 +1865,7 @@
     "difficulty": [
       400,
       960,
-      1280,
+      1270,
       1400
     ]
   },
@@ -1925,7 +1895,7 @@
     "difficulty": [
       300,
       600,
-      970,
+      990,
       1230
     ]
   },
@@ -1997,16 +1967,6 @@
       600,
       1070,
       1280
-    ]
-  },
-  "269": {
-    "music_name": "僕らの翼",
-    "artist": "隣人部「僕は友達が少ないNEXT」",
-    "difficulty": [
-      300,
-      500,
-      850,
-      1110
     ]
   },
   "270": {
@@ -2159,6 +2119,16 @@
       1270
     ]
   },
+  "285": {
+    "music_name": "メルト",
+    "artist": "supercell",
+    "difficulty": [
+      200,
+      500,
+      850,
+      1160
+    ]
+  },
   "286": {
     "music_name": "Tell Your World",
     "artist": "livetune",
@@ -2259,16 +2229,6 @@
       1200
     ]
   },
-  "296": {
-    "music_name": "かくしん的☆めたまるふぉ～ぜっ!",
-    "artist": "土間うまる [CV.田中あいみ]「干物妹！うまるちゃん」",
-    "difficulty": [
-      300,
-      500,
-      870,
-      1210
-    ]
-  },
   "297": {
     "music_name": "風仁雷仁",
     "artist": "カラフル・サウンズ・ポート",
@@ -2285,18 +2245,8 @@
     "difficulty": [
       300,
       500,
-      980,
+      990,
       1260
-    ]
-  },
-  "299": {
-    "music_name": "secret base ～君がくれたもの～ (10 years after Ver.)",
-    "artist": "本間芽衣子(茅野愛衣)、安城鳴子(戸松遥)、鶴見知利子(早見沙織)「あの日見た花の名前を僕達はまだ知らない。」",
-    "difficulty": [
-      100,
-      400,
-      870,
-      1140
     ]
   },
   "300": {
@@ -2379,26 +2329,6 @@
       1270
     ]
   },
-  "308": {
-    "music_name": "fake!fake!",
-    "artist": "カラスは真っ白",
-    "difficulty": [
-      300,
-      600,
-      940,
-      1190
-    ]
-  },
-  "309": {
-    "music_name": "Rising Hope",
-    "artist": "LiSA",
-    "difficulty": [
-      300,
-      600,
-      920,
-      1250
-    ]
-  },
   "310": {
     "music_name": "覚醒楽奏メタフィクション",
     "artist": "マチゲリータ",
@@ -2407,16 +2337,6 @@
       770,
       1120,
       1330
-    ]
-  },
-  "311": {
-    "music_name": "Be My Friend",
-    "artist": "隣人部「僕は友達が少ないNEXT」",
-    "difficulty": [
-      300,
-      500,
-      890,
-      1180
     ]
   },
   "312": {
@@ -2429,16 +2349,6 @@
       1320
     ]
   },
-  "313": {
-    "music_name": "ひだまりデイズ",
-    "artist": "妹S（シスターズ）（土間うまる [CV.田中あいみ]、海老名菜々 [CV.影山灯]、本場切絵 [CV.白石晴香]、橘・シルフィンフォード [CV.古川由利奈]）「干物妹！うまるちゃん」",
-    "difficulty": [
-      200,
-      400,
-      850,
-      1140
-    ]
-  },
   "314": {
     "music_name": "This game",
     "artist": "鈴木このみ「ノーゲーム・ノーライフ」",
@@ -2447,16 +2357,6 @@
       600,
       940,
       1180
-    ]
-  },
-  "315": {
-    "music_name": "オラシオン",
-    "artist": "白（CV:茅野愛衣）「ノーゲーム・ノーライフ」",
-    "difficulty": [
-      300,
-      500,
-      860,
-      1130
     ]
   },
   "316": {
@@ -2476,7 +2376,7 @@
       300,
       700,
       1010,
-      1340
+      1350
     ]
   },
   "318": {
@@ -2525,7 +2425,7 @@
     "difficulty": [
       400,
       770,
-      1100,
+      1150,
       1360
     ]
   },
@@ -2586,7 +2486,7 @@
       400,
       800,
       1140,
-      1380
+      1390
     ]
   },
   "329": {
@@ -2645,7 +2545,7 @@
     "difficulty": [
       400,
       750,
-      1120,
+      1170,
       1340
     ]
   },
@@ -2719,96 +2619,6 @@
       1340
     ]
   },
-  "343": {
-    "music_name": "Daydream café",
-    "artist": "Petit Rabbit's「ご注文はうさぎですか？？」",
-    "difficulty": [
-      300,
-      500,
-      850,
-      1160
-    ]
-  },
-  "344": {
-    "music_name": "ノーポイッ!",
-    "artist": "Petit Rabbit's「ご注文はうさぎですか？？」",
-    "difficulty": [
-      200,
-      500,
-      830,
-      1180
-    ]
-  },
-  "345": {
-    "music_name": "ムーンライト伝説",
-    "artist": "DALI [covered by 光吉猛修]",
-    "difficulty": [
-      200,
-      500,
-      850,
-      1170
-    ]
-  },
-  "348": {
-    "music_name": "Jumping!!",
-    "artist": "Rhodanthe*",
-    "difficulty": [
-      200,
-      500,
-      930,
-      1130
-    ]
-  },
-  "349": {
-    "music_name": "極上スマイル",
-    "artist": "Wake Up, Girls！",
-    "difficulty": [
-      200,
-      500,
-      870,
-      1070
-    ]
-  },
-  "350": {
-    "music_name": "FEEL×ALIVE",
-    "artist": "佐咲紗花",
-    "difficulty": [
-      300,
-      600,
-      960,
-      1270
-    ]
-  },
-  "351": {
-    "music_name": "ぶぉん！ぶぉん！らいど・おん！",
-    "artist": "佐倉羽音(CV.上田麗奈)、鈴乃木凜(CV.東山奈央)、天野恩紗(CV.内山夕実)、三ノ輪聖(CV.山口立花子)",
-    "difficulty": [
-      300,
-      600,
-      900,
-      1290
-    ]
-  },
-  "352": {
-    "music_name": "Star☆Glitter",
-    "artist": "セブンスシスターズ「Tokyo 7th シスターズ」",
-    "difficulty": [
-      300,
-      600,
-      930,
-      1200
-    ]
-  },
-  "353": {
-    "music_name": "H-A-J-I-M-A-R-I-U-T-A-!!",
-    "artist": "777☆SISTERS「Tokyo 7th シスターズ」",
-    "difficulty": [
-      300,
-      500,
-      840,
-      1090
-    ]
-  },
   "354": {
     "music_name": "ラブリー☆えんじぇる!!",
     "artist": "あべにゅうぷろじぇくと feat.佐倉紗織&井上みゆ「パチスロ快盗天使ツインエンジェル」",
@@ -2817,16 +2627,6 @@
       600,
       950,
       1230
-    ]
-  },
-  "355": {
-    "music_name": "だんご大家族",
-    "artist": "茶太「CLANNAD -クラナド-」",
-    "difficulty": [
-      100,
-      400,
-      780,
-      1010
     ]
   },
   "356": {
@@ -2847,36 +2647,6 @@
       500,
       830,
       1170
-    ]
-  },
-  "358": {
-    "music_name": "My Soul,Your Beats!",
-    "artist": "Lia「Angel Beats!」",
-    "difficulty": [
-      200,
-      400,
-      930,
-      1170
-    ]
-  },
-  "359": {
-    "music_name": "Thousand Enemies",
-    "artist": "Girls Dead Monster「Angel Beats!」",
-    "difficulty": [
-      300,
-      500,
-      870,
-      1180
-    ]
-  },
-  "360": {
-    "music_name": "夢想歌",
-    "artist": "Suara「うたわれるもの」",
-    "difficulty": [
-      200,
-      500,
-      830,
-      1130
     ]
   },
   "362": {
@@ -2906,7 +2676,7 @@
       100,
       400,
       800,
-      1090
+      1100
     ]
   },
   "367": {
@@ -3115,7 +2885,7 @@
     "difficulty": [
       300,
       700,
-      1100,
+      1110,
       1350
     ]
   },
@@ -3136,7 +2906,7 @@
       300,
       500,
       850,
-      1150
+      1170
     ]
   },
   "393": {
@@ -3145,7 +2915,7 @@
     "difficulty": [
       400,
       790,
-      1170,
+      1210,
       1390
     ]
   },
@@ -3206,7 +2976,7 @@
       300,
       600,
       970,
-      1260
+      1270
     ]
   },
   "402": {
@@ -3265,7 +3035,7 @@
     "difficulty": [
       500,
       990,
-      1320,
+      1330,
       1410
     ]
   },
@@ -3306,7 +3076,7 @@
       300,
       600,
       1090,
-      1300
+      1310
     ]
   },
   "414": {
@@ -3576,7 +3346,7 @@
       300,
       600,
       1040,
-      1270
+      1260
     ]
   },
   "448": {
@@ -3666,7 +3436,7 @@
       200,
       400,
       840,
-      1020
+      1030
     ]
   },
   "462": {
@@ -3695,7 +3465,7 @@
     "difficulty": [
       400,
       980,
-      1270,
+      1280,
       1410
     ]
   },
@@ -3716,7 +3486,7 @@
       300,
       740,
       1190,
-      1370
+      1380
     ]
   },
   "467": {
@@ -3736,7 +3506,7 @@
       400,
       700,
       1060,
-      1290
+      1300
     ]
   },
   "469": {
@@ -3755,7 +3525,7 @@
     "difficulty": [
       300,
       700,
-      1140,
+      1130,
       1350
     ]
   },
@@ -3777,6 +3547,16 @@
       770,
       1190,
       1360
+    ]
+  },
+  "473": {
+    "music_name": "DreamRiser",
+    "artist": "ChouCho",
+    "difficulty": [
+      300,
+      500,
+      850,
+      1150
     ]
   },
   "475": {
@@ -3945,7 +3725,7 @@
     "difficulty": [
       300,
       700,
-      1050,
+      1040,
       1250
     ]
   },
@@ -4005,8 +3785,8 @@
     "difficulty": [
       400,
       840,
-      1210,
-      1390
+      1220,
+      1380
     ]
   },
   "500": {
@@ -4075,7 +3855,7 @@
     "difficulty": [
       400,
       800,
-      1240,
+      1260,
       1360
     ]
   },
@@ -4139,6 +3919,16 @@
       1220
     ]
   },
+  "517": {
+    "music_name": "高気圧ねこロック",
+    "artist": "小野隊長とJimmy親分",
+    "difficulty": [
+      300,
+      600,
+      1010,
+      1260
+    ]
+  },
   "522": {
     "music_name": "Philosophyz",
     "artist": "水谷瑠奈（NanosizeMir）「Rewrite」",
@@ -4165,7 +3955,7 @@
     "difficulty": [
       300,
       500,
-      940,
+      970,
       1260
     ]
   },
@@ -4205,7 +3995,7 @@
     "difficulty": [
       300,
       500,
-      950,
+      980,
       1180
     ]
   },
@@ -4365,7 +4155,7 @@
     "difficulty": [
       600,
       980,
-      1180,
+      1210,
       1380
     ]
   },
@@ -4405,7 +4195,7 @@
     "difficulty": [
       400,
       850,
-      1200,
+      1210,
       1380
     ]
   },
@@ -4474,7 +4264,7 @@
     "artist": "NAOKI underground",
     "difficulty": [
       400,
-      950,
+      980,
       1260,
       1390
     ]
@@ -4565,7 +4355,7 @@
     "difficulty": [
       300,
       600,
-      1130,
+      1140,
       1350
     ]
   },
@@ -4589,9 +4379,19 @@
       1240
     ]
   },
+  "573": {
+    "music_name": "Grip & Break down !!",
+    "artist": "SOUND HOLIC feat. Nana Takahashi",
+    "difficulty": [
+      300,
+      600,
+      960,
+      1230
+    ]
+  },
   "574": {
     "music_name": "ネ！コ！",
-    "artist": "パトリシア・オブ・エンド(CV:高森奈津美)・黒木未知(CV:仙台エリ)・夕莉シャチ(CV:浅川悠)・明日原ユウキ(CV:種﨑敦美)「ノラと皇女と野良猫ハート」",
+    "artist": "パトリシア・オブ・エンド(CV：高森奈津美)、黒木 未知(CV：仙台エリ)、夕莉 シャチ(CV：浅川悠)、明日原 ユウキ(CV：種﨑敦美)「ノラと皇女と野良猫ハート」",
     "difficulty": [
       300,
       600,
@@ -4605,7 +4405,7 @@
     "difficulty": [
       300,
       600,
-      930,
+      950,
       1220
     ]
   },
@@ -4674,9 +4474,19 @@
     "artist": "電気式華憐音楽集団",
     "difficulty": [
       300,
-      500,
+      600,
       960,
       1280
+    ]
+  },
+  "584": {
+    "music_name": "Love your enemies",
+    "artist": "分島花音「劇場版selector destructed WIXOSS」",
+    "difficulty": [
+      300,
+      600,
+      870,
+      1230
     ]
   },
   "585": {
@@ -4725,7 +4535,7 @@
     "difficulty": [
       300,
       600,
-      1060,
+      1100,
       1290
     ]
   },
@@ -4799,6 +4609,16 @@
       1160
     ]
   },
+  "598": {
+    "music_name": "Super Lovely (Heavenly Remix)",
+    "artist": "EarBreaker feat. Mes w/光吉猛修",
+    "difficulty": [
+      400,
+      600,
+      950,
+      1340
+    ]
+  },
   "599": {
     "music_name": "Chocolate Happy",
     "artist": "Carotte☆（ripple＆めらみぽっぷ）",
@@ -4815,7 +4635,7 @@
     "difficulty": [
       300,
       700,
-      1190,
+      1200,
       1350
     ]
   },
@@ -4827,6 +4647,16 @@
       600,
       990,
       1250
+    ]
+  },
+  "604": {
+    "music_name": "ウサテイ",
+    "artist": "あまね＋ビートまりお(COOL＆CREATE)",
+    "difficulty": [
+      300,
+      600,
+      970,
+      1280
     ]
   },
   "605": {
@@ -4926,7 +4756,7 @@
       200,
       600,
       1080,
-      1280
+      1290
     ]
   },
   "616": {
@@ -4955,8 +4785,18 @@
     "difficulty": [
       400,
       970,
-      1300,
+      1320,
       1410
+    ]
+  },
+  "619": {
+    "music_name": "End Time",
+    "artist": "Cres.",
+    "difficulty": [
+      300,
+      860,
+      1270,
+      1390
     ]
   },
   "620": {
@@ -5014,8 +4854,8 @@
     "artist": "DETRO a.k.a ルゼ",
     "difficulty": [
       400,
-      900,
-      1240,
+      930,
+      1200,
       1350
     ]
   },
@@ -5045,7 +4885,7 @@
     "difficulty": [
       300,
       600,
-      1080,
+      1140,
       1320
     ]
   },
@@ -5055,7 +4895,7 @@
     "difficulty": [
       300,
       710,
-      1010,
+      1000,
       1240
     ]
   },
@@ -5126,7 +4966,7 @@
       100,
       400,
       740,
-      1060
+      1080
     ]
   },
   "639": {
@@ -5147,921 +4987,6 @@
       500,
       890,
       1200
-    ]
-  },
-  "688": {
-    "music_name": "朝焼けプラットホーム",
-    "artist": "40mP feat.シャノ",
-    "difficulty": [
-      300,
-      500,
-      940,
-      1160
-    ]
-  },
-  "689": {
-    "music_name": "PAST",
-    "artist": "164 feat.ウォルピスカーター",
-    "difficulty": [
-      300,
-      600,
-      960,
-      1250
-    ]
-  },
-  "690": {
-    "music_name": "Blessed",
-    "artist": "Palme",
-    "difficulty": [
-      300,
-      500,
-      970,
-      1270
-    ]
-  },
-  "691": {
-    "music_name": "FRIDAY FRIDAY",
-    "artist": "emon(Tes.) feat.松平なな",
-    "difficulty": [
-      200,
-      500,
-      870,
-      1180
-    ]
-  },
-  "692": {
-    "music_name": "足立オウフwwww",
-    "artist": "笑う角を曲がる",
-    "difficulty": [
-      300,
-      600,
-      1070,
-      1300
-    ]
-  },
-  "693": {
-    "music_name": "Seagull",
-    "artist": "Snail's House",
-    "difficulty": [
-      300,
-      600,
-      920,
-      1250
-    ]
-  },
-  "694": {
-    "music_name": "Blaster Heaven",
-    "artist": "カヒーナムジカ",
-    "difficulty": [
-      300,
-      600,
-      940,
-      1210
-    ]
-  },
-  "695": {
-    "music_name": "ハートアタック",
-    "artist": "Omoi feat.+α/あるふぁきゅん。",
-    "difficulty": [
-      300,
-      700,
-      1030,
-      1340
-    ]
-  },
-  "696": {
-    "music_name": "Summer is over",
-    "artist": "TORIENA",
-    "difficulty": [
-      300,
-      600,
-      950,
-      1280
-    ]
-  },
-  "697": {
-    "music_name": "folern",
-    "artist": "ぬゆり",
-    "difficulty": [
-      400,
-      800,
-      1250,
-      1370
-    ]
-  },
-  "8000": {
-    "music_name": "幾四音-Ixion-",
-    "artist": "M.S.S Project",
-    "difficulty": []
-  },
-  "8008": {
-    "music_name": "ナイト・オブ・ナイツ",
-    "artist": "ビートまりお",
-    "difficulty": []
-  },
-  "8020": {
-    "music_name": "B.B.K.K.B.K.K.",
-    "artist": "nora2r",
-    "difficulty": []
-  },
-  "8024": {
-    "music_name": "Garakuta Doll Play (sasakure.UK clutter remix)",
-    "artist": "sasakure.UK",
-    "difficulty": []
-  },
-  "8025": {
-    "music_name": "Help me, あーりん！",
-    "artist": "イロドリミドリ",
-    "difficulty": []
-  },
-  "8026": {
-    "music_name": "FREEDOM DiVE",
-    "artist": "xi",
-    "difficulty": []
-  },
-  "8029": {
-    "music_name": "elegante",
-    "artist": "Junk",
-    "difficulty": []
-  },
-  "8033": {
-    "music_name": "Your Affection (Daisuke Asakura Remix)",
-    "artist": "目黒将司 Remixed by 浅倉大介「ペルソナ4 ダンシング・オールナイト」",
-    "difficulty": []
-  },
-  "8034": {
-    "music_name": "一触即発☆禅ガール",
-    "artist": "れるりり",
-    "difficulty": []
-  },
-  "8043": {
-    "music_name": "Genesis",
-    "artist": "Morrigan feat.Lily",
-    "difficulty": []
-  },
-  "8045": {
-    "music_name": "Elemental Creation",
-    "artist": "dj TAKA meets DJ YOSHITAKA",
-    "difficulty": []
-  },
-  "8046": {
-    "music_name": "いろは唄",
-    "artist": "銀サク",
-    "difficulty": []
-  },
-  "8048": {
-    "music_name": "Alma",
-    "artist": "光田 康典",
-    "difficulty": []
-  },
-  "8049": {
-    "music_name": "チルノのパーフェクトさんすう教室",
-    "artist": "ARM＋夕野ヨシミ (IOSYS) feat.miko",
-    "difficulty": []
-  },
-  "8051": {
-    "music_name": "回レ！雪月花",
-    "artist": "歌組雪月花 夜々(原田 ひとみ)/いろり(茅野 愛衣)/小紫(小倉 唯) 「機巧少女は傷つかない」",
-    "difficulty": []
-  },
-  "8053": {
-    "music_name": "Oshama Scramble!",
-    "artist": "t+pazolite",
-    "difficulty": []
-  },
-  "8057": {
-    "music_name": "砂漠のハンティングガール♡",
-    "artist": "海田 明里",
-    "difficulty": []
-  },
-  "8058": {
-    "music_name": "ジングルベル",
-    "artist": "SEGA Sound Unit[H.]",
-    "difficulty": []
-  },
-  "8059": {
-    "music_name": "エンドマークに希望と涙を添えて",
-    "artist": "cosMo＠暴走P",
-    "difficulty": []
-  },
-  "8063": {
-    "music_name": "Counselor",
-    "artist": "DECO*27 feat.echo",
-    "difficulty": []
-  },
-  "8064": {
-    "music_name": "SAMBISTA",
-    "artist": "DOT96",
-    "difficulty": []
-  },
-  "8065": {
-    "music_name": "We Gonna Journey",
-    "artist": "Queen P.A.L.",
-    "difficulty": []
-  },
-  "8066": {
-    "music_name": "The ether",
-    "artist": "浜渦 正志",
-    "difficulty": []
-  },
-  "8067": {
-    "music_name": "DRAGONLADY",
-    "artist": "Nankumo/CUBE3",
-    "difficulty": []
-  },
-  "8069": {
-    "music_name": "★LittlE HearTs★",
-    "artist": "ねこみみ魔法使い",
-    "difficulty": []
-  },
-  "8070": {
-    "music_name": "Paqqin",
-    "artist": "owl＊tree",
-    "difficulty": []
-  },
-  "8072": {
-    "music_name": "Gate of Fate",
-    "artist": "Godspeed",
-    "difficulty": []
-  },
-  "8074": {
-    "music_name": "MUSIC PЯAYER",
-    "artist": "A-One",
-    "difficulty": []
-  },
-  "8078": {
-    "music_name": "あねぺったん",
-    "artist": "月鈴姉妹(イロドリミドリ)",
-    "difficulty": []
-  },
-  "8079": {
-    "music_name": "The wheel to the right",
-    "artist": "Sampling Masters MEGA",
-    "difficulty": []
-  },
-  "8080": {
-    "music_name": "Schrecklicher Aufstand",
-    "artist": "Katzeohr & Spiegel",
-    "difficulty": []
-  },
-  "8081": {
-    "music_name": "檄!帝国華撃団",
-    "artist": "真宮寺さくら（横山智佐）＆帝国歌劇団「サクラ大戦」",
-    "difficulty": []
-  },
-  "8082": {
-    "music_name": "神威",
-    "artist": "TJ.hangneil",
-    "difficulty": []
-  },
-  "8084": {
-    "music_name": "だんだん早くなる",
-    "artist": "40mP",
-    "difficulty": []
-  },
-  "8085": {
-    "music_name": "エテルニタス・ルドロジー",
-    "artist": "IRON ATTACK!",
-    "difficulty": []
-  },
-  "8086": {
-    "music_name": "Blue Noise",
-    "artist": "from PACA PACA PASSION",
-    "difficulty": []
-  },
-  "8087": {
-    "music_name": "Air",
-    "artist": "SHIKI",
-    "difficulty": []
-  },
-  "8089": {
-    "music_name": "Dengeki Tube",
-    "artist": "BACO",
-    "difficulty": []
-  },
-  "8090": {
-    "music_name": "Title",
-    "artist": "SoundTeMP「ラグナロクオンライン」",
-    "difficulty": []
-  },
-  "8091": {
-    "music_name": "Oshama Scramble! (Cranky Remix)",
-    "artist": "Cranky",
-    "difficulty": []
-  },
-  "8092": {
-    "music_name": "STAR",
-    "artist": "SEXY-SYNTHESIZER",
-    "difficulty": []
-  },
-  "8093": {
-    "music_name": "Star☆Glitter",
-    "artist": "セブンスシスターズ「Tokyo 7th シスターズ」",
-    "difficulty": []
-  },
-  "8094": {
-    "music_name": "Starlight Dance Floor",
-    "artist": "発熱巫女～ず",
-    "difficulty": []
-  },
-  "8095": {
-    "music_name": "ひだまりデイズ",
-    "artist": "妹S（シスターズ）（土間うまる [CV.田中あいみ]、海老名菜々 [CV.影山灯]、本場切絵 [CV.白石晴香]、橘・シルフィンフォード [CV.古川由利奈]）「干物妹！うまるちゃん」",
-    "difficulty": []
-  },
-  "8097": {
-    "music_name": "elegante",
-    "artist": "Junk",
-    "difficulty": []
-  },
-  "8098": {
-    "music_name": "今ぞ♡崇め奉れ☆オマエらよ！！～姫の秘メタル渇望～",
-    "artist": "あべにゅうぷろじぇくと feat.佐倉 紗織　produced by ave;new",
-    "difficulty": []
-  },
-  "8099": {
-    "music_name": "Tidal Wave",
-    "artist": "D-Cee",
-    "difficulty": []
-  },
-  "8100": {
-    "music_name": "L9",
-    "artist": "paraoka",
-    "difficulty": []
-  },
-  "8101": {
-    "music_name": "RevolutionGame",
-    "artist": "れるりり feat.ろん",
-    "difficulty": []
-  },
-  "8103": {
-    "music_name": "taboo tears you up",
-    "artist": "REDALiCE (HARDCORE TANO*C)",
-    "difficulty": []
-  },
-  "8104": {
-    "music_name": "玩具狂奏曲 -終焉-",
-    "artist": "きくお",
-    "difficulty": []
-  },
-  "8105": {
-    "music_name": "その群青が愛しかったようだった",
-    "artist": "n-buna feat.ヤギヌマカナ",
-    "difficulty": []
-  },
-  "8106": {
-    "music_name": "アウターサイエンス",
-    "artist": "じん",
-    "difficulty": []
-  },
-  "8107": {
-    "music_name": "L'épisode",
-    "artist": "Osamu Kubota",
-    "difficulty": []
-  },
-  "8108": {
-    "music_name": "G e n g a o z o",
-    "artist": "-45",
-    "difficulty": []
-  },
-  "8110": {
-    "music_name": "AMAZING MIGHTYYYY!!!!",
-    "artist": "WAiKURO",
-    "difficulty": []
-  },
-  "8111": {
-    "music_name": "MIRU key way",
-    "artist": "JaccaPoP",
-    "difficulty": []
-  },
-  "8112": {
-    "music_name": "HAELEQUIN (Original Remaster)",
-    "artist": "orangentle",
-    "difficulty": []
-  },
-  "8113": {
-    "music_name": "Theme of SeelischTact",
-    "artist": "植松 伸夫",
-    "difficulty": []
-  },
-  "8114": {
-    "music_name": "Glorious Crown (tpz over-Over-OVERCUTE REMIX)",
-    "artist": "t+pazolite",
-    "difficulty": []
-  },
-  "8115": {
-    "music_name": "若い力 -SEGA HARD GIRLS MIX-",
-    "artist": "セガ・ハード・ガールズ",
-    "difficulty": []
-  },
-  "8116": {
-    "music_name": "イロドリミドリ杯花映塚全一決定戦公式テーマソング『ウソテイ』",
-    "artist": "イロドリミドリ",
-    "difficulty": []
-  },
-  "8117": {
-    "music_name": "青春サイダー",
-    "artist": "SPRiNGS「温泉むすめ」",
-    "difficulty": []
-  },
-  "8118": {
-    "music_name": "悪戯",
-    "artist": "ろん×田中秀和(MONACA)",
-    "difficulty": []
-  },
-  "8119": {
-    "music_name": "adrenaline!!!",
-    "artist": "TrySail「エロマンガ先生」",
-    "difficulty": []
-  },
-  "8120": {
-    "music_name": "ロボットプラネットユートピア",
-    "artist": "lumo",
-    "difficulty": []
-  },
-  "8121": {
-    "music_name": "ウソラセラ",
-    "artist": "ピノキオピー",
-    "difficulty": []
-  },
-  "8123": {
-    "music_name": "GEMINI -M-",
-    "artist": "Tatsh",
-    "difficulty": []
-  },
-  "8124": {
-    "music_name": "volcanic",
-    "artist": "DETRO a.k.a ルゼ",
-    "difficulty": []
-  },
-  "8125": {
-    "music_name": "Hyper Active",
-    "artist": "HiTECH NINJA",
-    "difficulty": []
-  },
-  "8126": {
-    "music_name": "macrocosmos",
-    "artist": "LeaF",
-    "difficulty": []
-  },
-  "8127": {
-    "music_name": "Devastating Blaster",
-    "artist": "INNOCENT NOIZE",
-    "difficulty": []
-  },
-  "8128": {
-    "music_name": "凛として咲く花の如く",
-    "artist": "紅色リトマス",
-    "difficulty": []
-  },
-  "8129": {
-    "music_name": "Starlight Disco",
-    "artist": "loos feat. Meramipop",
-    "difficulty": []
-  },
-  "8005": {
-    "music_name": "Scatman (Ski Ba Bop Ba Dop Bop)",
-    "artist": "Scatman John",
-    "difficulty": []
-  },
-  "8006": {
-    "music_name": "Invitation",
-    "artist": "れるりり feat.ろん",
-    "difficulty": []
-  },
-  "8012": {
-    "music_name": "ＧＯ！ＧＯ！ラブリズム♥",
-    "artist": "片霧烈火オンザみんマンション",
-    "difficulty": []
-  },
-  "8027": {
-    "music_name": "All I Want",
-    "artist": "The Offspring",
-    "difficulty": []
-  },
-  "8031": {
-    "music_name": "STAY AWAY",
-    "artist": "L'Arc～en～Ciel [cover]",
-    "difficulty": []
-  },
-  "8047": {
-    "music_name": "青春はNon-Stop！",
-    "artist": "プラズマジカ 「SHOW BY ROCK!!」",
-    "difficulty": []
-  },
-  "8055": {
-    "music_name": "君色シグナル",
-    "artist": "春奈 るな 「冴えない彼女の育てかた」",
-    "difficulty": []
-  },
-  "8075": {
-    "music_name": "ブルー・フィールド",
-    "artist": "Trident 「蒼き鋼のアルペジオ ‐アルス・ノヴァ‐」",
-    "difficulty": []
-  },
-  "8109": {
-    "music_name": "睡蓮花",
-    "artist": "湘南乃風 [cover]",
-    "difficulty": []
-  },
-  "0": {
-    "music_name": "天体観測",
-    "artist": "BUMP OF CHICKEN [cover]",
-    "difficulty": [
-      200,
-      400,
-      780,
-      950
-    ]
-  },
-  "5": {
-    "music_name": "Scatman (Ski Ba Bop Ba Dop Bop)",
-    "artist": "Scatman John",
-    "difficulty": [
-      200,
-      500,
-      940,
-      1130
-    ]
-  },
-  "9": {
-    "music_name": "情熱大陸",
-    "artist": "→Pia-no-jaC←×葉加瀬 太郎",
-    "difficulty": [
-      300,
-      600,
-      830,
-      1200
-    ]
-  },
-  "10": {
-    "music_name": "All I Want",
-    "artist": "The Offspring",
-    "difficulty": [
-      300,
-      600,
-      860,
-      1170
-    ]
-  },
-  "12": {
-    "music_name": "紅蓮の弓矢",
-    "artist": "Linked Horizon",
-    "difficulty": [
-      300,
-      600,
-      920,
-      1060
-    ]
-  },
-  "17": {
-    "music_name": "空色デイズ",
-    "artist": "中川 翔子",
-    "difficulty": [
-      200,
-      400,
-      820,
-      1120
-    ]
-  },
-  "36": {
-    "music_name": "届かない恋 '13",
-    "artist": "上原 れな 「WHITE ALBUM2」",
-    "difficulty": [
-      200,
-      500,
-      890,
-      1100
-    ]
-  },
-  "39": {
-    "music_name": "1/3の純情な感情",
-    "artist": "SIAM SHADE [covered by 湯毛]",
-    "difficulty": [
-      200,
-      400,
-      760,
-      930
-    ]
-  },
-  "42": {
-    "music_name": "oath sign",
-    "artist": "LiSA",
-    "difficulty": [
-      200,
-      500,
-      820,
-      1160
-    ]
-  },
-  "43": {
-    "music_name": "太陽曰く燃えよカオス",
-    "artist": "後ろから這いより隊G [cover]",
-    "difficulty": [
-      200,
-      400,
-      810,
-      1080
-    ]
-  },
-  "54": {
-    "music_name": "ブルーバード",
-    "artist": "いきものがかり [cover]",
-    "difficulty": [
-      200,
-      500,
-      830,
-      1060
-    ]
-  },
-  "56": {
-    "music_name": "そばかす",
-    "artist": "JUDY AND MARY [cover]",
-    "difficulty": [
-      200,
-      400,
-      840,
-      1100
-    ]
-  },
-  "57": {
-    "music_name": "STAY AWAY",
-    "artist": "L'Arc～en～Ciel [cover]",
-    "difficulty": [
-      300,
-      600,
-      840,
-      970
-    ]
-  },
-  "58": {
-    "music_name": "魂のルフラン",
-    "artist": "[cover]",
-    "difficulty": [
-      200,
-      500,
-      770,
-      940
-    ]
-  },
-  "60": {
-    "music_name": "only my railgun",
-    "artist": "fripSide [cover]",
-    "difficulty": [
-      200,
-      500,
-      880,
-      1140
-    ]
-  },
-  "84": {
-    "music_name": "V.I.P",
-    "artist": "シド [cover]",
-    "difficulty": [
-      300,
-      600,
-      880,
-      1040
-    ]
-  },
-  "85": {
-    "music_name": "睡蓮花",
-    "artist": "湘南乃風 [cover]",
-    "difficulty": [
-      300,
-      500,
-      750,
-      1030
-    ]
-  },
-  "86": {
-    "music_name": "キラーボール",
-    "artist": "ゲスの極み乙女。",
-    "difficulty": [
-      300,
-      500,
-      720,
-      1000
-    ]
-  },
-  "87": {
-    "music_name": "Butter-Fly",
-    "artist": "和田 光司 [cover]",
-    "difficulty": [
-      300,
-      500,
-      870,
-      1040
-    ]
-  },
-  "109": {
-    "music_name": "Emotions",
-    "artist": "MAN WITH A MISSION",
-    "difficulty": [
-      300,
-      500,
-      880,
-      1070
-    ]
-  },
-  "110": {
-    "music_name": "Magia",
-    "artist": "Kalafina 「魔法少女まどか☆マギカ」",
-    "difficulty": [
-      200,
-      500,
-      910,
-      1120
-    ]
-  },
-  "111": {
-    "music_name": "staple stable",
-    "artist": "戦場ヶ原 ひたぎ 「化物語」",
-    "difficulty": [
-      200,
-      500,
-      960,
-      1130
-    ]
-  },
-  "112": {
-    "music_name": "マジLOVE1000%",
-    "artist": "ST☆RISH",
-    "difficulty": [
-      200,
-      500,
-      820,
-      1100
-    ]
-  },
-  "125": {
-    "music_name": "Little Busters! ～TV animation ver.～",
-    "artist": "Rita",
-    "difficulty": [
-      300,
-      500,
-      840,
-      1100
-    ]
-  },
-  "126": {
-    "music_name": "Heart To Heart",
-    "artist": "上原 れな",
-    "difficulty": [
-      200,
-      500,
-      830,
-      1130
-    ]
-  },
-  "129": {
-    "music_name": "Hacking to the Gate",
-    "artist": "いとう かなこ 「STEINS;GATE」",
-    "difficulty": [
-      200,
-      500,
-      950,
-      1120
-    ]
-  },
-  "130": {
-    "music_name": "スカイクラッドの観測者",
-    "artist": "いとう かなこ 「STEINS;GATE」",
-    "difficulty": [
-      300,
-      600,
-      940,
-      1170
-    ]
-  },
-  "155": {
-    "music_name": "ブルー・フィールド",
-    "artist": "Trident 「蒼き鋼のアルペジオ ‐アルス・ノヴァ‐」",
-    "difficulty": [
-      200,
-      500,
-      970,
-      1070
-    ]
-  },
-  "182": {
-    "music_name": "WHITE ALBUM Live at Campus Fes",
-    "artist": "小木曽 雪菜(CV:米澤 円) 「WHITE ALBUM2」",
-    "difficulty": [
-      200,
-      400,
-      750,
-      1010
-    ]
-  },
-  "184": {
-    "music_name": "Last regrets",
-    "artist": "彩菜",
-    "difficulty": [
-      100,
-      400,
-      770,
-      1000
-    ]
-  },
-  "185": {
-    "music_name": "楽園の翼",
-    "artist": "黒崎 真音 「グリザイアの果実」",
-    "difficulty": [
-      200,
-      600,
-      870,
-      1120
-    ]
-  },
-  "209": {
-    "music_name": "君色シグナル",
-    "artist": "春奈 るな 「冴えない彼女の育てかた」",
-    "difficulty": [
-      300,
-      500,
-      930,
-      1120
-    ]
-  },
-  "214": {
-    "music_name": "青春はNon-Stop！",
-    "artist": "プラズマジカ 「SHOW BY ROCK!!」",
-    "difficulty": [
-      200,
-      500,
-      990,
-      1180
-    ]
-  },
-  "215": {
-    "music_name": "Falling Roses",
-    "artist": "シンガンクリムゾンズ 「SHOW BY ROCK!!」",
-    "difficulty": [
-      300,
-      600,
-      960,
-      1240
-    ]
-  },
-  "231": {
-    "music_name": "カラフル。",
-    "artist": "沢井 美空 「冴えない彼女の育てかた」",
-    "difficulty": [
-      300,
-      400,
-      830,
-      1100
-    ]
-  },
-  "255": {
-    "music_name": "激情！ミルキィ大作戦",
-    "artist": "ミルキィホームズ 「劇場版 探偵オペラ ミルキィホームズ ～逆襲のミルキィホームズ～」",
-    "difficulty": [
-      300,
-      500,
-      870,
-      1100
-    ]
-  },
-  "473": {
-    "music_name": "DreamRiser",
-    "artist": "ChouCho",
-    "difficulty": [
-      300,
-      500,
-      850,
-      1150
-    ]
-  },
-  "517": {
-    "music_name": "高気圧ねこロック",
-    "artist": "小野隊長とJimmy親分",
-    "difficulty": [
-      300,
-      600,
-      1010,
-      1260
-    ]
-  },
-  "573": {
-    "music_name": "Grip & Break down !!",
-    "artist": "SOUND HOLIC feat. Nana Takahashi",
-    "difficulty": [
-      300,
-      600,
-      960,
-      1230
-    ]
-  },
-  "619": {
-    "music_name": "End Time",
-    "artist": "Cres.",
-    "difficulty": [
-      300,
-      860,
-      1270,
-      1390
     ]
   },
   "642": {
@@ -6484,6 +5409,106 @@
       1240
     ]
   },
+  "688": {
+    "music_name": "朝焼けプラットホーム",
+    "artist": "40mP feat.シャノ",
+    "difficulty": [
+      300,
+      500,
+      940,
+      1160
+    ]
+  },
+  "689": {
+    "music_name": "PAST",
+    "artist": "164 feat.ウォルピスカーター",
+    "difficulty": [
+      300,
+      600,
+      960,
+      1270
+    ]
+  },
+  "690": {
+    "music_name": "Blessed",
+    "artist": "Palme",
+    "difficulty": [
+      300,
+      500,
+      970,
+      1270
+    ]
+  },
+  "691": {
+    "music_name": "FRIDAY FRIDAY",
+    "artist": "emon(Tes.) feat.松平なな",
+    "difficulty": [
+      200,
+      500,
+      870,
+      1180
+    ]
+  },
+  "692": {
+    "music_name": "足立オウフwwww",
+    "artist": "笑う角を曲がる",
+    "difficulty": [
+      300,
+      600,
+      1070,
+      1300
+    ]
+  },
+  "693": {
+    "music_name": "Seagull",
+    "artist": "Snail's House",
+    "difficulty": [
+      300,
+      600,
+      920,
+      1270
+    ]
+  },
+  "694": {
+    "music_name": "Blaster Heaven",
+    "artist": "カヒーナムジカ",
+    "difficulty": [
+      300,
+      600,
+      940,
+      1210
+    ]
+  },
+  "695": {
+    "music_name": "ハートアタック",
+    "artist": "Omoi feat.+α/あるふぁきゅん。",
+    "difficulty": [
+      300,
+      700,
+      1030,
+      1340
+    ]
+  },
+  "696": {
+    "music_name": "Summer is over",
+    "artist": "TORIENA",
+    "difficulty": [
+      300,
+      600,
+      950,
+      1280
+    ]
+  },
+  "697": {
+    "music_name": "folern",
+    "artist": "ぬゆり",
+    "difficulty": [
+      400,
+      800,
+      1270,
+      1370
+    ]
+  },
   "698": {
     "music_name": "2DVenture",
     "artist": "dawn-system",
@@ -6694,6 +5719,2486 @@
       1370
     ]
   },
+  "724": {
+    "music_name": "キミとボクのミライ",
+    "artist": "ジータ（CV:金元寿子）、ルリア（CV:東山奈央）、ヴィーラ（CV:今井麻美）、マリー（CV:長谷川明子）「グランブルーファンタジー」",
+    "difficulty": [
+      300,
+      600,
+      910,
+      1210
+    ]
+  },
+  "725": {
+    "music_name": "SHINY DAYS",
+    "artist": "亜咲花「ゆるキャン△」",
+    "difficulty": [
+      200,
+      500,
+      890,
+      1070
+    ]
+  },
+  "726": {
+    "music_name": "Sparkling Daydream",
+    "artist": "ZAQ",
+    "difficulty": [
+      300,
+      600,
+      900,
+      1220
+    ]
+  },
+  "727": {
+    "music_name": "U.S.A.",
+    "artist": "DA PUMP",
+    "difficulty": [
+      200,
+      500,
+      880,
+      1170
+    ]
+  },
+  "728": {
+    "music_name": "Don't say \"lazy\"",
+    "artist": "桜高軽音部「けいおん！」",
+    "difficulty": [
+      300,
+      500,
+      840,
+      1240
+    ]
+  },
+  "729": {
+    "music_name": "サヨナラフリーウェイ",
+    "artist": "萩原 七々瀬(CV:東城 日沙子)",
+    "difficulty": [
+      300,
+      600,
+      870,
+      1190
+    ]
+  },
+  "730": {
+    "music_name": "Ai Nov",
+    "artist": "Feryquitous",
+    "difficulty": [
+      400,
+      770,
+      1210,
+      1370
+    ]
+  },
+  "731": {
+    "music_name": "エンジェデビ",
+    "artist": "中路もとめ feat.砂糖子",
+    "difficulty": [
+      300,
+      600,
+      1000,
+      1220
+    ]
+  },
+  "732": {
+    "music_name": "Servant of Love",
+    "artist": "PandaBoY",
+    "difficulty": [
+      300,
+      500,
+      970,
+      1270
+    ]
+  },
+  "733": {
+    "music_name": "アイリちゃんは暗黒魔導士!",
+    "artist": "MOSAIC.WAV",
+    "difficulty": [
+      300,
+      700,
+      1050,
+      1330
+    ]
+  },
+  "734": {
+    "music_name": "電光石火",
+    "artist": "HiTECH NINJA",
+    "difficulty": [
+      400,
+      900,
+      1250,
+      1390
+    ]
+  },
+  "735": {
+    "music_name": "strelitzia",
+    "artist": "zts",
+    "difficulty": [
+      300,
+      600,
+      990,
+      1270
+    ]
+  },
+  "736": {
+    "music_name": "サヨナラチェーンソー",
+    "artist": "くらげP",
+    "difficulty": [
+      200,
+      500,
+      850,
+      1190
+    ]
+  },
+  "737": {
+    "music_name": "Seyana. ～何でも言うことを聞いてくれるアカネチャン～",
+    "artist": "GYARI",
+    "difficulty": [
+      200,
+      400,
+      890,
+      1250
+    ]
+  },
+  "738": {
+    "music_name": "はやくそれになりたい！",
+    "artist": "キノシタ feat. 音街ウナ",
+    "difficulty": [
+      300,
+      600,
+      870,
+      1220
+    ]
+  },
+  "739": {
+    "music_name": "ちがう!!!",
+    "artist": "カルロス袴田(サイゼP)",
+    "difficulty": [
+      300,
+      600,
+      860,
+      1250
+    ]
+  },
+  "740": {
+    "music_name": "雨とペトラ",
+    "artist": "バルーン",
+    "difficulty": [
+      300,
+      500,
+      900,
+      1210
+    ]
+  },
+  "741": {
+    "music_name": "あうんどばいみー",
+    "artist": "森羅万象",
+    "difficulty": [
+      300,
+      500,
+      880,
+      1240
+    ]
+  },
+  "742": {
+    "music_name": "White Traveling Girl",
+    "artist": "A-One",
+    "difficulty": [
+      200,
+      600,
+      920,
+      1180
+    ]
+  },
+  "743": {
+    "music_name": "トランスダンスアナーキー",
+    "artist": "暁Records",
+    "difficulty": [
+      300,
+      600,
+      900,
+      1240
+    ]
+  },
+  "744": {
+    "music_name": "ゴールドビジョン",
+    "artist": "Pizuya's Cell",
+    "difficulty": [
+      300,
+      700,
+      1000,
+      1350
+    ]
+  },
+  "745": {
+    "music_name": "【東方ニコカラ】秘神マターラ feat.魂音泉【IOSYS】",
+    "artist": "ARM (IOSYS)",
+    "difficulty": [
+      200,
+      500,
+      940,
+      1270
+    ]
+  },
+  "746": {
+    "music_name": "Ever green Never end",
+    "artist": "月鈴 白奈(CV:高野 麻里佳)",
+    "difficulty": [
+      300,
+      600,
+      960,
+      1230
+    ]
+  },
+  "747": {
+    "music_name": "咲かせよ 沸かせよ バンバンBURN！",
+    "artist": "温泉むすめ 下呂美月 役 佐伯伊織「温泉むすめ」",
+    "difficulty": [
+      200,
+      500,
+      850,
+      1220
+    ]
+  },
+  "749": {
+    "music_name": "Fracture Ray",
+    "artist": "削除「Arcaea」",
+    "difficulty": [
+      400,
+      800,
+      1200,
+      1370
+    ]
+  },
+  "750": {
+    "music_name": "Axium Crisis",
+    "artist": "ak+q「Arcaea」",
+    "difficulty": [
+      300,
+      700,
+      1080,
+      1270
+    ]
+  },
+  "751": {
+    "music_name": "Grievous Lady",
+    "artist": "Team Grimoire vs Laur「Arcaea」",
+    "difficulty": [
+      400,
+      900,
+      1220,
+      1370
+    ]
+  },
+  "752": {
+    "music_name": "CO5M1C R4ILR0AD",
+    "artist": "kanone",
+    "difficulty": [
+      300,
+      700,
+      1100,
+      1310
+    ]
+  },
+  "753": {
+    "music_name": "Pure Ruby",
+    "artist": "SHIKI",
+    "difficulty": [
+      400,
+      740,
+      1090,
+      1340
+    ]
+  },
+  "754": {
+    "music_name": "一世嬉遊曲‐ディヴェルティメント‐",
+    "artist": "月鈴 那知(CV:今村 彩夏)",
+    "difficulty": [
+      400,
+      600,
+      940,
+      1280
+    ]
+  },
+  "755": {
+    "music_name": "恋のチャイム",
+    "artist": "霜月はるか",
+    "difficulty": [
+      200,
+      400,
+      870,
+      1110
+    ]
+  },
+  "756": {
+    "music_name": "逃げろ！サテライトキャンパス！！",
+    "artist": "solfa feat.茶太",
+    "difficulty": [
+      300,
+      500,
+      950,
+      1280
+    ]
+  },
+  "757": {
+    "music_name": "THE BRASS OF GOODSPEED!!",
+    "artist": "片霧烈火",
+    "difficulty": [
+      300,
+      600,
+      910,
+      1250
+    ]
+  },
+  "758": {
+    "music_name": "TREAT OR TREAT?",
+    "artist": "4U「Tokyo 7th シスターズ」",
+    "difficulty": [
+      300,
+      500,
+      920,
+      1270
+    ]
+  },
+  "759": {
+    "music_name": "TRIGGER",
+    "artist": "The QUEEN of PURPLE「Tokyo 7th シスターズ」",
+    "difficulty": [
+      300,
+      600,
+      880,
+      1250
+    ]
+  },
+  "760": {
+    "music_name": "カゲロウデイズ",
+    "artist": "じん",
+    "difficulty": [
+      300,
+      600,
+      870,
+      1270
+    ]
+  },
+  "761": {
+    "music_name": "妄想感傷代償連盟",
+    "artist": "DECO*27",
+    "difficulty": [
+      200,
+      500,
+      940,
+      1170
+    ]
+  },
+  "762": {
+    "music_name": "Everlasting Today",
+    "artist": "void (Mournfinale)",
+    "difficulty": [
+      400,
+      700,
+      1200,
+      1370
+    ]
+  },
+  "763": {
+    "music_name": "Distance",
+    "artist": "村川梨衣「ヒナまつり」",
+    "difficulty": [
+      300,
+      500,
+      800,
+      1150
+    ]
+  },
+  "764": {
+    "music_name": "Outlaw's Lullaby",
+    "artist": "庄司英徳「龍が如く２」",
+    "difficulty": [
+      300,
+      700,
+      1050,
+      1300
+    ]
+  },
+  "765": {
+    "music_name": "The Pursuit of Speed",
+    "artist": "SoundDrive「龍が如く５　夢、叶えし者」",
+    "difficulty": [
+      300,
+      600,
+      980,
+      1260
+    ]
+  },
+  "766": {
+    "music_name": "光線チューニング ～なずな妄想海フェスイメージトレーニングVer.～",
+    "artist": "ナズナン星人 with せりな・あーりん(イロドリミドリ)",
+    "difficulty": [
+      300,
+      600,
+      950,
+      1250
+    ]
+  },
+  "768": {
+    "music_name": "39",
+    "artist": "sasakure.UK x DECO*27",
+    "difficulty": [
+      300,
+      600,
+      890,
+      1190
+    ]
+  },
+  "769": {
+    "music_name": "FLY two BLUE",
+    "artist": "大空 遥（CV：優木かな）、比嘉かなた（CV：宮下早紀）「はるかなレシーブ」",
+    "difficulty": [
+      200,
+      500,
+      750,
+      1080
+    ]
+  },
+  "770": {
+    "music_name": "Wish me luck!!!!",
+    "artist": "大空 遥（CV：優木かな）、比嘉かなた（CV：宮下早紀）、トーマス・紅愛（CV：種﨑敦美）、トーマス・恵美理（CV：末柄里恵）「はるかなレシーブ」",
+    "difficulty": [
+      300,
+      500,
+      870,
+      1150
+    ]
+  },
+  "771": {
+    "music_name": "Funny Funky Freaky",
+    "artist": "mommy",
+    "difficulty": [
+      300,
+      500,
+      980,
+      1270
+    ]
+  },
+  "772": {
+    "music_name": "Pangaea",
+    "artist": "sasakure.UK",
+    "difficulty": [
+      200,
+      600,
+      1110,
+      1300
+    ]
+  },
+  "773": {
+    "music_name": "ZEUS",
+    "artist": "ルゼ",
+    "difficulty": [
+      400,
+      700,
+      1160,
+      1360
+    ]
+  },
+  "774": {
+    "music_name": "Agitation！",
+    "artist": "舞ヶ原高校軽音部",
+    "difficulty": [
+      300,
+      500,
+      920,
+      1140
+    ]
+  },
+  "775": {
+    "music_name": "暗晦にハイライト",
+    "artist": "igel",
+    "difficulty": [
+      400,
+      700,
+      1100,
+      1350
+    ]
+  },
+  "776": {
+    "music_name": "8-EM",
+    "artist": "Sampling Masters AYA",
+    "difficulty": [
+      400,
+      800,
+      1200,
+      1380
+    ]
+  },
+  "777": {
+    "music_name": "Killing Rhythm",
+    "artist": "DJ Myosuke",
+    "difficulty": [
+      400,
+      970,
+      1320,
+      1400
+    ]
+  },
+  "778": {
+    "music_name": "The Other Side of the Wall",
+    "artist": "Void_Chords feat.MARU",
+    "difficulty": [
+      300,
+      600,
+      830,
+      1170
+    ]
+  },
+  "779": {
+    "music_name": "WORLD'S END",
+    "artist": "セブンスシスターズ「Tokyo 7th シスターズ」",
+    "difficulty": [
+      300,
+      500,
+      960,
+      1220
+    ]
+  },
+  "780": {
+    "music_name": "METEOR",
+    "artist": "DIVELA",
+    "difficulty": [
+      300,
+      500,
+      950,
+      1190
+    ]
+  },
+  "781": {
+    "music_name": "ワールズエンド・ダンスホール",
+    "artist": "wowaka",
+    "difficulty": [
+      200,
+      600,
+      930,
+      1230
+    ]
+  },
+  "782": {
+    "music_name": "Worlds End",
+    "artist": "あ～るの～と（いえろ～ぜぶら）",
+    "difficulty": [
+      300,
+      500,
+      850,
+      1210
+    ]
+  },
+  "783": {
+    "music_name": "Shout Our Evidence!",
+    "artist": "イロドリミドリ",
+    "difficulty": [
+      400,
+      600,
+      1000,
+      1250
+    ]
+  },
+  "784": {
+    "music_name": "YURUSHITE",
+    "artist": "t+pazolite",
+    "difficulty": [
+      400,
+      900,
+      1270,
+      1390
+    ]
+  },
+  "785": {
+    "music_name": "ユメキキョウ",
+    "artist": "RD-Sounds feat.中恵光城",
+    "difficulty": [
+      200,
+      600,
+      1130,
+      1300
+    ]
+  },
+  "786": {
+    "music_name": "Black Swan Lake",
+    "artist": "葉月ゆら",
+    "difficulty": [
+      300,
+      700,
+      1090,
+      1340
+    ]
+  },
+  "787": {
+    "music_name": "GIGA DRIVE",
+    "artist": "黒沢ダイスケ",
+    "difficulty": [
+      400,
+      930,
+      1270,
+      1390
+    ]
+  },
+  "788": {
+    "music_name": "Rebellion",
+    "artist": "Kai",
+    "difficulty": [
+      400,
+      980,
+      1310,
+      1410
+    ]
+  },
+  "789": {
+    "music_name": "NEVER SURRENDER",
+    "artist": "水樹奈々「魔法少女リリカルなのは Detonation」",
+    "difficulty": [
+      300,
+      600,
+      850,
+      1200
+    ]
+  },
+  "791": {
+    "music_name": "Doll Judgment",
+    "artist": "ぬるはち",
+    "difficulty": [
+      200,
+      600,
+      1010,
+      1280
+    ]
+  },
+  "792": {
+    "music_name": "お嫁にしなさいっ！",
+    "artist": "ARM＋夕野ヨシミ (IOSYS)",
+    "difficulty": [
+      300,
+      500,
+      870,
+      1270
+    ]
+  },
+  "793": {
+    "music_name": "待チ人ハ来ズ。",
+    "artist": "豚乙女",
+    "difficulty": [
+      200,
+      500,
+      950,
+      1250
+    ]
+  },
+  "794": {
+    "music_name": "One In A Billion",
+    "artist": "Wake Up, May'n！「異世界食堂」",
+    "difficulty": [
+      300,
+      500,
+      910,
+      1160
+    ]
+  },
+  "795": {
+    "music_name": "命ばっかり",
+    "artist": "ぬゆり",
+    "difficulty": [
+      200,
+      500,
+      860,
+      1150
+    ]
+  },
+  "796": {
+    "music_name": "テオ",
+    "artist": "Omoi",
+    "difficulty": [
+      300,
+      600,
+      870,
+      1270
+    ]
+  },
+  "797": {
+    "music_name": "ハイセンスナンセンス",
+    "artist": "盛るP",
+    "difficulty": [
+      200,
+      600,
+      880,
+      1330
+    ]
+  },
+  "798": {
+    "music_name": "デンパラダイム",
+    "artist": "lumo",
+    "difficulty": [
+      400,
+      700,
+      1070,
+      1290
+    ]
+  },
+  "799": {
+    "music_name": "星の器～STAR OF ANDROMEDA",
+    "artist": "sun3",
+    "difficulty": [
+      400,
+      700,
+      1120,
+      1350
+    ]
+  },
+  "802": {
+    "music_name": "STARTLINER",
+    "artist": "曲：kz(livetune)／歌：オンゲキシューターズ",
+    "difficulty": [
+      100,
+      500,
+      790,
+      1060
+    ]
+  },
+  "803": {
+    "music_name": "Vibrant Verve",
+    "artist": "siqlo",
+    "difficulty": [
+      300,
+      500,
+      1070,
+      1300
+    ]
+  },
+  "804": {
+    "music_name": "燃えてもエンジョイ！宛城、炎上！！",
+    "artist": "箱部孟徳 feat.小仏氏(イロドリミドリ)",
+    "difficulty": [
+      500,
+      700,
+      1120,
+      1330
+    ]
+  },
+  "806": {
+    "music_name": "水晶世界 ～Fracture～",
+    "artist": "wa. remixed celas",
+    "difficulty": [
+      400,
+      700,
+      1140,
+      1370
+    ]
+  },
+  "807": {
+    "music_name": "BlythE",
+    "artist": "M2U",
+    "difficulty": [
+      300,
+      730,
+      1130,
+      1320
+    ]
+  },
+  "808": {
+    "music_name": "GO",
+    "artist": "BUMP OF CHICKEN「グランブルーファンタジー」",
+    "difficulty": [
+      200,
+      500,
+      840,
+      1170
+    ]
+  },
+  "809": {
+    "music_name": "grilletto",
+    "artist": "GARNiDELiA「魔法科高校の劣等生」",
+    "difficulty": [
+      300,
+      600,
+      910,
+      1190
+    ]
+  },
+  "810": {
+    "music_name": "UNION",
+    "artist": "OxT「SSSS.GRIDMAN」",
+    "difficulty": [
+      300,
+      600,
+      960,
+      1200
+    ]
+  },
+  "822": {
+    "music_name": "Excalibur ～Revived resolution～",
+    "artist": "Project Grimoire",
+    "difficulty": [
+      400,
+      830,
+      1230,
+      1380
+    ]
+  },
+  "823": {
+    "music_name": "Opfer",
+    "artist": "かねこちはる",
+    "difficulty": [
+      400,
+      800,
+      1240,
+      1380
+    ]
+  },
+  "825": {
+    "music_name": "サヴァイバル・キリング・メーカー",
+    "artist": "じーざす（ワンダフル☆オポチュニティ！） ft.96猫",
+    "difficulty": [
+      300,
+      600,
+      950,
+      1240
+    ]
+  },
+  "826": {
+    "music_name": "ツクヨミステップ",
+    "artist": "ユリイ・カノン feat.nameless",
+    "difficulty": [
+      200,
+      500,
+      970,
+      1250
+    ]
+  },
+  "827": {
+    "music_name": "【冒険】イングリット葛西降臨！【実況】",
+    "artist": "溝口ゆうま axel. 大瀬良あい",
+    "difficulty": [
+      300,
+      600,
+      1020,
+      1270
+    ]
+  },
+  "828": {
+    "music_name": "ハジマリノピアノ",
+    "artist": "ゆゆうた",
+    "difficulty": [
+      300,
+      600,
+      1090,
+      1300
+    ]
+  },
+  "829": {
+    "music_name": "レーイレーイ",
+    "artist": "かいりきベア feat.松下",
+    "difficulty": [
+      300,
+      700,
+      1090,
+      1270
+    ]
+  },
+  "830": {
+    "music_name": "Surrogate Life",
+    "artist": "石渡太輔／アークシステムワークス",
+    "difficulty": [
+      400,
+      800,
+      1210,
+      1390
+    ]
+  },
+  "831": {
+    "music_name": "Nijirate Fanatics",
+    "artist": "yukitani",
+    "difficulty": [
+      400,
+      940,
+      1270,
+      1360
+    ]
+  },
+  "811": {
+    "music_name": "Lemon",
+    "artist": "米津玄師",
+    "difficulty": [
+      200,
+      400,
+      790,
+      1060
+    ]
+  },
+  "812": {
+    "music_name": "BURST THE GRAVITY",
+    "artist": "ALTIMA「アクセル・ワールド」",
+    "difficulty": [
+      300,
+      500,
+      840,
+      1210
+    ]
+  },
+  "813": {
+    "music_name": "ヒプノシスマイク -Division Battle Anthem-",
+    "artist": "Division All Stars「ヒプノシスマイク」",
+    "difficulty": [
+      200,
+      500,
+      940,
+      1220
+    ]
+  },
+  "814": {
+    "music_name": "ハッピー☆マテリアル",
+    "artist": "麻帆良学園中等部2-A「魔法先生ネギま！」",
+    "difficulty": [
+      300,
+      500,
+      870,
+      1160
+    ]
+  },
+  "815": {
+    "music_name": "ただ君に晴れ",
+    "artist": "ヨルシカ",
+    "difficulty": [
+      200,
+      500,
+      820,
+      1050
+    ]
+  },
+  "816": {
+    "music_name": "ナンセンス文学",
+    "artist": "Eve",
+    "difficulty": [
+      200,
+      500,
+      850,
+      1200
+    ]
+  },
+  "817": {
+    "music_name": "ロスタイムメモリー",
+    "artist": "じん",
+    "difficulty": [
+      300,
+      600,
+      970,
+      1240
+    ]
+  },
+  "818": {
+    "music_name": "ヒバナ",
+    "artist": "DECO*27",
+    "difficulty": [
+      300,
+      600,
+      980,
+      1270
+    ]
+  },
+  "819": {
+    "music_name": "最終鬼畜妹フランドール・S",
+    "artist": "ビートまりお(COOL＆CREATE)",
+    "difficulty": [
+      400,
+      710,
+      1050,
+      1330
+    ]
+  },
+  "821": {
+    "music_name": "\"STAR\"T",
+    "artist": "HaNaMiNa feat.Nadeshiko",
+    "difficulty": [
+      300,
+      600,
+      870,
+      1240
+    ]
+  },
+  "832": {
+    "music_name": "Destr0yer",
+    "artist": "削除 feat. Nikki Simmons",
+    "difficulty": [
+      400,
+      700,
+      1120,
+      1340
+    ]
+  },
+  "833": {
+    "music_name": "R.I.P.",
+    "artist": "eicateve",
+    "difficulty": [
+      400,
+      750,
+      1130,
+      1320
+    ]
+  },
+  "860": {
+    "music_name": "とーきょー全域★アキハバラ？ (ver.にこる)",
+    "artist": "t+pazolite feat.ななひら",
+    "difficulty": [
+      300,
+      740,
+      1040,
+      1310
+    ]
+  },
+  "8000": {
+    "music_name": "幾四音-Ixion-",
+    "artist": "M.S.S Project",
+    "difficulty": []
+  },
+  "8020": {
+    "music_name": "B.B.K.K.B.K.K.",
+    "artist": "nora2r",
+    "difficulty": []
+  },
+  "8024": {
+    "music_name": "Garakuta Doll Play (sasakure.UK clutter remix)",
+    "artist": "sasakure.UK",
+    "difficulty": []
+  },
+  "8025": {
+    "music_name": "Help me, あーりん！",
+    "artist": "イロドリミドリ",
+    "difficulty": []
+  },
+  "8026": {
+    "music_name": "FREEDOM DiVE",
+    "artist": "xi",
+    "difficulty": []
+  },
+  "8029": {
+    "music_name": "elegante",
+    "artist": "Junk",
+    "difficulty": []
+  },
+  "8049": {
+    "music_name": "チルノのパーフェクトさんすう教室",
+    "artist": "ARM＋夕野ヨシミ (IOSYS) feat.miko",
+    "difficulty": []
+  },
+  "8051": {
+    "music_name": "回レ！雪月花",
+    "artist": "歌組雪月花 夜々(原田 ひとみ)/いろり(茅野 愛衣)/小紫(小倉 唯) 「機巧少女は傷つかない」",
+    "difficulty": []
+  },
+  "8053": {
+    "music_name": "Oshama Scramble!",
+    "artist": "t+pazolite",
+    "difficulty": []
+  },
+  "8070": {
+    "music_name": "Paqqin",
+    "artist": "owl＊tree",
+    "difficulty": []
+  },
+  "8078": {
+    "music_name": "あねぺったん",
+    "artist": "月鈴姉妹(イロドリミドリ)",
+    "difficulty": []
+  },
+  "8080": {
+    "music_name": "Schrecklicher Aufstand",
+    "artist": "Katzeohr & Spiegel",
+    "difficulty": []
+  },
+  "8081": {
+    "music_name": "檄!帝国華撃団",
+    "artist": "真宮寺さくら（横山智佐）＆帝国歌劇団「サクラ大戦」",
+    "difficulty": []
+  },
+  "8084": {
+    "music_name": "だんだん早くなる",
+    "artist": "40mP",
+    "difficulty": []
+  },
+  "8087": {
+    "music_name": "Air",
+    "artist": "SHIKI",
+    "difficulty": []
+  },
+  "8090": {
+    "music_name": "Title",
+    "artist": "SoundTeMP「ラグナロクオンライン」",
+    "difficulty": []
+  },
+  "8091": {
+    "music_name": "Oshama Scramble! (Cranky Remix)",
+    "artist": "Cranky",
+    "difficulty": []
+  },
+  "8098": {
+    "music_name": "今ぞ♡崇め奉れ☆オマエらよ！！～姫の秘メタル渇望～",
+    "artist": "あべにゅうぷろじぇくと feat.佐倉 紗織　produced by ave;new",
+    "difficulty": []
+  },
+  "8099": {
+    "music_name": "Tidal Wave",
+    "artist": "D-Cee",
+    "difficulty": []
+  },
+  "8108": {
+    "music_name": "G e n g a o z o",
+    "artist": "-45",
+    "difficulty": []
+  },
+  "8110": {
+    "music_name": "AMAZING MIGHTYYYY!!!!",
+    "artist": "WAiKURO",
+    "difficulty": []
+  },
+  "8112": {
+    "music_name": "HAELEQUIN (Original Remaster)",
+    "artist": "orangentle",
+    "difficulty": []
+  },
+  "8116": {
+    "music_name": "イロドリミドリ杯花映塚全一決定戦公式テーマソング『ウソテイ』",
+    "artist": "イロドリミドリ",
+    "difficulty": []
+  },
+  "8117": {
+    "music_name": "青春サイダー",
+    "artist": "SPRiNGS「温泉むすめ」",
+    "difficulty": []
+  },
+  "8121": {
+    "music_name": "ウソラセラ",
+    "artist": "ピノキオピー",
+    "difficulty": []
+  },
+  "8123": {
+    "music_name": "GEMINI -M-",
+    "artist": "Tatsh",
+    "difficulty": []
+  },
+  "8124": {
+    "music_name": "volcanic",
+    "artist": "DETRO a.k.a ルゼ",
+    "difficulty": []
+  },
+  "8126": {
+    "music_name": "macrocosmos",
+    "artist": "LeaF",
+    "difficulty": []
+  },
+  "8127": {
+    "music_name": "Devastating Blaster",
+    "artist": "INNOCENT NOIZE",
+    "difficulty": []
+  },
+  "8128": {
+    "music_name": "凛として咲く花の如く",
+    "artist": "紅色リトマス",
+    "difficulty": []
+  },
+  "8129": {
+    "music_name": "Starlight Disco",
+    "artist": "loos feat. Meramipop",
+    "difficulty": []
+  },
+  "8130": {
+    "music_name": "初音ミクの激唱",
+    "artist": "Storyteller",
+    "difficulty": []
+  },
+  "8133": {
+    "music_name": "Genesis",
+    "artist": "Morrigan feat.Lily",
+    "difficulty": []
+  },
+  "8134": {
+    "music_name": "D✪N’T ST✪P R✪CKIN’ ～[✪_✪] MIX～",
+    "artist": "EB (aka EarBreaker)",
+    "difficulty": []
+  },
+  "8135": {
+    "music_name": "WARNING×WARNING×WARNING",
+    "artist": "暁Records",
+    "difficulty": []
+  },
+  "8136": {
+    "music_name": "Angel dust",
+    "artist": "LV.4",
+    "difficulty": []
+  },
+  "8137": {
+    "music_name": "G e n g a o z o",
+    "artist": "-45",
+    "difficulty": []
+  },
+  "8138": {
+    "music_name": "灼熱スイッチ",
+    "artist": "雀が原中学卓球部「灼熱の卓球娘」",
+    "difficulty": []
+  },
+  "8139": {
+    "music_name": "Pastel Party",
+    "artist": "Tomggg",
+    "difficulty": []
+  },
+  "8141": {
+    "music_name": "End Time",
+    "artist": "Cres.",
+    "difficulty": []
+  },
+  "8143": {
+    "music_name": "SEVENTH HAVEN",
+    "artist": "セブンスシスターズ「Tokyo 7th シスターズ」",
+    "difficulty": []
+  },
+  "8144": {
+    "music_name": "裏表ラバーズ",
+    "artist": "wowaka",
+    "difficulty": []
+  },
+  "8145": {
+    "music_name": "Twice up Scenery",
+    "artist": "q/stol",
+    "difficulty": []
+  },
+  "8148": {
+    "music_name": "ようこそジャパリパークへ",
+    "artist": "どうぶつビスケッツ×PPP「けものフレンズ」",
+    "difficulty": []
+  },
+  "8149": {
+    "music_name": "POP TEAM EPIC",
+    "artist": "上坂すみれ「ポプテピピック」",
+    "difficulty": []
+  },
+  "8150": {
+    "music_name": "アリサのテーマ",
+    "artist": "池頼広「Shadowverse」",
+    "difficulty": []
+  },
+  "8151": {
+    "music_name": "bubble attack",
+    "artist": "HALFBY",
+    "difficulty": []
+  },
+  "8152": {
+    "music_name": "Gate of Doom",
+    "artist": "Masahiro “Godspeed” Aoki",
+    "difficulty": []
+  },
+  "8154": {
+    "music_name": "サドマミホリック",
+    "artist": "ビートまりお（COOL&CREATE）",
+    "difficulty": []
+  },
+  "8155": {
+    "music_name": "Starlight Dance Floor",
+    "artist": "発熱巫女～ず",
+    "difficulty": []
+  },
+  "8156": {
+    "music_name": "Dreaming",
+    "artist": "Alstroemeria Records",
+    "difficulty": []
+  },
+  "8157": {
+    "music_name": "Your Affection (Daisuke Asakura Remix)",
+    "artist": "目黒将司 Remixed by 浅倉大介「ペルソナ4 ダンシング・オールナイト」",
+    "difficulty": []
+  },
+  "8158": {
+    "music_name": "The ether",
+    "artist": "浜渦 正志",
+    "difficulty": []
+  },
+  "8159": {
+    "music_name": "コーチンズカップ・クラシック",
+    "artist": "POPHOLIC「龍が如く５　夢、叶えし者」",
+    "difficulty": []
+  },
+  "8160": {
+    "music_name": "頓珍漢の宴",
+    "artist": "ピノキオピー",
+    "difficulty": []
+  },
+  "8161": {
+    "music_name": "WAVE",
+    "artist": "niki",
+    "difficulty": []
+  },
+  "8162": {
+    "music_name": "卑怯戦隊うろたんだー",
+    "artist": "シンP",
+    "difficulty": []
+  },
+  "8163": {
+    "music_name": "ぼくらの16bit戦争",
+    "artist": "sasakure.UK",
+    "difficulty": []
+  },
+  "8164": {
+    "music_name": "Aragami",
+    "artist": "xi",
+    "difficulty": []
+  },
+  "8165": {
+    "music_name": "Surveiller et punir",
+    "artist": "cybermiso",
+    "difficulty": []
+  },
+  "8166": {
+    "music_name": "folern",
+    "artist": "ぬゆり",
+    "difficulty": []
+  },
+  "8167": {
+    "music_name": "macrocosmos",
+    "artist": "LeaF",
+    "difficulty": []
+  },
+  "8168": {
+    "music_name": "STARTLINER",
+    "artist": "曲：kz(livetune)／歌：オンゲキシューターズ",
+    "difficulty": []
+  },
+  "8169": {
+    "music_name": "メニメニマニマニ",
+    "artist": "高宮なすの(CV:鳴海杏子)「てーきゅう」",
+    "difficulty": []
+  },
+  "8170": {
+    "music_name": "DETARAME ROCK&ROLL THEORY",
+    "artist": "箱部 なる(CV:M・A・O)",
+    "difficulty": []
+  },
+  "8171": {
+    "music_name": "volcanic",
+    "artist": "DETRO a.k.a ルゼ",
+    "difficulty": []
+  },
+  "429": {
+    "music_name": "Black Lotus",
+    "artist": "wa.",
+    "difficulty": [
+      400,
+      730,
+      1180,
+      1350
+    ]
+  },
+  "824": {
+    "music_name": "神威 (NAOKI × ZPP MIX)",
+    "artist": "NAOKI MAEDA",
+    "difficulty": [
+      500,
+      890,
+      1270,
+      1390
+    ]
+  },
+  "834": {
+    "music_name": "せかいせいふく！ゆりあちゃん！",
+    "artist": "立秋",
+    "difficulty": [
+      300,
+      700,
+      1190,
+      1350
+    ]
+  },
+  "835": {
+    "music_name": "Trackless wilderness",
+    "artist": "Noah",
+    "difficulty": [
+      400,
+      800,
+      1190,
+      1390
+    ]
+  },
+  "836": {
+    "music_name": "absolute rightness",
+    "artist": "Acotto",
+    "difficulty": [
+      400,
+      770,
+      1230,
+      1360
+    ]
+  },
+  "837": {
+    "music_name": "Walzer für das Nichts",
+    "artist": "Aoi Sumito",
+    "difficulty": [
+      400,
+      810,
+      1220,
+      1380
+    ]
+  },
+  "838": {
+    "music_name": "Lover's Trick",
+    "artist": "litmus*",
+    "difficulty": [
+      200,
+      500,
+      840,
+      1260
+    ]
+  },
+  "839": {
+    "music_name": "まごころのカスクルゥト",
+    "artist": "Yu-dachi",
+    "difficulty": [
+      200,
+      500,
+      990,
+      1310
+    ]
+  },
+  "840": {
+    "music_name": "幾望の月",
+    "artist": "なきゃむりゃ",
+    "difficulty": [
+      200,
+      600,
+      1030,
+      1260
+    ]
+  },
+  "841": {
+    "music_name": "アカリがやってきたぞっ",
+    "artist": "GYARI",
+    "difficulty": [
+      200,
+      500,
+      860,
+      1240
+    ]
+  },
+  "842": {
+    "music_name": "おねがいダーリン",
+    "artist": "ONE (song by ナナホシ管弦楽団)",
+    "difficulty": [
+      300,
+      600,
+      890,
+      1210
+    ]
+  },
+  "843": {
+    "music_name": "リンカーネイション",
+    "artist": "kemu",
+    "difficulty": [
+      300,
+      600,
+      930,
+      1250
+    ]
+  },
+  "844": {
+    "music_name": "太陽系デスコ",
+    "artist": "ナユタン星人",
+    "difficulty": [
+      200,
+      500,
+      830,
+      1150
+    ]
+  },
+  "845": {
+    "music_name": "▲MEW▲△MEW△CAKE",
+    "artist": "KOTOKO「ネコぱら」",
+    "difficulty": [
+      300,
+      600,
+      820,
+      1130
+    ]
+  },
+  "846": {
+    "music_name": "野良猫ハート",
+    "artist": "パトリシア・オブ・エンド(CV：高森奈津美)、黒木 未知(CV：仙台エリ)、夕莉 シャチ(CV：浅川悠)、明日原 ユウキ(CV：種﨑敦美)「ノラと皇女と野良猫ハート」",
+    "difficulty": [
+      300,
+      500,
+      850,
+      1150
+    ]
+  },
+  "847": {
+    "music_name": "Baby Sweet Berry Love",
+    "artist": "小倉 唯「変態王子と笑わない猫。」",
+    "difficulty": [
+      300,
+      500,
+      910,
+      1170
+    ]
+  },
+  "848": {
+    "music_name": "進捗どうですか？",
+    "artist": "sumijun(Halozy) feat. ななひら(Confetto)",
+    "difficulty": [
+      300,
+      600,
+      920,
+      1230
+    ]
+  },
+  "849": {
+    "music_name": "単一指向性オーバーブルーム",
+    "artist": "葛城 華(CV:丸岡 和佳奈)",
+    "difficulty": [
+      300,
+      500,
+      900,
+      1250
+    ]
+  },
+  "850": {
+    "music_name": "《混乱》 ～ Muspell",
+    "artist": "Norn",
+    "difficulty": [
+      300,
+      600,
+      1100,
+      1280
+    ]
+  },
+  "851": {
+    "music_name": "《理想》 ～ Cloudland",
+    "artist": "Shi Kuang Lee feat.A-Tz",
+    "difficulty": [
+      200,
+      400,
+      970,
+      1220
+    ]
+  },
+  "852": {
+    "music_name": "《逃避》 ～ The Deserter",
+    "artist": "Bo-Xun Lin 林柏勲",
+    "difficulty": [
+      200,
+      600,
+      1080,
+      1290
+    ]
+  },
+  "853": {
+    "music_name": "《最愛》 ～ Curse",
+    "artist": "James Landino feat.N i i",
+    "difficulty": [
+      300,
+      500,
+      950,
+      1260
+    ]
+  },
+  "854": {
+    "music_name": "《運命》 ～ Ray of Hope",
+    "artist": "3R2",
+    "difficulty": [
+      400,
+      810,
+      1140,
+      1340
+    ]
+  },
+  "855": {
+    "music_name": "Deal with the devil",
+    "artist": "Tia「賭ケグルイ」",
+    "difficulty": [
+      300,
+      600,
+      940,
+      1270
+    ]
+  },
+  "856": {
+    "music_name": "Star Divine",
+    "artist": "スタァライト九九組「少女☆歌劇 レヴュースタァライト」",
+    "difficulty": [
+      300,
+      600,
+      900,
+      1190
+    ]
+  },
+  "857": {
+    "music_name": "輪舞-revolution",
+    "artist": "奥井雅美「少女革命ウテナ」",
+    "difficulty": [
+      200,
+      500,
+      850,
+      1070
+    ]
+  },
+  "858": {
+    "music_name": "御旗のもとに",
+    "artist": "「サクラ大戦３ ～巴里は燃えているか～」",
+    "difficulty": [
+      200,
+      500,
+      930,
+      1210
+    ]
+  },
+  "859": {
+    "music_name": "みなえをチェック！",
+    "artist": "小野 美苗(CV:伊藤 美来)",
+    "difficulty": [
+      300,
+      600,
+      910,
+      1270
+    ]
+  },
+  "861": {
+    "music_name": "気ままな天使たち",
+    "artist": "わたてん☆5「私に天使が舞い降りた！」",
+    "difficulty": [
+      200,
+      500,
+      880,
+      1130
+    ]
+  },
+  "862": {
+    "music_name": "ハッピー・ハッピー・フレンズ",
+    "artist": "わたてん☆5「私に天使が舞い降りた！」",
+    "difficulty": [
+      300,
+      600,
+      900,
+      1240
+    ]
+  },
+  "863": {
+    "music_name": "AXION",
+    "artist": "削除",
+    "difficulty": [
+      300,
+      700,
+      1100,
+      1350
+    ]
+  },
+  "865": {
+    "music_name": "MEGATON BLAST",
+    "artist": "BlackY vs. Yooh",
+    "difficulty": [
+      400,
+      800,
+      1250,
+      1380
+    ]
+  },
+  "900": {
+    "music_name": "チョウの標本",
+    "artist": "Bitplane",
+    "difficulty": [
+      300,
+      700,
+      1110,
+      1350
+    ]
+  },
+  "8172": {
+    "music_name": "StufeStern",
+    "artist": "Feryquitous",
+    "difficulty": []
+  },
+  "8173": {
+    "music_name": "玩具狂奏曲 -終焉-",
+    "artist": "きくお",
+    "difficulty": []
+  },
+  "8174": {
+    "music_name": "電光石火",
+    "artist": "HiTECH NINJA",
+    "difficulty": []
+  },
+  "8175": {
+    "music_name": "BlythE",
+    "artist": "M2U",
+    "difficulty": []
+  },
+  "866": {
+    "music_name": "ストライク・ザ・ブラッド",
+    "artist": "岸田教団&THE明星ロケッツ「ストライク・ザ・ブラッド」",
+    "difficulty": [
+      300,
+      710,
+      1090,
+      1270
+    ]
+  },
+  "867": {
+    "music_name": "結ンデ開イテ羅刹ト骸",
+    "artist": "ハチ",
+    "difficulty": [
+      300,
+      500,
+      880,
+      1230
+    ]
+  },
+  "868": {
+    "music_name": "ダブルラリアット",
+    "artist": "アゴアニキ",
+    "difficulty": [
+      200,
+      500,
+      920,
+      1130
+    ]
+  },
+  "869": {
+    "music_name": "＊ハロー、プラネット。",
+    "artist": "sasakure.UK",
+    "difficulty": [
+      200,
+      600,
+      870,
+      1240
+    ]
+  },
+  "870": {
+    "music_name": "magnet",
+    "artist": "minato(流星P)",
+    "difficulty": [
+      300,
+      500,
+      890,
+      1120
+    ]
+  },
+  "871": {
+    "music_name": "Pump!n",
+    "artist": "IOSYS TRAX (uno & D.watt)",
+    "difficulty": [
+      200,
+      600,
+      1000,
+      1270
+    ]
+  },
+  "872": {
+    "music_name": "Endless Seeker",
+    "artist": "A-One",
+    "difficulty": [
+      300,
+      600,
+      900,
+      1250
+    ]
+  },
+  "873": {
+    "music_name": "STRIPES feat. EL.J (2018 reinterpretation)",
+    "artist": "発熱巫女～ず",
+    "difficulty": [
+      200,
+      500,
+      880,
+      1170
+    ]
+  },
+  "874": {
+    "music_name": "Cosmic Magic Shooter",
+    "artist": "SOUND HOLIC feat. Nana Takahashi",
+    "difficulty": [
+      300,
+      600,
+      930,
+      1240
+    ]
+  },
+  "875": {
+    "music_name": "神楽",
+    "artist": "Liz Triangle",
+    "difficulty": [
+      300,
+      600,
+      1000,
+      1250
+    ]
+  },
+  "876": {
+    "music_name": "Bad Apple!! feat.nomico (Nhato Remix)",
+    "artist": "Masayoshi Minoshima × Nhato",
+    "difficulty": [
+      200,
+      600,
+      890,
+      1270
+    ]
+  },
+  "8176": {
+    "music_name": "星の器～STAR OF ANDROMEDA",
+    "artist": "sun3",
+    "difficulty": []
+  },
+  "8177": {
+    "music_name": "【東方ニコカラ】秘神マターラ feat.魂音泉【IOSYS】",
+    "artist": "ARM (IOSYS)",
+    "difficulty": []
+  },
+  "8178": {
+    "music_name": "ひれ伏せ愚民どもっ！",
+    "artist": "ARM＋夕野ヨシミ (IOSYS) feat.miko",
+    "difficulty": []
+  },
+  "8179": {
+    "music_name": "Dreaming",
+    "artist": "Alstroemeria Records",
+    "difficulty": []
+  },
+  "877": {
+    "music_name": "ヴンダーカンマー",
+    "artist": "麹町養蚕館",
+    "difficulty": [
+      300,
+      600,
+      1030,
+      1290
+    ]
+  },
+  "878": {
+    "music_name": "Destination",
+    "artist": "Nhato",
+    "difficulty": [
+      200,
+      700,
+      970,
+      1280
+    ]
+  },
+  "879": {
+    "music_name": "Fidget Dancer",
+    "artist": "nora2r",
+    "difficulty": [
+      300,
+      790,
+      1170,
+      1340
+    ]
+  },
+  "880": {
+    "music_name": "Megameteor",
+    "artist": "削除",
+    "difficulty": [
+      400,
+      900,
+      1250,
+      1390
+    ]
+  },
+  "881": {
+    "music_name": "Trrricksters!!",
+    "artist": "s-don vs. 翡乃イスカ",
+    "difficulty": [
+      400,
+      980,
+      1270,
+      1400
+    ]
+  },
+  "882": {
+    "music_name": "Road without Road",
+    "artist": "HaNaMiNa feat.Nanase",
+    "difficulty": [
+      300,
+      600,
+      930,
+      1240
+    ]
+  },
+  "883": {
+    "music_name": "徒花ネクロマンシー",
+    "artist": "フランシュシュ「ゾンビランドサガ」",
+    "difficulty": [
+      300,
+      600,
+      890,
+      1220
+    ]
+  },
+  "884": {
+    "music_name": "目覚めRETURNER",
+    "artist": "フランシュシュ「ゾンビランドサガ」",
+    "difficulty": [
+      300,
+      500,
+      830,
+      1210
+    ]
+  },
+  "885": {
+    "music_name": "Ladymade Star",
+    "artist": "ESTi",
+    "difficulty": [
+      200,
+      500,
+      840,
+      1170
+    ]
+  },
+  "886": {
+    "music_name": "Memory of Beach",
+    "artist": "M2U",
+    "difficulty": [
+      200,
+      500,
+      1030,
+      1270
+    ]
+  },
+  "887": {
+    "music_name": "SON OF SUN",
+    "artist": "Hosoe Shinji",
+    "difficulty": [
+      500,
+      770,
+      1270,
+      1390
+    ]
+  },
+  "888": {
+    "music_name": "Rightfully",
+    "artist": "Mili「ゴブリンスレイヤー」",
+    "difficulty": [
+      300,
+      600,
+      890,
+      1260
+    ]
+  },
+  "889": {
+    "music_name": "巫女みこナース・愛のテーマ",
+    "artist": "Chu☆",
+    "difficulty": [
+      300,
+      600,
+      980,
+      1230
+    ]
+  },
+  "890": {
+    "music_name": "nowhere",
+    "artist": "FictionJunction YUUKA｢MADLAX｣",
+    "difficulty": [
+      200,
+      500,
+      870,
+      1100
+    ]
+  },
+  "891": {
+    "music_name": "音弾超人ゴリライザー",
+    "artist": "ゴリライザー制作委員会",
+    "difficulty": [
+      300,
+      700,
+      1100,
+      1290
+    ]
+  },
+  "892": {
+    "music_name": "Bull's Eye",
+    "artist": "ナノ「緋弾のアリアAA」",
+    "difficulty": [
+      300,
+      600,
+      950,
+      1270
+    ]
+  },
+  "893": {
+    "music_name": "Giselle",
+    "artist": "Sobrem a.k.a. Widowmaker",
+    "difficulty": [
+      300,
+      720,
+      1280,
+      1390
+    ]
+  },
+  "894": {
+    "music_name": "7 colors*",
+    "artist": "Aliesrite* (Ym1024 feat. lamie*)",
+    "difficulty": [
+      300,
+      600,
+      1000,
+      1260
+    ]
+  },
+  "895": {
+    "music_name": "Life is PIANO",
+    "artist": "Junk",
+    "difficulty": [
+      300,
+      600,
+      1040,
+      1270
+    ]
+  },
+  "896": {
+    "music_name": "タテマエと本心の大乱闘",
+    "artist": "曲：鯨井国家／歌：藍原 椿(CV：橋本 ちなみ)",
+    "difficulty": [
+      300,
+      600,
+      920,
+      1240
+    ]
+  },
+  "897": {
+    "music_name": "Zest of Blue",
+    "artist": "曲：上松範廉(Elements Garden)／歌：三角 葵(CV:春野 杏)",
+    "difficulty": [
+      300,
+      500,
+      880,
+      1210
+    ]
+  },
+  "901": {
+    "music_name": "Be A Shooter！～NORMAL BIG BONUS～",
+    "artist": "Sammy sound team",
+    "difficulty": [
+      300,
+      700,
+      1030,
+      1220
+    ]
+  },
+  "8146": {
+    "music_name": "なるがちゃんなぎにいよいよえれー目にあわされる話",
+    "artist": "イロドリミドリ",
+    "difficulty": []
+  },
+  "8180": {
+    "music_name": "【3Dサウンド】小野ちゃんが真夏のビーチでスイカを叩き割る話【イヤホン推奨】",
+    "artist": "HaNaMiNa",
+    "difficulty": []
+  },
+  "8181": {
+    "music_name": "conflict(斉唱)",
+    "artist": "イロドリミドリ",
+    "difficulty": []
+  },
+  "8005": {
+    "music_name": "Scatman (Ski Ba Bop Ba Dop Bop)",
+    "artist": "Scatman John",
+    "difficulty": []
+  },
+  "8006": {
+    "music_name": "Invitation",
+    "artist": "れるりり feat.ろん",
+    "difficulty": []
+  },
+  "8012": {
+    "music_name": "ＧＯ！ＧＯ！ラブリズム♥",
+    "artist": "片霧烈火オンザみんマンション",
+    "difficulty": []
+  },
+  "8027": {
+    "music_name": "All I Want",
+    "artist": "The Offspring",
+    "difficulty": []
+  },
+  "8031": {
+    "music_name": "STAY AWAY",
+    "artist": "L'Arc～en～Ciel [cover]",
+    "difficulty": []
+  },
+  "8047": {
+    "music_name": "青春はNon-Stop！",
+    "artist": "プラズマジカ 「SHOW BY ROCK!!」",
+    "difficulty": []
+  },
+  "8055": {
+    "music_name": "君色シグナル",
+    "artist": "春奈 るな 「冴えない彼女の育てかた」",
+    "difficulty": []
+  },
+  "8075": {
+    "music_name": "ブルー・フィールド",
+    "artist": "Trident 「蒼き鋼のアルペジオ ‐アルス・ノヴァ‐」",
+    "difficulty": []
+  },
+  "8109": {
+    "music_name": "睡蓮花",
+    "artist": "湘南乃風 [cover]",
+    "difficulty": []
+  },
+  "0": {
+    "music_name": "天体観測",
+    "artist": "BUMP OF CHICKEN [cover]",
+    "difficulty": [
+      200,
+      400,
+      780,
+      950
+    ]
+  },
+  "5": {
+    "music_name": "Scatman (Ski Ba Bop Ba Dop Bop)",
+    "artist": "Scatman John",
+    "difficulty": [
+      200,
+      500,
+      940,
+      1130
+    ]
+  },
+  "9": {
+    "music_name": "情熱大陸",
+    "artist": "→Pia-no-jaC←×葉加瀬 太郎",
+    "difficulty": [
+      300,
+      600,
+      830,
+      1200
+    ]
+  },
+  "10": {
+    "music_name": "All I Want",
+    "artist": "The Offspring",
+    "difficulty": [
+      300,
+      600,
+      860,
+      1170
+    ]
+  },
+  "12": {
+    "music_name": "紅蓮の弓矢",
+    "artist": "Linked Horizon",
+    "difficulty": [
+      300,
+      600,
+      920,
+      1060
+    ]
+  },
+  "17": {
+    "music_name": "空色デイズ",
+    "artist": "中川 翔子",
+    "difficulty": [
+      200,
+      400,
+      820,
+      1120
+    ]
+  },
+  "36": {
+    "music_name": "届かない恋 '13",
+    "artist": "上原 れな 「WHITE ALBUM2」",
+    "difficulty": [
+      200,
+      500,
+      890,
+      1100
+    ]
+  },
+  "39": {
+    "music_name": "1/3の純情な感情",
+    "artist": "SIAM SHADE [covered by 湯毛]",
+    "difficulty": [
+      200,
+      400,
+      760,
+      930
+    ]
+  },
+  "42": {
+    "music_name": "oath sign",
+    "artist": "LiSA",
+    "difficulty": [
+      200,
+      500,
+      820,
+      1160
+    ]
+  },
+  "43": {
+    "music_name": "太陽曰く燃えよカオス",
+    "artist": "後ろから這いより隊G [cover]",
+    "difficulty": [
+      200,
+      400,
+      810,
+      1080
+    ]
+  },
+  "54": {
+    "music_name": "ブルーバード",
+    "artist": "いきものがかり [cover]",
+    "difficulty": [
+      200,
+      500,
+      830,
+      1060
+    ]
+  },
+  "56": {
+    "music_name": "そばかす",
+    "artist": "JUDY AND MARY [cover]",
+    "difficulty": [
+      200,
+      400,
+      840,
+      1100
+    ]
+  },
+  "57": {
+    "music_name": "STAY AWAY",
+    "artist": "L'Arc～en～Ciel [cover]",
+    "difficulty": [
+      300,
+      600,
+      840,
+      970
+    ]
+  },
+  "58": {
+    "music_name": "魂のルフラン",
+    "artist": "[cover]",
+    "difficulty": [
+      200,
+      500,
+      770,
+      940
+    ]
+  },
+  "60": {
+    "music_name": "only my railgun",
+    "artist": "fripSide [cover]",
+    "difficulty": [
+      200,
+      500,
+      880,
+      1140
+    ]
+  },
+  "84": {
+    "music_name": "V.I.P",
+    "artist": "シド [cover]",
+    "difficulty": [
+      300,
+      600,
+      880,
+      1040
+    ]
+  },
+  "85": {
+    "music_name": "睡蓮花",
+    "artist": "湘南乃風 [cover]",
+    "difficulty": [
+      300,
+      500,
+      750,
+      1030
+    ]
+  },
+  "86": {
+    "music_name": "キラーボール",
+    "artist": "ゲスの極み乙女。",
+    "difficulty": [
+      300,
+      500,
+      720,
+      1000
+    ]
+  },
+  "87": {
+    "music_name": "Butter-Fly",
+    "artist": "和田 光司 [cover]",
+    "difficulty": [
+      300,
+      500,
+      870,
+      1040
+    ]
+  },
+  "109": {
+    "music_name": "Emotions",
+    "artist": "MAN WITH A MISSION",
+    "difficulty": [
+      300,
+      500,
+      880,
+      1070
+    ]
+  },
+  "110": {
+    "music_name": "Magia",
+    "artist": "Kalafina 「魔法少女まどか☆マギカ」",
+    "difficulty": [
+      200,
+      500,
+      910,
+      1120
+    ]
+  },
+  "111": {
+    "music_name": "staple stable",
+    "artist": "戦場ヶ原 ひたぎ 「化物語」",
+    "difficulty": [
+      200,
+      500,
+      960,
+      1130
+    ]
+  },
+  "112": {
+    "music_name": "マジLOVE1000%",
+    "artist": "ST☆RISH",
+    "difficulty": [
+      200,
+      500,
+      820,
+      1100
+    ]
+  },
+  "125": {
+    "music_name": "Little Busters! ～TV animation ver.～",
+    "artist": "Rita",
+    "difficulty": [
+      300,
+      500,
+      840,
+      1100
+    ]
+  },
+  "126": {
+    "music_name": "Heart To Heart",
+    "artist": "上原 れな",
+    "difficulty": [
+      200,
+      500,
+      830,
+      1130
+    ]
+  },
+  "129": {
+    "music_name": "Hacking to the Gate",
+    "artist": "いとう かなこ 「STEINS;GATE」",
+    "difficulty": [
+      200,
+      500,
+      950,
+      1120
+    ]
+  },
+  "130": {
+    "music_name": "スカイクラッドの観測者",
+    "artist": "いとう かなこ 「STEINS;GATE」",
+    "difficulty": [
+      300,
+      600,
+      940,
+      1170
+    ]
+  },
+  "155": {
+    "music_name": "ブルー・フィールド",
+    "artist": "Trident 「蒼き鋼のアルペジオ ‐アルス・ノヴァ‐」",
+    "difficulty": [
+      200,
+      500,
+      970,
+      1070
+    ]
+  },
+  "182": {
+    "music_name": "WHITE ALBUM Live at Campus Fes",
+    "artist": "小木曽 雪菜(CV:米澤 円) 「WHITE ALBUM2」",
+    "difficulty": [
+      200,
+      400,
+      750,
+      1010
+    ]
+  },
+  "184": {
+    "music_name": "Last regrets",
+    "artist": "彩菜",
+    "difficulty": [
+      100,
+      400,
+      770,
+      1000
+    ]
+  },
+  "185": {
+    "music_name": "楽園の翼",
+    "artist": "黒崎 真音 「グリザイアの果実」",
+    "difficulty": [
+      200,
+      600,
+      870,
+      1120
+    ]
+  },
+  "209": {
+    "music_name": "君色シグナル",
+    "artist": "春奈 るな 「冴えない彼女の育てかた」",
+    "difficulty": [
+      300,
+      500,
+      930,
+      1120
+    ]
+  },
+  "214": {
+    "music_name": "青春はNon-Stop！",
+    "artist": "プラズマジカ 「SHOW BY ROCK!!」",
+    "difficulty": [
+      200,
+      500,
+      990,
+      1180
+    ]
+  },
+  "215": {
+    "music_name": "Falling Roses",
+    "artist": "シンガンクリムゾンズ 「SHOW BY ROCK!!」",
+    "difficulty": [
+      300,
+      600,
+      960,
+      1240
+    ]
+  },
+  "231": {
+    "music_name": "カラフル。",
+    "artist": "沢井 美空 「冴えない彼女の育てかた」",
+    "difficulty": [
+      300,
+      400,
+      830,
+      1100
+    ]
+  },
+  "255": {
+    "music_name": "激情！ミルキィ大作戦",
+    "artist": "ミルキィホームズ 「劇場版 探偵オペラ ミルキィホームズ ～逆襲のミルキィホームズ～」",
+    "difficulty": [
+      300,
+      500,
+      870,
+      1100
+    ]
+  },
   "8001": {
     "music_name": "幾四音-Ixion-",
     "artist": "M.S.S Project",
@@ -6894,11 +8399,6 @@
     "artist": "そらる・ろん×れるりり",
     "difficulty": []
   },
-  "8130": {
-    "music_name": "初音ミクの激唱",
-    "artist": "Storyteller",
-    "difficulty": []
-  },
   "8131": {
     "music_name": "未来イマジネーション！",
     "artist": "SPRiNGS「温泉むすめ」",
@@ -6909,49 +8409,9 @@
     "artist": "ゆずひこ feat.めらみぽっぷ",
     "difficulty": []
   },
-  "8133": {
-    "music_name": "Genesis",
-    "artist": "Morrigan feat.Lily",
-    "difficulty": []
-  },
-  "8134": {
-    "music_name": "D✪N’T ST✪P R✪CKIN’ ～[✪_✪] MIX～",
-    "artist": "EB (aka EarBreaker)",
-    "difficulty": []
-  },
-  "8135": {
-    "music_name": "WARNING×WARNING×WARNING",
-    "artist": "暁Records",
-    "difficulty": []
-  },
-  "8136": {
-    "music_name": "Angel dust",
-    "artist": "LV.4",
-    "difficulty": []
-  },
-  "8137": {
-    "music_name": "G e n g a o z o",
-    "artist": "-45",
-    "difficulty": []
-  },
-  "8138": {
-    "music_name": "灼熱スイッチ",
-    "artist": "雀が原中学卓球部「灼熱の卓球娘」",
-    "difficulty": []
-  },
-  "8139": {
-    "music_name": "Pastel Party",
-    "artist": "Tomggg",
-    "difficulty": []
-  },
   "8140": {
     "music_name": "風に乗せた願い",
     "artist": "豚乙女",
-    "difficulty": []
-  },
-  "8141": {
-    "music_name": "End Time",
-    "artist": "Cres.",
     "difficulty": []
   },
   "8142": {
@@ -6959,34 +8419,1789 @@
     "artist": "t+pazolite",
     "difficulty": []
   },
-  "8143": {
-    "music_name": "SEVENTH HAVEN",
-    "artist": "セブンスシスターズ「Tokyo 7th シスターズ」",
-    "difficulty": []
-  },
-  "8144": {
-    "music_name": "裏表ラバーズ",
-    "artist": "wowaka",
-    "difficulty": []
-  },
-  "8145": {
-    "music_name": "Twice up Scenery",
-    "artist": "q/stol",
-    "difficulty": []
-  },
-  "8146": {
-    "music_name": "なるがちゃんなぎにいよいよえれー目にあわされる話",
-    "artist": "イロドリミドリ",
-    "difficulty": []
-  },
   "8147": {
     "music_name": "怒槌～光吉猛修一部謎～",
     "artist": "光吉猛修",
     "difficulty": []
   },
-  "8148": {
-    "music_name": "ようこそジャパリパークへ",
-    "artist": "どうぶつビスケッツ×PPP「けものフレンズ」",
+  "55": {
+    "music_name": "夏祭り",
+    "artist": "JITTERIN'JINN [covered by ろん]",
+    "difficulty": [
+      200,
+      400,
+      840,
+      1120
+    ]
+  },
+  "124": {
+    "music_name": "夏影",
+    "artist": "VisualArt's/Key「AIR」",
+    "difficulty": [
+      100,
+      400,
+      830,
+      1220
+    ]
+  },
+  "238": {
+    "music_name": "フレンズ",
+    "artist": "レベッカ [covered by 光吉猛修]",
+    "difficulty": [
+      200,
+      500,
+      850,
+      1190
+    ]
+  },
+  "269": {
+    "music_name": "僕らの翼",
+    "artist": "隣人部「僕は友達が少ないNEXT」",
+    "difficulty": [
+      300,
+      500,
+      850,
+      1110
+    ]
+  },
+  "296": {
+    "music_name": "かくしん的☆めたまるふぉ～ぜっ!",
+    "artist": "土間うまる [CV.田中あいみ]「干物妹！うまるちゃん」",
+    "difficulty": [
+      300,
+      500,
+      870,
+      1210
+    ]
+  },
+  "299": {
+    "music_name": "secret base ～君がくれたもの～ (10 years after Ver.)",
+    "artist": "本間芽衣子(茅野愛衣)、安城鳴子(戸松遥)、鶴見知利子(早見沙織)「あの日見た花の名前を僕達はまだ知らない。」",
+    "difficulty": [
+      100,
+      400,
+      870,
+      1140
+    ]
+  },
+  "308": {
+    "music_name": "fake!fake!",
+    "artist": "カラスは真っ白",
+    "difficulty": [
+      300,
+      600,
+      940,
+      1190
+    ]
+  },
+  "309": {
+    "music_name": "Rising Hope",
+    "artist": "LiSA",
+    "difficulty": [
+      300,
+      600,
+      920,
+      1250
+    ]
+  },
+  "311": {
+    "music_name": "Be My Friend",
+    "artist": "隣人部「僕は友達が少ないNEXT」",
+    "difficulty": [
+      300,
+      500,
+      890,
+      1180
+    ]
+  },
+  "313": {
+    "music_name": "ひだまりデイズ",
+    "artist": "妹S（シスターズ）（土間うまる [CV.田中あいみ]、海老名菜々 [CV.影山灯]、本場切絵 [CV.白石晴香]、橘・シルフィンフォード [CV.古川由利奈]）「干物妹！うまるちゃん」",
+    "difficulty": [
+      200,
+      400,
+      850,
+      1140
+    ]
+  },
+  "315": {
+    "music_name": "オラシオン",
+    "artist": "白（CV:茅野愛衣）「ノーゲーム・ノーライフ」",
+    "difficulty": [
+      300,
+      500,
+      860,
+      1130
+    ]
+  },
+  "343": {
+    "music_name": "Daydream café",
+    "artist": "Petit Rabbit's「ご注文はうさぎですか？？」",
+    "difficulty": [
+      300,
+      500,
+      850,
+      1160
+    ]
+  },
+  "344": {
+    "music_name": "ノーポイッ!",
+    "artist": "Petit Rabbit's「ご注文はうさぎですか？？」",
+    "difficulty": [
+      200,
+      500,
+      830,
+      1180
+    ]
+  },
+  "345": {
+    "music_name": "ムーンライト伝説",
+    "artist": "DALI [covered by 光吉猛修]",
+    "difficulty": [
+      200,
+      500,
+      850,
+      1170
+    ]
+  },
+  "348": {
+    "music_name": "Jumping!!",
+    "artist": "Rhodanthe*",
+    "difficulty": [
+      200,
+      500,
+      930,
+      1130
+    ]
+  },
+  "349": {
+    "music_name": "極上スマイル",
+    "artist": "Wake Up, Girls！",
+    "difficulty": [
+      200,
+      500,
+      870,
+      1070
+    ]
+  },
+  "350": {
+    "music_name": "FEEL×ALIVE",
+    "artist": "佐咲紗花",
+    "difficulty": [
+      300,
+      600,
+      960,
+      1270
+    ]
+  },
+  "351": {
+    "music_name": "ぶぉん！ぶぉん！らいど・おん！",
+    "artist": "佐倉羽音(CV.上田麗奈)、鈴乃木凜(CV.東山奈央)、天野恩紗(CV.内山夕実)、三ノ輪聖(CV.山口立花子)",
+    "difficulty": [
+      300,
+      600,
+      900,
+      1290
+    ]
+  },
+  "352": {
+    "music_name": "Star☆Glitter",
+    "artist": "セブンスシスターズ「Tokyo 7th シスターズ」",
+    "difficulty": [
+      300,
+      600,
+      930,
+      1200
+    ]
+  },
+  "353": {
+    "music_name": "H-A-J-I-M-A-R-I-U-T-A-!!",
+    "artist": "777☆SISTERS「Tokyo 7th シスターズ」",
+    "difficulty": [
+      300,
+      500,
+      840,
+      1090
+    ]
+  },
+  "355": {
+    "music_name": "だんご大家族",
+    "artist": "茶太「CLANNAD -クラナド-」",
+    "difficulty": [
+      100,
+      400,
+      780,
+      1010
+    ]
+  },
+  "358": {
+    "music_name": "My Soul,Your Beats!",
+    "artist": "Lia「Angel Beats!」",
+    "difficulty": [
+      200,
+      400,
+      930,
+      1170
+    ]
+  },
+  "359": {
+    "music_name": "Thousand Enemies",
+    "artist": "Girls Dead Monster「Angel Beats!」",
+    "difficulty": [
+      300,
+      500,
+      870,
+      1180
+    ]
+  },
+  "360": {
+    "music_name": "夢想歌",
+    "artist": "Suara「うたわれるもの」",
+    "difficulty": [
+      200,
+      500,
+      830,
+      1130
+    ]
+  },
+  "8008": {
+    "music_name": "ナイト・オブ・ナイツ",
+    "artist": "ビートまりお",
     "difficulty": []
+  },
+  "8033": {
+    "music_name": "Your Affection (Daisuke Asakura Remix)",
+    "artist": "目黒将司 Remixed by 浅倉大介「ペルソナ4 ダンシング・オールナイト」",
+    "difficulty": []
+  },
+  "8034": {
+    "music_name": "一触即発☆禅ガール",
+    "artist": "れるりり",
+    "difficulty": []
+  },
+  "8043": {
+    "music_name": "Genesis",
+    "artist": "Morrigan feat.Lily",
+    "difficulty": []
+  },
+  "8045": {
+    "music_name": "Elemental Creation",
+    "artist": "dj TAKA meets DJ YOSHITAKA",
+    "difficulty": []
+  },
+  "8046": {
+    "music_name": "いろは唄",
+    "artist": "銀サク",
+    "difficulty": []
+  },
+  "8048": {
+    "music_name": "Alma",
+    "artist": "光田 康典",
+    "difficulty": []
+  },
+  "8057": {
+    "music_name": "砂漠のハンティングガール♡",
+    "artist": "海田 明里",
+    "difficulty": []
+  },
+  "8058": {
+    "music_name": "ジングルベル",
+    "artist": "SEGA Sound Unit [H.]",
+    "difficulty": []
+  },
+  "8059": {
+    "music_name": "エンドマークに希望と涙を添えて",
+    "artist": "cosMo＠暴走P",
+    "difficulty": []
+  },
+  "8063": {
+    "music_name": "Counselor",
+    "artist": "DECO*27 feat.echo",
+    "difficulty": []
+  },
+  "8064": {
+    "music_name": "SAMBISTA",
+    "artist": "DOT96",
+    "difficulty": []
+  },
+  "8065": {
+    "music_name": "We Gonna Journey",
+    "artist": "Queen P.A.L.",
+    "difficulty": []
+  },
+  "8066": {
+    "music_name": "The ether",
+    "artist": "浜渦 正志",
+    "difficulty": []
+  },
+  "8067": {
+    "music_name": "DRAGONLADY",
+    "artist": "Nankumo/CUBE3",
+    "difficulty": []
+  },
+  "8069": {
+    "music_name": "★LittlE HearTs★",
+    "artist": "ねこみみ魔法使い",
+    "difficulty": []
+  },
+  "8072": {
+    "music_name": "Gate of Fate",
+    "artist": "Godspeed",
+    "difficulty": []
+  },
+  "8074": {
+    "music_name": "MUSIC PЯAYER",
+    "artist": "A-One",
+    "difficulty": []
+  },
+  "8079": {
+    "music_name": "The wheel to the right",
+    "artist": "Sampling Masters MEGA",
+    "difficulty": []
+  },
+  "8082": {
+    "music_name": "神威",
+    "artist": "TJ.hangneil",
+    "difficulty": []
+  },
+  "8085": {
+    "music_name": "エテルニタス・ルドロジー",
+    "artist": "IRON ATTACK!",
+    "difficulty": []
+  },
+  "8086": {
+    "music_name": "Blue Noise",
+    "artist": "from PACA PACA PASSION",
+    "difficulty": []
+  },
+  "8089": {
+    "music_name": "Dengeki Tube",
+    "artist": "BACO",
+    "difficulty": []
+  },
+  "8092": {
+    "music_name": "STAR",
+    "artist": "SEXY-SYNTHESIZER",
+    "difficulty": []
+  },
+  "8093": {
+    "music_name": "Star☆Glitter",
+    "artist": "セブンスシスターズ「Tokyo 7th シスターズ」",
+    "difficulty": []
+  },
+  "8094": {
+    "music_name": "Starlight Dance Floor",
+    "artist": "発熱巫女～ず",
+    "difficulty": []
+  },
+  "8095": {
+    "music_name": "ひだまりデイズ",
+    "artist": "妹S（シスターズ）（土間うまる [CV.田中あいみ]、海老名菜々 [CV.影山灯]、本場切絵 [CV.白石晴香]、橘・シルフィンフォード [CV.古川由利奈]）「干物妹！うまるちゃん」",
+    "difficulty": []
+  },
+  "8097": {
+    "music_name": "elegante",
+    "artist": "Junk",
+    "difficulty": []
+  },
+  "8100": {
+    "music_name": "L9",
+    "artist": "paraoka",
+    "difficulty": []
+  },
+  "8101": {
+    "music_name": "RevolutionGame",
+    "artist": "れるりり feat.ろん",
+    "difficulty": []
+  },
+  "8103": {
+    "music_name": "taboo tears you up",
+    "artist": "REDALiCE (HARDCORE TANO*C)",
+    "difficulty": []
+  },
+  "8104": {
+    "music_name": "玩具狂奏曲 -終焉-",
+    "artist": "きくお",
+    "difficulty": []
+  },
+  "8105": {
+    "music_name": "その群青が愛しかったようだった",
+    "artist": "n-buna feat.ヤギヌマカナ",
+    "difficulty": []
+  },
+  "8106": {
+    "music_name": "アウターサイエンス",
+    "artist": "じん",
+    "difficulty": []
+  },
+  "8107": {
+    "music_name": "L'épisode",
+    "artist": "Osamu Kubota",
+    "difficulty": []
+  },
+  "8111": {
+    "music_name": "MIRU key way",
+    "artist": "JaccaPoP",
+    "difficulty": []
+  },
+  "8113": {
+    "music_name": "Theme of SeelischTact",
+    "artist": "植松 伸夫",
+    "difficulty": []
+  },
+  "8114": {
+    "music_name": "Glorious Crown (tpz over-Over-OVERCUTE REMIX)",
+    "artist": "t+pazolite",
+    "difficulty": []
+  },
+  "8115": {
+    "music_name": "若い力 -SEGA HARD GIRLS MIX-",
+    "artist": "セガ・ハード・ガールズ",
+    "difficulty": []
+  },
+  "8118": {
+    "music_name": "悪戯",
+    "artist": "ろん×田中秀和(MONACA)",
+    "difficulty": []
+  },
+  "8119": {
+    "music_name": "adrenaline!!!",
+    "artist": "TrySail「エロマンガ先生」",
+    "difficulty": []
+  },
+  "8120": {
+    "music_name": "ロボットプラネットユートピア",
+    "artist": "lumo",
+    "difficulty": []
+  },
+  "8125": {
+    "music_name": "Hyper Active",
+    "artist": "HiTECH NINJA",
+    "difficulty": []
+  },
+  "8153": {
+    "music_name": "Pastel Party",
+    "artist": "Tomggg",
+    "difficulty": []
+  },
+  "904": {
+    "music_name": "お願いマッスル",
+    "artist": "紗倉ひびきCV:ファイルーズあい）＆街雄鳴造（CV:石川界人）「ダンベル何キロ持てる？」",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1220
+    ]
+  },
+  "978": {
+    "music_name": "Ascension to Heaven",
+    "artist": "xi",
+    "difficulty": [
+      400,
+      800,
+      1270,
+      1380
+    ]
+  },
+  "1078": {
+    "music_name": "Surveiller et punir「狂」",
+    "artist": "cybermiso",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1390
+    ]
+  },
+  "1079": {
+    "music_name": "folern「狂」",
+    "artist": "ぬゆり",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1390
+    ]
+  },
+  "899": {
+    "music_name": "conflict(斉唱)",
+    "artist": "イロドリミドリ",
+    "difficulty": [
+      400,
+      700,
+      1090,
+      1330
+    ]
+  },
+  "905": {
+    "music_name": "紅蓮華",
+    "artist": "LiSA",
+    "difficulty": [
+      200,
+      500,
+      870,
+      1190
+    ]
+  },
+  "907": {
+    "music_name": "五等分の気持ち",
+    "artist": "中野家の五つ子（花澤香菜・竹達彩奈・伊藤美来・佐倉綾音・水瀬いのり） TVアニメ「五等分の花嫁」",
+    "difficulty": [
+      300,
+      500,
+      990,
+      1140
+    ]
+  },
+  "908": {
+    "music_name": "God knows...",
+    "artist": "涼宮ハルヒ（CV.平野 綾） TVアニメ「涼宮ハルヒの憂鬱」",
+    "difficulty": [
+      200,
+      600,
+      910,
+      1230
+    ]
+  },
+  "909": {
+    "music_name": "Catch the Wave",
+    "artist": "livetune",
+    "difficulty": [
+      200,
+      600,
+      900,
+      1210
+    ]
+  },
+  "911": {
+    "music_name": "Sound Chimera",
+    "artist": "Laur",
+    "difficulty": [
+      400,
+      900,
+      1100,
+      1380
+    ]
+  },
+  "912": {
+    "music_name": "やらなきゃいけないことばかり",
+    "artist": "小仏 凪(CV:佐倉 薫)＆月鈴 白奈(CV:高野 麻里佳)",
+    "difficulty": [
+      200,
+      600,
+      930,
+      1260
+    ]
+  },
+  "913": {
+    "music_name": "エンドマークに希望と涙を添えて ～イロドリミドリアレンジ～",
+    "artist": "イロドリミドリ",
+    "difficulty": [
+      300,
+      700,
+      1030,
+      1300
+    ]
+  },
+  "919": {
+    "music_name": "Ray ―はじまりのセカイ― (クロニクルアレンジver.)",
+    "artist": "山崎寛子「白猫プロジェクト」",
+    "difficulty": [
+      200,
+      500,
+      780,
+      1190
+    ]
+  },
+  "920": {
+    "music_name": "狩猟戦旗～REQUIEM",
+    "artist": "「白猫プロジェクト」",
+    "difficulty": [
+      300,
+      600,
+      940,
+      1290
+    ]
+  },
+  "921": {
+    "music_name": "メルティランドナイトメア",
+    "artist": "はるまきごはん",
+    "difficulty": [
+      200,
+      600,
+      890,
+      1150
+    ]
+  },
+  "922": {
+    "music_name": "絶対にチョコミントを食べるアオイチャン",
+    "artist": "GYARI",
+    "difficulty": [
+      300,
+      600,
+      910,
+      1250
+    ]
+  },
+  "923": {
+    "music_name": "だれかの心臓になれたなら",
+    "artist": "ユリイ・カノン",
+    "difficulty": [
+      200,
+      600,
+      880,
+      1220
+    ]
+  },
+  "924": {
+    "music_name": "アイドル活動！オンパレード！ver.",
+    "artist": "らき・あいね・みお from BEST FRIENDS！/わか・るか・せな「アイカツオンパレード！」",
+    "difficulty": [
+      300,
+      500,
+      800,
+      1160
+    ]
+  },
+  "925": {
+    "music_name": "ダイヤモンドハッピー",
+    "artist": "わか・ふうり・すなお from STAR☆ANIS「アイカツ！」",
+    "difficulty": [
+      300,
+      600,
+      880,
+      1240
+    ]
+  },
+  "934": {
+    "music_name": "紅き魔汁、闇より降りて天啓の響きを導く",
+    "artist": "月鈴 白奈(CV:高野 麻里佳)",
+    "difficulty": [
+      400,
+      770,
+      1060,
+      1300
+    ]
+  },
+  "965": {
+    "music_name": "禁じられた遊び",
+    "artist": "ALI PROJECT「ローゼンメイデン」",
+    "difficulty": [
+      200,
+      500,
+      850,
+      1230
+    ]
+  },
+  "966": {
+    "music_name": "Jade Star",
+    "artist": "SHIKI",
+    "difficulty": [
+      400,
+      700,
+      1070,
+      1330
+    ]
+  },
+  "986": {
+    "music_name": "さよならエレジー",
+    "artist": "菅田将暉",
+    "difficulty": [
+      200,
+      500,
+      820,
+      1150
+    ]
+  },
+  "8182": {
+    "music_name": "Life",
+    "artist": "Relect",
+    "difficulty": []
+  },
+  "8183": {
+    "music_name": "チョウの標本",
+    "artist": "Bitplane",
+    "difficulty": []
+  },
+  "8184": {
+    "music_name": "あ・え・い・う・え・お・あお!!",
+    "artist": "劇団ひととせ「ひなこのーと」",
+    "difficulty": []
+  },
+  "8185": {
+    "music_name": "ロキ",
+    "artist": "みきとP",
+    "difficulty": []
+  },
+  "928": {
+    "music_name": "Day by Day CRiSiS Songs",
+    "artist": "御形 アリシアナ(CV:福原 綾香)＆箱部 なる(CV:M・A・O)",
+    "difficulty": [
+      200,
+      500,
+      940,
+      1260
+    ]
+  },
+  "935": {
+    "music_name": "ロング・スロー・アライブ",
+    "artist": "はるまきごはん feat.めらみぽっぷ",
+    "difficulty": [
+      300,
+      600,
+      930,
+      1190
+    ]
+  },
+  "936": {
+    "music_name": "迷える薔薇に終わらぬ夜を",
+    "artist": "YM feat.かんせる",
+    "difficulty": [
+      300,
+      600,
+      1040,
+      1230
+    ]
+  },
+  "937": {
+    "music_name": "パームカルマ",
+    "artist": "ポリスピカデリー feat.相宮零",
+    "difficulty": [
+      300,
+      700,
+      1150,
+      1290
+    ]
+  },
+  "938": {
+    "music_name": "Therapeutic Hoedown",
+    "artist": "うどんゲルゲ",
+    "difficulty": [
+      400,
+      850,
+      1210,
+      1350
+    ]
+  },
+  "951": {
+    "music_name": "かっとばせ！未来へ",
+    "artist": "HUiT「八月のシンデレラナイン」",
+    "difficulty": [
+      300,
+      600,
+      900,
+      1150
+    ]
+  },
+  "952": {
+    "music_name": "ALL FOR ONE★",
+    "artist": "Clutch!「八月のシンデレラナイン」",
+    "difficulty": [
+      300,
+      500,
+      800,
+      1170
+    ]
+  },
+  "953": {
+    "music_name": "グリーンライツ・セレナーデ",
+    "artist": "Omoi",
+    "difficulty": [
+      300,
+      600,
+      910,
+      1270
+    ]
+  },
+  "954": {
+    "music_name": "ブレス・ユア・ブレス",
+    "artist": "和田たけあき",
+    "difficulty": [
+      300,
+      500,
+      850,
+      1250
+    ]
+  },
+  "955": {
+    "music_name": "Jump for Joy",
+    "artist": "EasyPop",
+    "difficulty": [
+      200,
+      500,
+      970,
+      1190
+    ]
+  },
+  "944": {
+    "music_name": "felys -final remix-",
+    "artist": "onoken",
+    "difficulty": [
+      400,
+      700,
+      1210,
+      1340
+    ]
+  },
+  "945": {
+    "music_name": "アフタースクール・エモーション",
+    "artist": "明坂 芹菜(CV:新田 恵海)＆天王洲 なずな(CV:山本 彩乃)",
+    "difficulty": [
+      200,
+      500,
+      870,
+      1160
+    ]
+  },
+  "946": {
+    "music_name": "Jörqer",
+    "artist": "owl＊tree feat.yu＊tree",
+    "difficulty": [
+      300,
+      600,
+      1000,
+      1280
+    ]
+  },
+  "947": {
+    "music_name": "ちゅんちゅちゅチューン",
+    "artist": "さつき が てんこもり feat.kana",
+    "difficulty": [
+      300,
+      600,
+      1000,
+      1250
+    ]
+  },
+  "948": {
+    "music_name": "ドルオタ忍道！楠子ノ巻",
+    "artist": "コバヤシユウヤ（IOSYS） feat.You-Re:",
+    "difficulty": [
+      300,
+      600,
+      1070,
+      1230
+    ]
+  },
+  "949": {
+    "music_name": "エキセントリックコンコン",
+    "artist": "Clean Tears",
+    "difficulty": [
+      300,
+      500,
+      1040,
+      1270
+    ]
+  },
+  "950": {
+    "music_name": "大天使ユリア★降臨!",
+    "artist": "MOSAIC.WAV",
+    "difficulty": [
+      400,
+      800,
+      1110,
+      1320
+    ]
+  },
+  "962": {
+    "music_name": "檄!帝国華撃団〈新章〉",
+    "artist": "佐倉綾音（天宮さくら）、内田真礼（東雲初穂）、山村響（望月あざみ）、福原綾香（アナスタシア・パルマ）、早見沙織（クラリス）「新サクラ大戦」",
+    "difficulty": [
+      300,
+      600,
+      830,
+      1170
+    ]
+  },
+  "979": {
+    "music_name": "Sweet Requiem",
+    "artist": "REDALiCE & aran",
+    "difficulty": [
+      400,
+      600,
+      1090,
+      1320
+    ]
+  },
+  "980": {
+    "music_name": "レータイスパークEx",
+    "artist": "ビートまりお（COOL&CREATE）",
+    "difficulty": [
+      400,
+      700,
+      1100,
+      1330
+    ]
+  },
+  "902": {
+    "music_name": "HELLO to DREAM",
+    "artist": "井口裕香「ダンジョンに出会いを求めるのは間違っているだろうかⅡ」",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1110
+    ]
+  },
+  "903": {
+    "music_name": "君色Everyday",
+    "artist": "ヘスティア(CV:水瀬いのり)「ダンジョンに出会いを求めるのは間違っているだろうか」",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1140
+    ]
+  },
+  "910": {
+    "music_name": "Auxesia",
+    "artist": "ginkiha「Arcaea」",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1270
+    ]
+  },
+  "914": {
+    "music_name": "Secret Sleuth",
+    "artist": "島爺×蜂屋ななし",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1270
+    ]
+  },
+  "915": {
+    "music_name": "Ghost Dance",
+    "artist": "亜沙 feat.くろくも",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1220
+    ]
+  },
+  "916": {
+    "music_name": "モノクロトワイライト",
+    "artist": "カラフル・サウンズ・ポート",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1270
+    ]
+  },
+  "0917": {
+    "music_name": "シャッキーーン！！",
+    "artist": "黒魔",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1350
+    ]
+  },
+  "918": {
+    "music_name": "《破滅》 ～ Rhapsody for The End",
+    "artist": "Spiegel vs Ice",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1390
+    ]
+  },
+  "3000": {
+    "music_name": "サラマンドラの踊り子",
+    "artist": "葉月ゆら",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1190
+    ]
+  },
+  "3001": {
+    "music_name": "Cyka Blyat",
+    "artist": "Evan-Sone",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1270
+    ]
+  },
+  "3002": {
+    "music_name": "Astronomia",
+    "artist": "Vicetone & Tony Igy",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1000
+    ]
+  },
+  "3003": {
+    "music_name": "MARENOL(Remake)",
+    "artist": "LeaF",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1340
+    ]
+  },
+  "3004": {
+    "music_name": "Ai Drew",
+    "artist": "Feryquitous",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1380
+    ]
+  },
+  "3006": {
+    "music_name": "Good bye, Merry-Go-Round.",
+    "artist": "Yooh",
+    "difficulty": [
+      0,
+      0,
+      1370,
+      1390
+    ]
+  },
+  "3010": {
+    "music_name": "DX超性能フルメタル少女",
+    "artist": "IOSYS TRAX (uno with.ちよこ)",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1350
+    ]
+  },
+  "3011": {
+    "music_name": "ω4",
+    "artist": "穴山大輔 VS 光吉猛修 VS Kai",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1410
+    ]
+  },
+  "3018": {
+    "music_name": "STERELOGUE",
+    "artist": "Veetacrush",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1320
+    ]
+  },
+  "3021": {
+    "music_name": "O-Ku-Ri-Mo-No Sunday!",
+    "artist": "久川凪&久川楓",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1300
+    ]
+  },
+  "3022": {
+    "music_name": "PANDORA PARADOXXX",
+    "artist": "削除",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1400
+    ]
+  },
+  "3024": {
+    "music_name": "Cross Fire",
+    "artist": "Hommarju vs RoughSketch",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1390
+    ]
+  },
+  "3026": {
+    "music_name": "lineθ",
+    "artist": "Nitro",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1380
+    ]
+  },
+  "3028": {
+    "music_name": "Dolphika",
+    "artist": "HiTECH NINJA",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1300
+    ]
+  },
+  "3032": {
+    "music_name": "願いBOKUTO",
+    "artist": "霜月はるか & じーざすP feat.kradness",
+    "difficulty": [
+      300,
+      500,
+      870,
+      1160
+    ]
+  },
+  "3033": {
+    "music_name": "FFT",
+    "artist": "cybermiso",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1390
+    ]
+  },
+  "3034": {
+    "music_name": "Good bye, Merry-Go-Round. 狂",
+    "artist": "Yooh",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1400
+    ]
+  },
+  "3036": {
+    "music_name": "大宇宙ステージ",
+    "artist": "黒魔",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1300
+    ]
+  },
+  "3037": {
+    "music_name": "QzKago Requiem",
+    "artist": "t+pazolite",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1420
+    ]
+  },
+  "3038": {
+    "music_name": "No Remorse",
+    "artist": "並木 学「ケツイ ～絆地獄たち～」",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1470
+    ]
+  },
+  "3039": {
+    "music_name": "Super Mega Jumbo",
+    "artist": "USAO",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1230
+    ]
+  },
+  "3040": {
+    "music_name": "Antaogonism",
+    "artist": "Yooh vs. siromaru",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1330
+    ]
+  },
+  "3041": {
+    "music_name": "Titania",
+    "artist": "xi",
+    "difficulty": [
+      0,
+      0,
+      1340,
+      1380
+    ]
+  },
+  "3042": {
+    "music_name": "おちゃめ機能 ~ Hololive Version",
+    "artist": "Hololive [Cover]",
+    "difficulty": [
+      200,
+      500,
+      850,
+      1200
+    ]
+  },
+  "3043": {
+    "music_name": "Magical Flavor",
+    "artist": "DECO*27",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1170
+    ]
+  },
+  "3044": {
+    "music_name": "Splash Dance!!",
+    "artist": "オンゲキシューターズ",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1250
+    ]
+  },
+  "3045": {
+    "music_name": "Vibes 2k20「招」",
+    "artist": "Sound Artz",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1270
+    ]
+  },
+  "3049": {
+    "music_name": "QzKago Requiem(ReMake)",
+    "artist": "t+pazolite",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1390
+    ]
+  },
+  "3051": {
+    "music_name": "What color...",
+    "artist": "Ayaka Saotome",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1180
+    ]
+  },
+  "3052": {
+    "music_name": "ぱくぱく☆がーる",
+    "artist": "曲：齋藤大／歌：珠洲島 有栖(CV：長縄 まりあ)",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1270
+    ]
+  },
+  "3053": {
+    "music_name": "君は薔薇より美しい",
+    "artist": "布施明",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1000
+    ]
+  },
+  "3054": {
+    "music_name": "夜空",
+    "artist": "鈴木みのり",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1000
+    ]
+  },
+  "3055": {
+    "music_name": "Last Kingdom",
+    "artist": "USAO",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1320
+    ]
+  },
+  "3057": {
+    "music_name": "Latitude",
+    "artist": "SLT",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1340
+    ]
+  },
+  "3058": {
+    "music_name": "TeA",
+    "artist": "ガリガリさむし",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1280
+    ]
+  },
+  "3060": {
+    "music_name": "TeA(Re Make)",
+    "artist": "ガリガリさむし",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1280
+    ]
+  },
+  "3061": {
+    "music_name": "Scarlet Ballet",
+    "artist": "May'n",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1270
+    ]
+  },
+  "3062": {
+    "music_name": "Galaxy Blaster",
+    "artist": "ああああ",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1380
+    ]
+  },
+  "3063": {
+    "music_name": "the EmpErroR",
+    "artist": "sasakure.UK",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1390
+    ]
+  },
+  "3064": {
+    "music_name": "HONEY-Q",
+    "artist": "こふ",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1380
+    ]
+  },
+  "3066": {
+    "music_name": "GranFatalité",
+    "artist": "柏木咲姫(CV:石見舞菜香)",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1290
+    ]
+  },
+  "3067": {
+    "music_name": "アマツカミ",
+    "artist": "a_hisa",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1370
+    ]
+  },
+  "3069": {
+    "music_name": "ツマミ戦隊 タテレンジャー",
+    "artist": "タテレンジャー",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1280
+    ]
+  },
+  "3071": {
+    "music_name": "夏色花火「避 半 歌」",
+    "artist": "曲：穴山大輔, 水野健治 歌：藤沢 柚子(CV：久保田 梨沙)、早乙女 彩華(CV：中島 唯)",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1000
+    ]
+  },
+  "3072": {
+    "music_name": "無人区-Vacuum Track#ADD8E6「狂」",
+    "artist": "NoKANY",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1390
+    ]
+  },
+  "3073": {
+    "music_name": "Titania「狂」",
+    "artist": "xi",
+    "difficulty": [
+      0,
+      0,
+      1380,
+      1410
+    ]
+  },
+  "3075": {
+    "music_name": "TEmPTaTiON",
+    "artist": "かねこちはる",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1340
+    ]
+  },
+  "3077": {
+    "music_name": "TAKE ON THE WORLD",
+    "artist": "REDALiCE",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1370
+    ]
+  },
+  "3082": {
+    "music_name": "666",
+    "artist": "RoughSketch",
+    "difficulty": [
+      0,
+      0,
+      1400,
+      1410
+    ]
+  },
+  "3083": {
+    "music_name": "彗星ハネムーン",
+    "artist": "ナユタン星人",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1200
+    ]
+  },
+  "3084": {
+    "music_name": "そして誰もいなくなった",
+    "artist": "コバヤシユウヤ(IOSYS) × あにー(TaNaBaTa)",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1190
+    ]
+  },
+  "3085": {
+    "music_name": "惑星ロリポップ",
+    "artist": "Nana Takahashi",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1270
+    ]
+  },
+  "3086": {
+    "music_name": "Silent Blue",
+    "artist": "かねこちはる",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1370
+    ]
+  },
+  "3087": {
+    "music_name": "ゼロから始めるブレインパワー",
+    "artist": "二年生チーム(イロドリミドリ)/原曲：Brain Power/作詞：Yassie(A-One)/作曲：NOMA/編曲：ELEMENTAS(A-One)",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1340
+    ]
+  },
+  "3088": {
+    "music_name": "僕らのFreedom DIVE↓",
+    "artist": "三年生チーム(イロドリミドリ)/作詞：七条レタス 作曲：xi 編曲：ぶーすと",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1390
+    ]
+  },
+  "3089": {
+    "music_name": "断罪のソリテュード",
+    "artist": "bud virgin logic",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1340
+    ]
+  },
+  "3090": {
+    "music_name": "x旋律-schlehit melodie",
+    "artist": "bud virgin logic",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1310
+    ]
+  },
+  "3092": {
+    "music_name": "ミライKeyノート",
+    "artist": "ここぱんな",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1230
+    ]
+  },
+  "3093": {
+    "music_name": "愛的供養",
+    "artist": "Yang Mi",
+    "difficulty": [
+      0,
+      0,
+      0,
+      900
+    ]
+  },
+  "3094": {
+    "music_name": "[World's End]39[?]",
+    "artist": "sasakure.UK x DECO*27",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1300
+    ]
+  },
+  "3101": {
+    "music_name": "x旋律-schlehit melodie「跪け」",
+    "artist": "bud virgin logic",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1500
+    ]
+  },
+  "3102": {
+    "music_name": "Iudicium “Apocalypsis Mix”",
+    "artist": "曲：Powerless 歌：柏木 咲姫(CV：石見 舞菜香)、柏木 美亜(CV:和氣 あず未)",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1330
+    ]
+  },
+  "3103": {
+    "music_name": "夜に駆ける",
+    "artist": "YOASOBI",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1230
+    ]
+  },
+  "3105": {
+    "music_name": "渦状銀河のシンフォニエッタ",
+    "artist": "山本真央樹",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1340
+    ]
+  },
+  "3106": {
+    "music_name": "夢廻赤壁 与蘇子懐幽",
+    "artist": "李玖萱",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1240
+    ]
+  },
+  "3108": {
+    "music_name": "Wolves Standing Towards Enemies",
+    "artist": "Camellia(EDP)",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1370
+    ]
+  },
+  "3109": {
+    "music_name": "SAMURAI-Scramble",
+    "artist": "DJ Mass MAD Izm*",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1490
+    ]
+  },
+  "3110": {
+    "music_name": "冥",
+    "artist": "Amuro vs Killer",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1490
+    ]
+  },
+  "3111": {
+    "music_name": "封焔の135秒",
+    "artist": "大国奏音",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1340
+    ]
+  },
+  "9202": {
+    "music_name": "もぺもぺ「速」",
+    "artist": "LeaF",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1380
+    ]
+  },
+  "9203": {
+    "music_name": "無人区-Vacuum Track#ADD8E6",
+    "artist": "NoKANY",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1350
+    ]
+  },
+  "9206": {
+    "music_name": "たぬきちの冒険",
+    "artist": "MAKOOTO",
+    "difficulty": [
+      0,
+      0,
+      0,
+      900
+    ]
+  },
+  "9207": {
+    "music_name": "あんきら！？狂騒曲",
+    "artist": "双葉杏、諸星きらり",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1300
+    ]
+  },
+  "9208": {
+    "music_name": "Class Memories",
+    "artist": "Ctymax/Antistar",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1320
+    ]
+  },
+  "9209": {
+    "music_name": "Destroy",
+    "artist": "Yooh",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1350
+    ]
+  },
+  "9211": {
+    "music_name": "L",
+    "artist": "ICE",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1350
+    ]
+  },
+  "9212": {
+    "music_name": "雪願",
+    "artist": "WOLF.R",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1270
+    ]
+  },
+  "9500": {
+    "music_name": "太陽系デスコ",
+    "artist": "ナユタン星人",
+    "difficulty": [
+      200,
+      500,
+      830,
+      1150
+    ]
+  },
+  "9520": {
+    "music_name": "DX超性能フルメタル少女 (old)",
+    "artist": "てぇてぇ",
+    "difficulty": [
+      0,
+      0,
+      0,
+      1390
+    ]
   }
 }

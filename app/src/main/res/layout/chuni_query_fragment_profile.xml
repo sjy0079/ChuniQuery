@@ -49,10 +49,11 @@
                 <org.bbs.chuniquery.chunithm.ui.widgets.ChuniQueryRatingView
                     android:id="@+id/rating"
                     android:layout_width="0dp"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_weight="1"
                     android:gravity="center"
+                    android:includeFontPadding="false"
                     android:textSize="26sp"
                     android:textStyle="bold"
                     app:layout_constraintLeft_toLeftOf="parent"

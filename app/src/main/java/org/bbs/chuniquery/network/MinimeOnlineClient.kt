@@ -22,7 +22,7 @@ class MinimeOnlineClient private constructor() {
          * url to tencent cloud
          * port 3000 for minime-support
          */
-        const val BASE_URL = "http://111.230.156.54:3000"
+        const val BASE_URL = "http://123.57.246.220:3000"
     }
 
     /**
