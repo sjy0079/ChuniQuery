@@ -3,7 +3,7 @@ package org.bbs.chuniquery.ongeki.model
 import com.google.gson.annotations.SerializedName
 
 /**
- * @author shenjiayi@didiglobal.com
+ * @author BBS
  * @since  2020-03-22
  */
 class OngekiCardListModel : ArrayList<OngekiCardBean>()

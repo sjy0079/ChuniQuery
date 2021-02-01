@@ -6,7 +6,7 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 /**
- * @author shenjiayi@didiglobal.com
+ * @author BBS
  * @since  2020-03-12
  */
 interface MinimeOnlineService {

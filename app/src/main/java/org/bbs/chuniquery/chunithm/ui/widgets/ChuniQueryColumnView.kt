@@ -9,7 +9,7 @@ import com.google.android.material.card.MaterialCardView
 import org.bbs.chuniquery.R
 
 /**
- * @author shenjiayi@didiglobal.com
+ * @author BBS
  * @since  2020-03-13
  */
 class ChuniQueryColumnView @JvmOverloads constructor(

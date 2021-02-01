@@ -32,7 +32,7 @@ import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
 
 /**
- * @author shenjiayi@didiglobal.com
+ * @author BBS
  * @since  2020-03-22
  */
 class OngekiCardMakerFragment : Fragment() {

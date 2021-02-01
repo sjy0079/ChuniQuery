@@ -7,7 +7,7 @@ import com.google.gson.annotations.SerializedName
  * k: id of the music
  * v: music detail
  *
- * @author shenjiayi@didiglobal.com
+ * @author BBS
  * @since  2020-03-13
  */
 class ChuniMusicDBModel : HashMap<String, ChuniMusicBean>()

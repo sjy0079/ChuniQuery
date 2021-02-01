@@ -9,7 +9,7 @@ import org.bbs.chuniquery.network.MinimeOnlineException
 import org.bbs.chuniquery.network.MinimeOnlineTransformer
 
 /**
- * @author shenjiayi@didiglobal.com
+ * @author BBS
  * @since  2020-03-13
  */
 object ChuniQueryRequests {

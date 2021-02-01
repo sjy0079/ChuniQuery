@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import java.math.BigInteger
 
 /**
- * @author shenjiayi@didiglobal.com
+ * @author BBS
  * @since  2020-03-14
  */
 class UriControlActivity : AppCompatActivity() {

@@ -7,7 +7,7 @@ import org.bbs.chuniquery.MainActivity
 
 
 /**
- * @author shenjiayi@didiglobal.com
+ * @author BBS
  * @since  2020-03-13
  */
 /**

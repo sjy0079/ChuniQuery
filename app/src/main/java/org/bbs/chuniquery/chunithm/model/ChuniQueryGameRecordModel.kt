@@ -1,7 +1,7 @@
 package org.bbs.chuniquery.chunithm.model
 
 /**
- * @author shenjiayi@didiglobal.com
+ * @author BBS
  * @since  2020-03-13
  */
 class ChuniQueryGameRecordModel {

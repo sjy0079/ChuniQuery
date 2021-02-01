@@ -5,7 +5,7 @@ import org.bbs.chuniquery.utils.CommonAssetJsonLoader
 
 
 /**
- * @author shenjiayi@didiglobal.com
+ * @author BBS
  * @since  2020-03-12
  */
 class ChuniQueryMusicModel : ArrayList<ChuniQueryMusicBean>()

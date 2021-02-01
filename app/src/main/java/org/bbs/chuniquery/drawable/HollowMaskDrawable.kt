@@ -7,7 +7,7 @@ import android.view.View
 /**
  * 镂空某些view显示区域的mask drawable, 可以用来做一些遮罩
  *
- * @author shenjiayi@didiglobal.com
+ * @author BBS
  * @since  2019-09-02
  */
 class HollowMaskDrawable(private val maskColor: Int, private val maskView: View, private vararg val hollowViews: View) : Drawable() {

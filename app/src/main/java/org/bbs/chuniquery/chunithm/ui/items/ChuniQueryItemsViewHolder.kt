@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import org.bbs.chuniquery.R
 
 /**
- * @author shenjiayi@didiglobal.com
+ * @author BBS
  * @since  2020-03-15
  */
 class ChuniQueryItemsViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {

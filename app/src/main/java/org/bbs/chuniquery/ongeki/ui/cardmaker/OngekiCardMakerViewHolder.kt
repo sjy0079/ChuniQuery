@@ -7,7 +7,7 @@ import org.bbs.chuniquery.R
 import org.bbs.chuniquery.utils.*
 
 /**
- * @author shenjiayi@didiglobal.com
+ * @author BBS
  * @since  2020-03-22
  */
 class OngekiCardMakerViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {

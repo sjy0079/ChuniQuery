@@ -15,7 +15,7 @@ import org.bbs.chuniquery.chunithm.ui.widgets.ChuniQueryRatingView
 import org.bbs.chuniquery.utils.*
 
 /**
- * @author shenjiayi@didiglobal.com
+ * @author BBS
  * @since  2020-03-15
  */
 @SuppressLint("SetTextI18n")

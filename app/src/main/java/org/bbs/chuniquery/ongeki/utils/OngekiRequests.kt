@@ -9,7 +9,7 @@ import org.bbs.chuniquery.network.MinimeOnlineTransformer
 import org.bbs.chuniquery.ongeki.model.OngekiUserCardListModel
 
 /**
- * @author shenjiayi@didiglobal.com
+ * @author BBS
  * @since  2020-03-23
  */
 object OngekiRequests {

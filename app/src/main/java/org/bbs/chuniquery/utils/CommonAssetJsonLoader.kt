@@ -14,7 +14,7 @@ import java.io.InputStream
 import java.util.*
 
 /**
- * @author shenjiayi@didiglobal.com
+ * @author BBS
  * @since  2020-03-13
  */
 class CommonAssetJsonLoader private constructor() {

@@ -12,7 +12,7 @@ import org.bbs.chuniquery.utils.*
 
 
 /**
- * @author shenjiayi@didiglobal.com
+ * @author BBS
  * @since  2020-03-11
  */
 class ChuniQueryRatingView @JvmOverloads constructor(

@@ -4,7 +4,7 @@ import com.google.gson.annotations.SerializedName
 import org.bbs.chuniquery.utils.CommonAssetJsonLoader
 
 /**
- * @author shenjiayi@didiglobal.com
+ * @author BBS
  * @since  2020-03-23
  */
 class OngekiUserCardListModel : ArrayList<OngekiUserCardBean>() {

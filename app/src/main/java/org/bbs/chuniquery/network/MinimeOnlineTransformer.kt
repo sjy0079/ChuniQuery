@@ -10,7 +10,7 @@ import io.reactivex.schedulers.Schedulers
 
 
 /**
- * @author shenjiayi@didiglobal.com
+ * @author BBS
  * @since  2020-03-12
  */
 class MinimeOnlineTransformer {

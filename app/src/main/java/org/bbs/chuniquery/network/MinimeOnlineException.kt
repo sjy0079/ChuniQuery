@@ -3,7 +3,7 @@ package org.bbs.chuniquery.network
 import java.lang.Exception
 
 /**
- * @author shenjiayi@didiglobal.com
+ * @author BBS
  * @since  2020-03-12
  */
 class MinimeOnlineException(val errNum: String, val errMsg: String) : Exception() {
