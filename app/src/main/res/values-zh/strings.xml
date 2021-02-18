@@ -5,6 +5,7 @@
     <string name="common_bind_card_failed">没有游玩记录的卡号，请重试</string>
     <string name="common_bind_card_succeed">成功绑定</string>
     <string name="common_confirm_card_succeed">成功验证卡号</string>
+    <string name="common_network_error">网络错误</string>
 
     <!-- - - - - chunithm - - - - -->
 
@@ -16,6 +17,8 @@
     <string name="chuni_query_menu_profile">个人资料</string>
     <string name="chuni_query_menu_recent_play">最近游玩记录</string>
     <string name="chuni_query_menu_items">道具修改</string>
+    <string name="chuni_query_team_name_default">未设置队伍名称</string>
+    <string name="chuni_query_team_modify_title">修改队伍名称</string>
 
     <string name="chuni_query_update_title">有新版本的软件</string>
     <string name="chuni_query_update_content">点击确定下载</string>

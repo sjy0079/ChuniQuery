@@ -27,6 +27,9 @@ interface MinimeOnlineService {
     @GET("/query?table=cm_user_playlog")
     fun getChuniPlayLog(@Query("card") cardId: String): Observable<JsonElement>
 
+    @GET("/query?table=cm_user_general_data")
+    fun getChuniGeneralData(@Query("card") cardId: String): Observable<JsonElement>
+
     @GET("/items?action=fetch")
     fun getChuniItems(@Query("card") cardId: String): Observable<JsonElement>
 
@@ -41,6 +44,12 @@ interface MinimeOnlineService {
     fun modifyChuniName(
         @Query("card") cardId: String,
         @Query("user_name") userName: String
+    ): Observable<JsonElement>
+
+    @GET("/userInfo")
+    fun modifyChuniTeamName(
+        @Query("card") cardId: String,
+        @Query("team_name") userName: String
     ): Observable<JsonElement>
 
     // ongeki

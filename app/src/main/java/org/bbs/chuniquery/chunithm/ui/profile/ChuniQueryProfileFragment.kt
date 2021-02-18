@@ -17,6 +17,7 @@ import com.afollestad.materialdialogs.DialogAction
 import com.afollestad.materialdialogs.MaterialDialog
 import io.reactivex.disposables.Disposable
 import org.bbs.chuniquery.R
+import org.bbs.chuniquery.chunithm.event.ChuniTeamNameAction
 import org.bbs.chuniquery.event.CommonRefreshEvent
 import org.bbs.chuniquery.chunithm.model.ChuniQueryProfileBean
 import org.bbs.chuniquery.network.MinimeOnlineException
@@ -94,11 +95,26 @@ class ChuniQueryProfileFragment : Fragment() {
     /**
      * refresh profile info
      */
+    @SuppressLint("CheckResult")
     private fun refresh() {
         if (getFelicaCardId().isEmpty()) {
             refresher.isRefreshing = false
             return
         }
+        ChuniQueryRequests
+            .fetchUserTeam(getFelicaCardId())
+            .subscribe({
+                EventBus.getDefault().post(ChuniTeamNameAction(it))
+            }, {
+                it.printStackTrace()
+                val msg =
+                    if (it is MinimeOnlineException) {
+                        it.errMsg
+                    } else {
+                        getString(R.string.common_network_error)
+                    }
+                Toast.makeText(context, msg, Toast.LENGTH_SHORT).show()
+            })
         disposable = ChuniQueryRequests
             .fetchProfile(getFelicaCardId())
             .subscribe({

@@ -8,6 +8,7 @@
     <string name="common_bind_card_failed">Can\'t find your profile! Check your card ID again.</string>
     <string name="common_bind_card_succeed">Successfully bind!</string>
     <string name="common_confirm_card_succeed">Successfully confirmed!</string>
+    <string name="common_network_error">Network error!</string>
 
     <!-- - - - - chunithm - - - - -->
 
@@ -21,6 +22,8 @@
     <string name="chuni_query_menu_profile">Profile</string>
     <string name="chuni_query_menu_recent_play">Recent Play</string>
     <string name="chuni_query_menu_items">Items</string>
+    <string name="chuni_query_team_name_default">NOT SET TEAM NAME</string>
+    <string name="chuni_query_team_modify_title">MODIFY TITLE</string>
 
     <string name="chuni_query_update_title">New version is released!</string>
     <string name="chuni_query_update_content">Click confirm to download.</string>

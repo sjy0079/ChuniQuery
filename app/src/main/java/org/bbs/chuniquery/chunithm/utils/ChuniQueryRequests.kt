@@ -82,6 +82,29 @@ object ChuniQueryRequests {
             }
 
     /**
+     * fetch user team name
+     */
+    fun fetchUserTeam(cardId: String): Observable<String> =
+        MinimeOnlineClient
+            .instance
+            .getService()
+            .getChuniGeneralData(cardId)
+            .compose(MinimeOnlineTransformer.handleResult())
+            .flatMap {
+                val model = Gson().fromJson(it, ChuniQueryGeneralDataModel::class.java)
+                if (model.isEmpty()) {
+                    Observable.just(String())
+                } else {
+                    for (bean in model) {
+                        if (bean.key == "user_team_name" && !bean.value.isNullOrBlank()) {
+                            return@flatMap Observable.just(bean.value!!)
+                        }
+                    }
+                    Observable.just(String())
+                }
+            }
+
+    /**
      * fetch user's items
      */
     fun fetchItems(cardId: String): Observable<ChuniQueryItemsModel> =
@@ -117,5 +140,15 @@ object ChuniQueryRequests {
             .instance
             .getService()
             .modifyChuniName(cardId, userName)
+            .compose(MinimeOnlineTransformer.handleResult())
+
+    /**
+     * modify user team
+     */
+    fun modifyUserTeam(cardId: String, userTeam: String): Observable<Any> =
+        MinimeOnlineClient
+            .instance
+            .getService()
+            .modifyChuniTeamName(cardId, userTeam)
             .compose(MinimeOnlineTransformer.handleResult())
 }

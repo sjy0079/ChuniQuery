@@ -7,7 +7,6 @@ import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
-import android.opengl.Visibility
 import android.os.Bundle
 import android.text.InputType
 import android.view.Gravity
@@ -21,7 +20,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.appcompat.widget.Toolbar
-import androidx.core.animation.addListener
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.findNavController
@@ -35,6 +33,7 @@ import com.google.android.material.navigation.NavigationView
 import com.google.android.material.progressindicator.CircularProgressIndicator
 import com.google.android.material.tabs.TabLayout
 import io.reactivex.disposables.Disposable
+import org.bbs.chuniquery.chunithm.event.ChuniTeamNameAction
 import org.bbs.chuniquery.chunithm.model.ChuniQueryProfileBean
 import org.bbs.chuniquery.chunithm.ui.widgets.ChuniQueryRatingView
 import org.bbs.chuniquery.chunithm.utils.ChuniQueryRequests
@@ -42,6 +41,7 @@ import org.bbs.chuniquery.event.CommonRefreshEvent
 import org.bbs.chuniquery.network.MinimeOnlineException
 import org.bbs.chuniquery.ongeki.utils.OngekiRequests
 import org.bbs.chuniquery.utils.CommonDataFetcher
+import org.bbs.chuniquery.utils.getFelicaCardId
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
@@ -88,6 +88,11 @@ class MainActivity : AppCompatActivity() {
      */
     private lateinit var loadingView: View
 
+    /**
+     * navigation view
+     */
+    private lateinit var navView: NavigationView
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -107,9 +112,14 @@ class MainActivity : AppCompatActivity() {
                 drawerLayout.openDrawer(GravityCompat.START)
             }
         }
-        val navView: NavigationView = this.findViewById(R.id.nav_view)
-        navView.getHeaderView(0).setOnClickListener {
-            bindFelicaCard()
+        navView = this.findViewById(R.id.nav_view)
+        navView.getHeaderView(0).apply {
+            findViewById<TextView>(R.id.team).setOnClickListener {
+                modifyTeamName(it as TextView)
+            }
+            setOnClickListener {
+                bindFelicaCard()
+            }
         }
         val navController = findNavController(R.id.nav_host_fragment)
         appBarConfiguration = AppBarConfiguration(
@@ -160,6 +170,15 @@ class MainActivity : AppCompatActivity() {
     @Subscribe(threadMode = ThreadMode.MAIN)
     fun onMessageEvent(event: ChuniQueryProfileBean) {
         renderHeaderData(event)
+    }
+
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    fun onMessageEvent(event: ChuniTeamNameAction) {
+        navView.getHeaderView(0).apply {
+            if (event.name.isNotBlank()) {
+                findViewById<TextView>(R.id.team).text = event.name
+            }
+        }
     }
 
     override fun onStop() {
@@ -340,6 +359,24 @@ class MainActivity : AppCompatActivity() {
         isBindingAction: Boolean = false
     ) {
         ChuniQueryRequests
+            .fetchUserTeam(cardId)
+            .subscribe({
+                navView.getHeaderView(0).apply {
+                    if (it.isNotBlank()) {
+                        findViewById<TextView>(R.id.team).text = it
+                    }
+                }
+            }, {
+                it.printStackTrace()
+                val msg =
+                    if (it is MinimeOnlineException) {
+                        it.errMsg
+                    } else {
+                        getString(R.string.common_network_error)
+                    }
+                Toast.makeText(this, msg, Toast.LENGTH_SHORT).show()
+            })
+        ChuniQueryRequests
             .fetchProfile(cardId)
             .subscribe({
                 renderHeaderData(it)
@@ -470,5 +507,47 @@ class MainActivity : AppCompatActivity() {
             }, {
                 it.printStackTrace()
             })
+    }
+
+    /**
+     * modify team name, max 20 chars
+     */
+    private fun modifyTeamName(textView: TextView) {
+        MaterialDialog.Builder(this)
+            .title(R.string.chuni_query_team_modify_title)
+            .inputRangeRes(1, 20, R.color.colorAccent)
+            .inputType(InputType.TYPE_CLASS_TEXT)
+            .input(String(), textView.text) { _, _ -> }
+            .positiveText(R.string.common_confirm)
+            .autoDismiss(false)
+            .onPositive { dialog, which ->
+                if (DialogAction.POSITIVE == which) {
+                    val modifyTeam = dialog.inputEditText?.text?.toString()
+                        ?: return@onPositive
+                    ChuniQueryRequests
+                        .modifyUserTeam(getFelicaCardId(), modifyTeam)
+                        .subscribe({ _ ->
+                            Toast.makeText(
+                                this,
+                                R.string.chuni_query_profile_modify_succeed,
+                                Toast.LENGTH_SHORT
+                            ).show()
+                            textView.text = modifyTeam
+                            dialog.dismiss()
+                        }, { e ->
+                            if (e is MinimeOnlineException) {
+                                Toast.makeText(this, e.errMsg, Toast.LENGTH_SHORT).show()
+                            } else {
+                                Toast.makeText(
+                                    this,
+                                    R.string.common_network_error,
+                                    Toast.LENGTH_SHORT
+                                ).show()
+                            }
+                        })
+                }
+            }
+            .cancelable(true)
+            .show()
     }
 }

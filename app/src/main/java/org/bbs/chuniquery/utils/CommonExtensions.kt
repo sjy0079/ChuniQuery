@@ -1,5 +1,6 @@
 package org.bbs.chuniquery.utils
 
+import android.app.Activity
 import android.content.Context
 import android.graphics.Color
 import androidx.fragment.app.Fragment
@@ -45,6 +46,15 @@ fun calcChuniRating(score: Int, diff: Float): Float {
 fun Fragment.getFelicaCardId(): String =
     context
         ?.getSharedPreferences(MainActivity::class.java.name, Context.MODE_PRIVATE)
+        ?.getString(
+            MainActivity.FELICA_CARD_STORED_KEY, String()
+        ) ?: ""
+
+/**
+ * get felica card id
+ */
+fun Activity.getFelicaCardId(): String =
+    this.getSharedPreferences(MainActivity::class.java.name, Context.MODE_PRIVATE)
         ?.getString(
             MainActivity.FELICA_CARD_STORED_KEY, String()
         ) ?: ""
