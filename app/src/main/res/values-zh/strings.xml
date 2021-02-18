@@ -47,6 +47,7 @@
     <string name="chuni_query_items_chuni_net_ticket">Chuni-Net奖励票券</string>
     <string name="chuni_query_items_4x_map">4倍地图进度票券</string>
     <string name="chuni_query_items_6x_track">6曲游玩票券</string>
+    <string name="chuni_query_items_7x_track">7曲游玩票券</string>
     <string name="chuni_query_items_we">World\'s End游玩票券</string>
     <string name="chuni_query_items_modify_title">输入【%s】数量</string>
     <string name="chuni_query_items_modify_succeed">修改成功</string>

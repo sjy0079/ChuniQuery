@@ -73,7 +73,7 @@ interface MinimeOnlineService {
         @Query("action") action: String
     ): Observable<JsonElement>
 
-    @Headers("urlName:https://redive-ru.estertion.win")
+    @Headers("urlName:https://redive.estertion.win")
     @GET("/chuni-probe/music-constants.js")
     fun getChuniAllSongData(): Observable<ResponseBody>
 }

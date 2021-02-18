@@ -36,7 +36,7 @@ class ChuniQueryItemsFragment : Fragment() {
          * limited item ids for mapping
          */
         private val itemIds = listOf(
-            8000, 110, 5060, 5230, 5310
+            8000, 110, 5060, 5230, 5310, 5410
         )
         /**
          * limited item list
@@ -84,6 +84,15 @@ class ChuniQueryItemsFragment : Fragment() {
                     5310,
                     R.string.chuni_query_items_we,
                     R.drawable.chuni_query_item_we,
+                    0
+                )
+            ),
+            Pair(
+                5410,
+                ItemInfo(
+                    5410,
+                    R.string.chuni_query_items_7x_track,
+                    R.drawable.chuni_query_item_7x_track,
                     0
                 )
             )

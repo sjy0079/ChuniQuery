@@ -61,6 +61,7 @@
     <string name="chuni_query_items_chuni_net_ticket">Chuni-Net Standard Ticket</string>
     <string name="chuni_query_items_4x_map">4x Map Step Ticket</string>
     <string name="chuni_query_items_6x_track">6 Tracks Ticket</string>
+    <string name="chuni_query_items_7x_track">7 Tracks Ticket</string>
     <string name="chuni_query_items_we">World\'s End Ticket</string>
     <string name="chuni_query_items_modify_title">Input %s count</string>
     <string name="chuni_query_items_modify_succeed">Success!</string>
