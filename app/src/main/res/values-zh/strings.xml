@@ -12,6 +12,7 @@
 
     <!--main page-->
     <string name="chuni_query_action_set_ip">设置IP地址</string>
+    <string name="chuni_query_action_refresh_song_data">刷新歌曲数据</string>
     <string name="chuni_query_menu_profile">个人资料</string>
     <string name="chuni_query_menu_recent_play">最近游玩记录</string>
     <string name="chuni_query_menu_items">道具修改</string>
@@ -23,6 +24,9 @@
     <string name="chuni_query_set_server_desc">清空输入并确定以返回在线服</string>
     <string name="chuni_query_set_server_bind">成功绑定IP地址，重启后生效</string>
     <string name="chuni_query_set_server_untying">返回在线服，重启后生效</string>
+
+    <string name="chuni_query_refresh_song_data_success">刷新歌曲数据成功</string>
+    <string name="chuni_query_refresh_song_data_failed">刷新歌曲数据失败，请检查网络连接</string>
 
     <!--profile page-->
     <string name="chuni_query_profile_column_key_level">等级</string>

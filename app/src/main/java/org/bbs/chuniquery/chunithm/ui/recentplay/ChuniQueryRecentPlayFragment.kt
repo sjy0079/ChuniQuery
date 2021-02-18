@@ -28,8 +28,7 @@ class ChuniQueryRecentPlayFragment : ChuniQueryGameRecordFragment() {
                     } else {
                         bean.ratingCalc = calcChuniRating(
                             bean.score?.toInt() ?: 0,
-                            (musicDetail.difficultyList?.get(bean.classId?.toInt() ?: 0)
-                                ?: 0).toFloat() / 100
+                            musicDetail.difficultyList[bean.classId?.toInt() ?: 0].toFloat() / 100
                         )
                     }
                     val recordModel = bean.convertData() ?: continue

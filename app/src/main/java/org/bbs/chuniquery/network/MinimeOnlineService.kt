@@ -2,7 +2,10 @@ package org.bbs.chuniquery.network
 
 import com.google.gson.JsonElement
 import io.reactivex.Observable
+import okhttp3.ResponseBody
 import retrofit2.http.GET
+import retrofit2.http.Header
+import retrofit2.http.Headers
 import retrofit2.http.Query
 
 /**
@@ -60,4 +63,8 @@ interface MinimeOnlineService {
         @Query("ongeki_card_id") ongekiCardId: String,
         @Query("action") action: String
     ): Observable<JsonElement>
+
+    @Headers("urlName:https://redive-ru.estertion.win")
+    @GET("/chuni-probe/music-constants.js")
+    fun getChuniAllSongData(): Observable<ResponseBody>
 }

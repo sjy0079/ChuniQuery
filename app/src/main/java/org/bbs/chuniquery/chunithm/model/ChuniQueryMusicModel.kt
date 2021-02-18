@@ -102,15 +102,15 @@ class ChuniQueryMusicBean {
             return null
         }
         return ChuniQueryGameRecordModel().apply {
-            title = musicDetail.name ?: String()
+            title = musicDetail.name
             classId = this@ChuniQueryMusicBean.classId?.toInt() ?: 0
             rankId = this@ChuniQueryMusicBean.rankId?.toInt() ?: 0
             score = this@ChuniQueryMusicBean.score?.toInt() ?: 0
             diff = if (musicDetail.isWorldsEnd()) {
                 "0.0"
             } else {
-                ((musicDetail.difficultyList?.get(this@ChuniQueryMusicBean.classId?.toInt() ?: 0)
-                    ?: 0).toFloat() / 100).toString()
+                (musicDetail.difficultyList[this@ChuniQueryMusicBean.classId?.toInt()
+                    ?: 0].toFloat() / 100).toString()
             }
             rating = this@ChuniQueryMusicBean.ratingCalc ?: 0F
             if (!this@ChuniQueryMusicBean.playDate.isNullOrBlank()) {

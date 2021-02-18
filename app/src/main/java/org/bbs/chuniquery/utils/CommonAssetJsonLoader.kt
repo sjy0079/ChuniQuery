@@ -6,6 +6,7 @@ import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable
 import io.reactivex.schedulers.Schedulers
+import org.bbs.chuniquery.MainActivity
 import org.bbs.chuniquery.chunithm.model.ChuniMusicDBModel
 import org.bbs.chuniquery.ongeki.model.OngekiCardListModel
 import org.bbs.chuniquery.ongeki.model.OngekiSkillListModel
@@ -44,15 +45,21 @@ class CommonAssetJsonLoader private constructor() {
 
     /**
      * load chunithm music db data from assets
+     * if network cache exists, read it instead
      */
     fun loadChuniMusicDBData(context: Context) {
         disposable = Observable.just("chuni_music_db.json")
             .map {
-                var json = String()
-                try {
-                    val input = context.assets.open(it)
-                    json = convertStreamToString(input)
-                } catch (ignore: Exception) {
+                var json = context.getSharedPreferences(
+                    MainActivity::class.java.name,
+                    Context.MODE_PRIVATE
+                ).getString(CommonDataFetcher.MUSIC_DB_FETCHED_SP_KEY, String())
+                if (json.isNullOrBlank()) {
+                    try {
+                        val input = context.assets.open(it)
+                        json = convertStreamToString(input)
+                    } catch (ignore: Exception) {
+                    }
                 }
                 json
             }
@@ -64,6 +71,13 @@ class CommonAssetJsonLoader private constructor() {
             .subscribe {
                 chuniMusicDB = it
             }
+    }
+
+    /**
+     * load chunithm music db data from given string
+     */
+    fun loadChuniMusicDBData(jsonStr: String) {
+        chuniMusicDB = Gson().fromJson(jsonStr, ChuniMusicDBModel::class.java)
     }
 
     /**

@@ -6,4 +6,10 @@
         android:orderInCategory="100"
         android:title="@string/chuni_query_action_set_ip"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="101"
+        android:title="刷新数据"
+        app:showAsAction="never" />
 </menu>

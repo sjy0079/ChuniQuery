@@ -12,27 +12,41 @@ import com.google.gson.annotations.SerializedName
  */
 class ChuniMusicDBModel : HashMap<String, ChuniMusicBean>()
 
-class ChuniMusicBean {
+class ChuniMusicBean : ArrayList<Any>() {
     /**
      * music name
      */
-    @SerializedName("music_name")
-    var name: String? = null
+    val name: String
+        get() {
+            return this[0].toString()
+        }
 
     /**
      * artist of the music
      */
-    @SerializedName("artist")
-    var artist: String? = null
+    val artist: String
+        get() {
+            return this[1].toString()
+        }
 
     /**
      * real official internal difficulty list
      */
-    @SerializedName("difficulty")
-    var difficultyList: IntArray? = null
+    val difficultyList: ArrayList<Int>
+        get() {
+            if (this[2] is ArrayList<*>) {
+                return if ((this[2] as ArrayList<*>).isEmpty()) {
+                    arrayListOf()
+                } else {
+                    @Suppress("UNCHECKED_CAST")
+                    this[2] as ArrayList<Int>
+                }
+            }
+            return arrayListOf()
+        }
 
     /**
      * world's end songs will not come to rating calc
      */
-    fun isWorldsEnd(): Boolean = difficultyList == null || difficultyList!!.isEmpty()
+    fun isWorldsEnd(): Boolean = difficultyList.isEmpty()
 }

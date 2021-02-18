@@ -1,19 +1,27 @@
 package org.bbs.chuniquery
 
+import android.animation.Animator
+import android.animation.AnimatorListenerAdapter
+import android.animation.ObjectAnimator
 import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
+import android.opengl.Visibility
 import android.os.Bundle
 import android.text.InputType
+import android.view.Gravity
 import android.view.Menu
 import android.view.View
+import android.view.ViewGroup
+import android.widget.FrameLayout
 import android.widget.Spinner
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.appcompat.widget.Toolbar
+import androidx.core.animation.addListener
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.findNavController
@@ -24,16 +32,16 @@ import androidx.navigation.ui.setupWithNavController
 import com.afollestad.materialdialogs.DialogAction
 import com.afollestad.materialdialogs.MaterialDialog
 import com.google.android.material.navigation.NavigationView
+import com.google.android.material.progressindicator.CircularProgressIndicator
 import com.google.android.material.tabs.TabLayout
 import io.reactivex.disposables.Disposable
 import org.bbs.chuniquery.chunithm.model.ChuniQueryProfileBean
 import org.bbs.chuniquery.chunithm.ui.widgets.ChuniQueryRatingView
 import org.bbs.chuniquery.chunithm.utils.ChuniQueryRequests
 import org.bbs.chuniquery.event.CommonRefreshEvent
-import org.bbs.chuniquery.network.MinimeOnlineClient
 import org.bbs.chuniquery.network.MinimeOnlineException
 import org.bbs.chuniquery.ongeki.utils.OngekiRequests
-import org.bbs.chuniquery.utils.CommonAssetJsonLoader
+import org.bbs.chuniquery.utils.CommonDataFetcher
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
@@ -64,14 +72,21 @@ class MainActivity : AppCompatActivity() {
      * update request canceller
      */
     private var updateDisposable: Disposable? = null
+
     /**
      * indicator for chuni rating fragment
      */
     private lateinit var indicator: TabLayout
+
     /**
      * spinner for ongeki card maker fragment
      */
     private lateinit var spinner: Spinner
+
+    /**
+     * loading view
+     */
+    private lateinit var loadingView: View
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -80,6 +95,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.chuni_query_activity_main)
         indicator = findViewById(R.id.indicator)
         spinner = findViewById(R.id.spinner)
+        loadingView = createLoadingView()
 
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
@@ -128,14 +144,6 @@ class MainActivity : AppCompatActivity() {
                 oldNavListener.onNavigationItemSelected(it)
             }
         }
-
-        MinimeOnlineClient.instance.init(
-            getSharedPreferences(MainActivity::class.java.name, Context.MODE_PRIVATE)
-                .getString(IP_STORED_KEY, "")
-        )
-        CommonAssetJsonLoader.instance.loadChuniMusicDBData(this)
-        CommonAssetJsonLoader.instance.loadOngekiCardListData(this)
-        CommonAssetJsonLoader.instance.loadOngekiSkillListData(this)
         checkHasBindingFelicaCard()
     }
 
@@ -170,6 +178,15 @@ class MainActivity : AppCompatActivity() {
                 true
             }
         }
+        menu.getItem(1).apply {
+            setOnMenuItemClickListener {
+                showLoading()
+                CommonDataFetcher.fetch(this@MainActivity) {
+                    hideLoading()
+                }
+                true
+            }
+        }
         return true
     }
 
@@ -182,6 +199,46 @@ class MainActivity : AppCompatActivity() {
         indicator.visibility = View.GONE
         spinner.visibility = View.GONE
         super.onBackPressed()
+    }
+
+    private fun showLoading() {
+        loadingView.alpha = 0F
+        (this@MainActivity.window.decorView as ViewGroup).addView(loadingView)
+        ObjectAnimator.ofFloat(loadingView, "alpha", 0F, 1F).apply {
+            duration = 200L
+        }.start()
+    }
+
+    private fun hideLoading() {
+        ObjectAnimator.ofFloat(loadingView, "alpha", 1F, 0F).apply {
+            duration = 200L
+            addListener(object : AnimatorListenerAdapter() {
+                override fun onAnimationEnd(animation: Animator?) {
+                    (this@MainActivity.window.decorView as ViewGroup).removeView(loadingView)
+                }
+            })
+        }.start()
+    }
+
+    /**
+     * create a view with circle progress bar
+     */
+    private fun createLoadingView(): View = FrameLayout(this).apply {
+        layoutParams = ViewGroup.LayoutParams(
+            ViewGroup.LayoutParams.MATCH_PARENT,
+            ViewGroup.LayoutParams.MATCH_PARENT
+        )
+        setBackgroundColor(0x7E000000)
+        setOnClickListener { }
+        addView(CircularProgressIndicator(context).apply {
+            layoutParams = FrameLayout.LayoutParams(
+                ViewGroup.LayoutParams.WRAP_CONTENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT
+            ).apply {
+                gravity = Gravity.CENTER
+            }
+            isIndeterminate = true
+        })
     }
 
     /**

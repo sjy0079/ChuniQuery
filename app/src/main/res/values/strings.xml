@@ -17,6 +17,7 @@
 
     <!--main page-->
     <string name="chuni_query_action_set_ip">Set IP</string>
+    <string name="chuni_query_action_refresh_song_data">Refresh Song Data</string>
     <string name="chuni_query_menu_profile">Profile</string>
     <string name="chuni_query_menu_recent_play">Recent Play</string>
     <string name="chuni_query_menu_items">Items</string>
@@ -30,6 +31,9 @@
     <string name="chuni_query_set_server_desc">input nothing to back to minime online</string>
     <string name="chuni_query_set_server_bind">Successfully change your ip! Restart app to valid.</string>
     <string name="chuni_query_set_server_untying">Back to minime online! Restart app to valid.</string>
+
+    <string name="chuni_query_refresh_song_data_success">Refresh song data success!</string>
+    <string name="chuni_query_refresh_song_data_failed">Refresh song data failed! Check your network.</string>
 
     <!--profile page-->
     <string name="chuni_query_profile_column_key_level">LEVEL</string>
